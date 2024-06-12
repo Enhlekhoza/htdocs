@@ -3,63 +3,65 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Faq;
+use App\Models\Category;
 use Illuminate\Http\Request;
 
 class FaqController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
     public function index()
     {
-        //
+        $faqs = Faq::with('category')->get();
+        return view('admin.faqs.index', compact('faqs'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
     public function create()
     {
-        //
+        $categories = Category::all();
+        return view('admin.faqs.create', compact('categories'));
     }
 
-    /**
-     * Store a newly created resource in storage.
-     */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'category_id' => 'required|exists:categories,id',
+            'question' => 'required',
+            'answer' => 'required',
+        ]);
+
+        Faq::create($request->all());
+        return redirect()->route('faqs.index')
+            ->with('success', 'FAQ created successfully.');
     }
 
-    /**
-     * Display the specified resource.
-     */
-    public function show(string $id)
+    public function show(Faq $faq)
     {
-        //
+        return view('admin.faqs.show', compact('faq'));
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(string $id)
+    public function edit(Faq $faq)
     {
-        //
+        $categories = Category::all();
+        return view('admin.faqs.edit', compact('faq', 'categories'));
     }
 
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, string $id)
+    public function update(Request $request, Faq $faq)
     {
-        //
+        $request->validate([
+            'category_id' => 'required|exists:categories,id',
+            'question' => 'required',
+            'answer' => 'required',
+        ]);
+
+        $faq->update($request->all());
+        return redirect()->route('faqs.index')
+            ->with('success', 'FAQ updated successfully.');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(string $id)
+    public function destroy(Faq $faq)
     {
-        //
+        $faq->delete();
+        return redirect()->route('faqs.index')
+            ->with('success', 'FAQ deleted successfully.');
     }
 }
