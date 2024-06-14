@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>faq-system-app</title>
+    <title>FAQ Management System</title>
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--Google Font-->
@@ -17,15 +17,14 @@
             padding: 0;
             margin: 0;
             box-sizing: border-box; 
-            font-family: "Poppins", sans-serif;
+            font-family: "Poppins",sans-serif;
         }
 
-        body {
-            background-color: #000000;
-            color: #ffffff;
+        body{
+            background-color: #4fb6ff;
         }
 
-        .container {
+        .container{
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -48,11 +47,10 @@
 
         .wrapper {
             background-color: #ffffff;
-            color: #000000;
             margin-bottom: 20px;
             padding: 15px 40px;
             border-radius: 5px;
-            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 15px 25px rgba(0,0,50,0.2);
         }
 
         .toggle {
@@ -62,7 +60,7 @@
             align-items: center;
             justify-content: space-between;
             font-size: 16px;
-            color: #000000;
+            color: #111130;
             font-weight: 500;
             border: none;
             outline: none;
@@ -70,7 +68,7 @@
             padding: 15px 0;
         }
 
-        .content {
+        .content{
             position: relative;
             font-size: 14px;
             text-align: justify;
@@ -91,7 +89,7 @@
             <h1>Frequently Asked Questions</h1>
             <div class="buttons">
                 <button class="btn btn-dark" data-toggle="modal" data-target="#addFaqModal">Add FAQ</button>
-                <button class="btn btn-light" onclick="showAllActionButtons()">Manage FAQ</button>
+                <button class="btn btn-success" onclick="showAllActionButtons()">Manage FAQ</button>
             </div>
         </div>
 
@@ -207,4 +205,51 @@
             toggles[i].addEventListener('click', ()=>{
                 if( parseInt(contentDiv[i].style.height) != contentDiv[i].scrollHeight){
                     contentDiv[i].style.height = contentDiv[i].scrollHeight + "px";
-                    toggles[i].style.color
+                    toggles[i].style.color = "#0084e9";
+                }
+                else{
+                    contentDiv[i].style.height = "0px";
+                    toggles[i].style.color = "#111130";
+                }
+
+                for(let j=0; j<contentDiv.length; j++){
+                    if(j!==i){
+                        contentDiv[j].style.height = "0px";
+                        toggles[j].style.color = "#111130";
+
+                    }
+                }
+            });
+        }
+
+        function showAllActionButtons() {
+            let actionButtons = document.querySelectorAll('.action-button');
+
+            actionButtons.forEach(button => {
+                if (button.style.display === 'none' || button.style.display === '') {
+                    button.style.display = 'block';
+                } else {
+                    button.style.display = 'none';
+                }
+            });
+        }
+
+        function updateFaq(id) {
+            $("#updateFaqModal").modal("show");
+
+            let updateQuestion = $("#question-" + id).html();
+            let updateAnswer = $("#answer-" + id).html();
+
+            $("#updateFaqID").val(id);
+            $("#updateQuestion").val(updateQuestion);
+            $("#updateAnswer").val(updateAnswer);
+        }
+
+        function deleteFaq(id) {
+            if (confirm("Do you want to delete this faq?")) {
+                window.location = "./endpoint/delete-faq.php?faq=" + id;
+            }
+        }
+    </script>
+</body>
+</html>
