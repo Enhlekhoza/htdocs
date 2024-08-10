@@ -1,63 +1,71 @@
-<body class="page-template page-template-elementor_header_footer page page-id-4407 wp-embed-responsive tribe-js tec-no-tickets-on-recurring tec-no-rsvp-on-recurring no-sidebar elementor-default elementor-template-full-width elementor-kit-10 elementor-page elementor-page-4407 tribe-theme-donik e--ua-blink e--ua-chrome e--ua-webkit" data-elementor-device-mode="tablet" data-new-gr-c-s-check-loaded="14.1190.0" data-gr-ext-installed="" style="overflow-x: hidden;">
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="{{ asset('wp-content/themes/donik/css/styles.css') }}">
+</head>
+<body class="page-template page-template-elementor_header_footer page page-id-4407 wp-embed-responsive tribe-js tec-no-tickets-on-recurring tec-no-rsvp-on-recurring no-sidebar elementor-default elementor-template-full-width elementor-kit-10 elementor-page elementor-page-4407 tribe-theme-donik e--ua-blink e--ua-chrome e--ua-webkit" data-elementor-device-mode="tablet" style="overflow-x: hidden;">
 
-    <!-- Header Start !-->
+    <!-- Header Start -->
     <header class="header-area style-1 style-3">
-       <div class="header-menu-area sticky-header sticky_menu animated fadeIn" style="margin-top: 0px;">
-           <div class="container p-md-0">
-               <div class="header-menu-area-inner">
-                   <div class="row">
-                       <div class="col-xl-3 col-lg-3 col-md-6 col-6 d-flex align-items-center p-md-0">
-                           <div class="logo">
-                                                   
-                            <a class="standard-logo" href="https://cep.yowza.co.za/images/community-engagement-platform_-logo_v4-1.png">
-                                <img src="https://cep.yowza.co.za/images/community-engagement-platform_-logo_v4-1.png" alt="logo">
-                            </a>
-                            <a class="sticky-logo" href="https://cep.yowza.co.za/images/community-engagement-platform_-logo_v4-1.png">
-                                <img src="https://cep.yowza.co.za/images/community-engagement-platform_-logo_v4-1.png" alt="Sticky Logo">
-                            </a>
-                            
-                                       </div>
-                       </div>
-                       <div class="col-xl-9 col-lg-9 col-md-6 col-6 d-flex align-items-center justify-content-between p-0">
-                        <div class="menu d-inline-block">
-                            <div class="mean-push"></div>
-                            <nav id="main-menu" class="main-menu" style="display: none;">
-                                <ul id="menu-main-menu">
-                                    <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1968" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children dropdown active menu-item-1968 nav-item">
-                                        <a title="Home" href="https://cep.yowza.co.za/images/community-engagement-platform_-logo_v4-1.png" class="nav-link-menu">Home</a>
-                                    </li>
-                                </ul>
-                            </nav>
+        <div class="header-menu-area sticky-header" style="margin-top: 0px;">
+            <div class="container p-md-0">
+                <div class="header-menu-area-inner">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-6 d-flex align-items-center p-md-0">
+                            <div class="logo">
+                                <a class="standard-logo" href="https://donikdemo.boomdevstheme.com/">
+                                    <img src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/logo4-1-1-1.png" alt="logo">
+                                </a>
+                                <a class="sticky-logo" href="https://donikdemo.boomdevstheme.com/">
+                                    <img src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/logo/logo.png" alt="Sticky Logo">
+                                </a>
+                            </div>
                         </div>
-                    </div>                    
-                    <div class="col-xl-9 col-lg-9 col-md-6 col-6 d-flex align-items-center justify-content-between p-0">
-                        <div class="menu d-inline-block">
-                            <div class="mean-push"></div>
-                            <nav id="main-menu" class="main-menu" style="display: none;">
-                                <ul id="menu-main-menu">
-                                    <!-- About Us -->
-                                    <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1320 nav-item">
-                                        <a title="About Us" href="https://cep.yowza.co.za/images/community-engagement-platform_-logo_v4-1.png" class="nav-link-menu">About Us</a>
-                                    </li>
-                    
-                                    <!-- Campaigns (formerly Causes) -->
-                                    <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1969" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-1969 nav-item">
-                                        <a title="Campaigns" href="#" class="nav-link-menu">Campaigns</a>
-                                        <ul class="submenu" role="menu">
-                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-858" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-858 nav-item">
-                                                <a title="Campaigns Page" href="https://donikdemo.boomdevstheme.com/causes/" class="dropdown-menu-item">Campaigns Page</a>
-                                            </li>
-                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1997" class="menu-item menu-item-type-post_type menu-item-object-give_forms menu-item-1997 nav-item">
-                                                <a title="Campaign Details Page" href="https://donikdemo.boomdevstheme.com/donations/give-food-support-for-every-rural-homeless-poor-children/" class="dropdown-menu-item">Campaign Details Page</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                    
-                                    <!-- Events -->
-                                    <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1996" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1996 nav-item">
-                                        <a title="Events Page" href="https://donikdemo.boomdevstheme.com/event-pages/" class="nav-link-menu">Events</a>
-                                    </li>
+
+                        <div class="col-xl-9 col-lg-9 col-md-6 col-6 d-flex align-items-center justify-content-between p-0">
+                            <div class="menu d-inline-block">
+                                <div class="mean-push"></div>
+                                <nav id="main-menu" class="main-menu" style="display: none;">
+                                    <ul id="menu-main-menu">
+                                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1968" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children dropdown active menu-item-1968 nav-item">
+                                            <a title="Home" href="https://cep.yowza.co.za/images/community-engagement-platform_-logo_v4-1.png" class="nav-link-menu">Home</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-9 col-lg-9 col-md-6 col-6 d-flex align-items-center justify-content-between p-0">
+                            <div class="menu d-inline-block">
+                                <div class="mean-push"></div>
+                                <nav id="main-menu" class="main-menu" style="display: none;">
+                                    <ul id="menu-main-menu">
+                                        <!-- About Us -->
+                                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1320 nav-item">
+                                            <a title="About Us" href="https://cep.yowza.co.za/images/community-engagement-platform_-logo_v4-1.png" class="nav-link-menu">About Us</a>
+                                        </li>
+
+                                        <!-- Campaigns (formerly Causes) -->
+                                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1969" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-1969 nav-item">
+                                            <a title="Campaigns" href="#" class="nav-link-menu">Campaigns</a>
+                                            <ul class="submenu" role="menu">
+                                                <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-858" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-858 nav-item">
+                                                    <a title="Campaigns Page" href="https://donikdemo.boomdevstheme.com/causes/" class="dropdown-menu-item">Campaigns Page</a>
+                                                </li>
+                                                <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1997" class="menu-item menu-item-type-post_type menu-item-object-give_forms menu-item-1997 nav-item">
+                                                    <a title="Campaign Details Page" href="https://donikdemo.boomdevstheme.com/donations/give-food-support-for-every-rural-homeless-poor-children/" class="dropdown-menu-item">Campaign Details Page</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <!-- Events -->
+                                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1996" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1996 nav-item">
+                                            <a title="Events Page" href="https://donikdemo.boomdevstheme.com/event-pages/" class="nav-link-menu">Events</a>
+                                        </li>
                     
                                     <!-- Blog -->
                                     <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1993" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-1993 nav-item">
