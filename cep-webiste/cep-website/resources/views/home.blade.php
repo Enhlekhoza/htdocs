@@ -1,15 +1,1043 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <!-- Link to the CSS file -->
-    <link rel="stylesheet" href="{{ asset('wp-content/themes/donik/css/styles.css') }}">
-</head>
-<body class="page-template page-template-elementor_header_footer page page-id-4407 wp-embed-responsive tribe-js tec-no-tickets-on-recurring tec-no-rsvp-on-recurring no-sidebar elementor-default elementor-template-full-width elementor-kit-10 elementor-page elementor-page-4407 tribe-theme-donik e--ua-blink e--ua-chrome e--ua-webkit" data-elementor-device-mode="tablet" style="overflow-x: hidden;">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home – CEP</title>
+    <meta name="robots" content="noindex, nofollow">
+    
+    <!-- Prefetch and Preconnect -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- RSS Feeds and iCal Feed -->
+    <link rel="alternate" type="application/rss+xml" title="Donik &raquo; Feed" href="https://donikdemo.boomdevstheme.com/feed/">
+    <link rel="alternate" type="application/rss+xml" title="Donik &raquo; Comments Feed" href="https://donikdemo.boomdevstheme.com/comments/feed/">
+    <link rel="alternate" type="text/calendar" title="Donik &raquo; iCal Feed" href="https://donikdemo.boomdevstheme.com/events/?ical=1">
+    
+    <!-- Emoji Styles -->
+    <style id="wp-emoji-styles-inline-css" type="text/css">
+        img.wp-smiley, img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 0.07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    
+    <!-- SVG Icon Styles -->
+    <style id="safe-svg-svg-icon-style-inline-css" type="text/css">
+        .safe-svg-cover {
+            text-align: center;
+        }
+        .safe-svg-cover .safe-svg-inside {
+            display: inline-block;
+            max-width: 100%;
+        }
+        .safe-svg-cover svg {
+            height: 100%;
+            max-height: 100%;
+            max-width: 100%;
+            width: 100%;
+        }
+    </style>
+    
+    <!-- Classic Theme Styles -->
+    <style id="classic-theme-styles-inline-css" type="text/css">
+        /*! This file is auto-generated */
+        .wp-block-button__link {
+            color: #fff;
+            background-color: #32373c;
+            border-radius: 9999px;
+            box-shadow: none;
+            text-decoration: none;
+            padding: calc(.667em + 2px) calc(1.333em + 2px);
+            font-size: 1.125em;
+        }
+        .wp-block-file__button {
+            background: #32373c;
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
 
-    <!-- Header Start -->
+        <style id='global-styles-inline-css' type='text/css'>
+            :root {
+                --wp--preset--aspect-ratio--square: 1;
+                --wp--preset--aspect-ratio--4-3: 4/3;
+                --wp--preset--aspect-ratio--3-4: 3/4;
+                --wp--preset--aspect-ratio--3-2: 3/2;
+                --wp--preset--aspect-ratio--2-3: 2/3;
+                --wp--preset--aspect-ratio--16-9: 16/9;
+                --wp--preset--aspect-ratio--9-16: 9/16;
+                --wp--preset--color--black: #000000;
+                --wp--preset--color--cyan-bluish-gray: #abb8c3;
+                --wp--preset--color--white: #ffffff;
+                --wp--preset--color--pale-pink: #f78da7;
+                --wp--preset--color--vivid-red: #cf2e2e;
+                --wp--preset--color--luminous-vivid-orange: #ff6900;
+                --wp--preset--color--luminous-vivid-amber: #fcb900;
+                --wp--preset--color--light-green-cyan: #7bdcb5;
+                --wp--preset--color--vivid-green-cyan: #00d084;
+                --wp--preset--color--pale-cyan-blue: #8ed1fc;
+                --wp--preset--color--vivid-cyan-blue: #0693e3;
+                --wp--preset--color--vivid-purple: #9b51e0;
+                --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);
+                --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);
+                --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);
+                --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);
+                --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);
+                --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
+                --wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);
+                --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);
+                --wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);
+                --wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);
+                --wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);
+                --wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);
+                --wp--preset--font-size--small: 13px;
+                --wp--preset--font-size--medium: 20px;
+                --wp--preset--font-size--large: 36px;
+                --wp--preset--font-size--x-large: 42px;
+                --wp--preset--spacing--20: 0.44rem;
+                --wp--preset--spacing--30: 0.67rem;
+                --wp--preset--spacing--40: 1rem;
+                --wp--preset--spacing--50: 1.5rem;
+                --wp--preset--spacing--60: 2.25rem;
+                --wp--preset--spacing--70: 3.38rem;
+                --wp--preset--spacing--80: 5.06rem;
+                --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+                --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+                --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+                --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+                --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+            }
+
+            :where(.is-layout-flex) {
+                gap: 0.5em;
+            }
+
+            :where(.is-layout-grid) {
+                gap: 0.5em;
+            }
+
+            body .is-layout-flex {
+                display: flex;
+            }
+
+            .is-layout-flex {
+                flex-wrap: wrap;
+                align-items: center;
+            }
+
+            .is-layout-flex > :is(*, div) {
+                margin: 0;
+            }
+
+            body .is-layout-grid {
+                display: grid;
+            }
+
+            .is-layout-grid > :is(*, div) {
+                margin: 0;
+            }
+
+            :where(.wp-block-columns.is-layout-flex) {
+                gap: 2em;
+            }
+
+            :where(.wp-block-columns.is-layout-grid) {
+                gap: 2em;
+            }
+
+            :where(.wp-block-post-template.is-layout-flex) {
+                gap: 1.25em;
+            }
+
+            :where(.wp-block-post-template.is-layout-grid) {
+                gap: 1.25em;
+            }
+
+            .has-black-color {
+                color: var(--wp--preset--color--black) !important;
+            }
+
+            .has-cyan-bluish-gray-color {
+                color: var(--wp--preset--color--cyan-bluish-gray) !important;
+            }
+
+            .has-white-color {
+                color: var(--wp--preset--color--white) !important;
+            }
+
+            .has-pale-pink-color {
+                color: var(--wp--preset--color--pale-pink) !important;
+            }
+
+            .has-vivid-red-color {
+                color: var(--wp--preset--color--vivid-red) !important;
+            }
+
+            .has-luminous-vivid-orange-color {
+                color: var(--wp--preset--color--luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-amber-color {
+                color: var(--wp--preset--color--luminous-vivid-amber) !important;
+            }
+
+            .has-light-green-cyan-color {
+                color: var(--wp--preset--color--light-green-cyan) !important;
+            }
+
+            .has-vivid-green-cyan-color {
+                color: var(--wp--preset--color--vivid-green-cyan) !important;
+            }
+
+            .has-pale-cyan-blue-color {
+                color: var(--wp--preset--color--pale-cyan-blue) !important;
+            }
+
+            .has-vivid-cyan-blue-color {
+                color: var(--wp--preset--color--vivid-cyan-blue) !important;
+            }
+
+            .has-vivid-purple-color {
+                color: var(--wp--preset--color--vivid-purple) !important;
+            }
+
+            .has-black-background-color {
+                background-color: var(--wp--preset--color--black) !important;
+            }
+
+            .has-cyan-bluish-gray-background-color {
+                background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+            }
+
+            .has-white-background-color {
+                background-color: var(--wp--preset--color--white) !important;
+            }
+
+            .has-pale-pink-background-color {
+                background-color: var(--wp--preset--color--pale-pink) !important;
+            }
+
+            .has-vivid-red-background-color {
+                background-color: var(--wp--preset--color--vivid-red) !important;
+            }
+
+            .has-luminous-vivid-orange-background-color {
+                background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-amber-background-color {
+                background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+            }
+
+            .has-light-green-cyan-background-color {
+                background-color: var(--wp--preset--color--light-green-cyan) !important;
+            }
+
+            .has-vivid-green-cyan-background-color {
+                background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+            }
+
+            .has-pale-cyan-blue-background-color {
+                background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+            }
+
+            .has-vivid-cyan-blue-background-color {
+                background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+            }
+
+            .has-vivid-purple-background-color {
+                background-color: var(--wp--preset--color--vivid-purple) !important;
+            }
+
+            .has-black-border-color {
+                border-color: var(--wp--preset--color--black) !important;
+            }
+
+            .has-cyan-bluish-gray-border-color {
+                border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+            }
+
+            .has-white-border-color {
+                border-color: var(--wp--preset--color--white) !important;
+            }
+
+            .has-pale-pink-border-color {
+                border-color: var(--wp--preset--color--pale-pink) !important;
+            }
+
+            .has-vivid-red-border-color {
+                border-color: var(--wp--preset--color--vivid-red) !important;
+            }
+
+            .has-luminous-vivid-orange-border-color {
+                border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-amber-border-color {
+                border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+            }
+
+            .has-light-green-cyan-border-color {
+                border-color: var(--wp--preset--color--light-green-cyan) !important;
+            }
+
+            .has-vivid-green-cyan-border-color {
+                border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+            }
+
+            .has-pale-cyan-blue-border-color {
+                border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+            }
+
+            .has-vivid-cyan-blue-border-color {
+                border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+            }
+
+            .has-vivid-purple-border-color {
+                border-color: var(--wp--preset--color--vivid-purple) !important;
+            }
+
+            .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+                background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+            }
+
+            .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+                background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+            }
+
+            .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+                background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+                background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+            }
+
+            .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+                background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+            }
+
+            .has-cool-to-warm-spectrum-gradient-background {
+                background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+            }
+
+            .has-blush-light-purple-gradient-background {
+                background: var(--wp--preset--gradient--blush-light-purple) !important;
+            }
+
+            .has-blush-bordeaux-gradient-background {
+                background: var(--wp--preset--gradient--blush-bordeaux) !important;
+            }
+
+            .has-luminous-dusk-gradient-background {
+                background: var(--wp--preset--gradient--luminous-dusk) !important;
+            }
+
+            .has-pale-ocean-gradient-background {
+                background: var(--wp--preset--gradient--pale-ocean) !important;
+            }
+
+            .has-electric-grass-gradient-background {
+                background: var(--wp--preset--gradient--electric-grass) !important;
+            }
+
+            .has-midnight-gradient-background {
+                background: var(--wp--preset--gradient--midnight) !important;
+            }
+
+            .has-small-font-size {
+                font-size: var(--wp--preset--font-size--small) !important;
+            }
+
+            .has-medium-font-size {
+                font-size: var(--wp--preset--font-size--medium) !important;
+            }
+
+            .has-large-font-size {
+                font-size: var(--wp--preset--font-size--large) !important;
+            }
+
+            .has-x-large-font-size {
+                font-size: var(--wp--preset--font-size--x-large) !important;
+            }
+
+            :where(.wp-block-post-template.is-layout-flex) {
+                gap: 1.25em;
+            }
+
+            :where(.wp-block-post-template.is-layout-grid) {
+                gap: 1.25em;
+            }
+
+            :where(.wp-block-columns.is-layout-flex) {
+                gap: 2em;
+            }
+
+            :where(.wp-block-columns.is-layout-grid) {
+                gap: 2em;
+            }
+
+            :root :where(.wp-block-pullquote) {
+                font-size: 1.5em;
+                line-height: 1.6;
+            }
+        </style>
+        <link rel='stylesheet' id='redux-extendify-styles-css' href='https://donikdemo.boomdevstheme.com/wp-content/plugins/redux-framework/redux-core/assets/css/extendify-utilities.css?ver=4.4.15' type='text/css' media='all'/>
+        <link rel='stylesheet' id='contact-form-7-css' href='https://donikdemo.boomdevstheme.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.4' type='text/css' media='all'/>
+        <link rel='stylesheet' id='give-donation-summary-style-frontend-css' href='https://donikdemo.boomdevstheme.com/wp-content/plugins/give/assets/dist/css/give-donation-summary.css?ver=3.8.0' type='text/css' media='all'/>
+        <link rel='stylesheet' id='euis-css' href='https://donikdemo.boomdevstheme.com/wp-content/plugins/unlimited-elementor-inner-sections-by-boomdevs/public/css/euis-public.css?ver=1.0.6' type='text/css' media='all'/>
+        <link rel='stylesheet' id='donik-fonts-css' href='//fonts.googleapis.com/css?family=Nunito+Sans%3A400%2C500%2C600%2C700%7CPT+Sans%3A400%2C500%2C700%7CPlus+Jakarta+Sans%3A300%2C400%2C500%2C600%2C700%2C800&#038;ver=1.0.0' type='text/css' media='all'/>
+        <link rel='stylesheet' id='bootstrap-css' href='https://donikdemo.boomdevstheme.com/wp-content/themes/donik/css/bootstrap.min.css?ver=6.6.1' type='text/css' media='all'/>
+        <link rel='stylesheet' id='fontawesome-css' href='https://donikdemo.boomdevstheme.com/wp-content/themes/donik/css/fontawesome.min.css?ver=6.6.1' type='text/css' media='all'/>
+        <link rel='stylesheet' id='magnific-popup-css' href='https://donikdemo.boomdevstheme.com/wp-content/themes/donik/css/magnific-popup.min.css?ver=6.6.1' type='text/css' media='all'/>
+        <link rel='stylesheet' id='slick-css' href='https://donikdemo.boomdevstheme.com/wp-content/themes/donik/css/slick.min.css?ver=6.6.1' type='text/css' media='all'/>
+        <link rel='stylesheet' id='meanmenu-css' href='https://donikdemo.boomdevstheme.com/wp-content/themes/donik/css/meanmenu.min.css?ver=6.6.1' type='text/css' media='all'/>
+        <link rel='stylesheet' id='nice-select-css' href='https://donikdemo.boomdevstheme.com/wp-content/themes/donik/css/nice-select.min.css?ver=6.6.1' type='text/css' media='all'/>
+        <link rel='stylesheet' id='animate-css' href='https://donikdemo.boomdevstheme.com/wp-content/themes/donik/css/animate.min.css?ver=6.6.1' type='text/css' media='all'/>
+        <link rel='stylesheet' id='donik-main-css' href='https://donikdemo.boomdevstheme.com/wp-content/themes/donik/css/style.css?ver=1723260327' type='text/css' media='all'/>
+        <style id='donik-main-inline-css' type='text/css'>
+            :root {
+                --primary-color: #FFE144;
+                --brand: #ff4638;
+            }
+        </style>
+        <link rel='stylesheet' id='donik-style-css' href='https://donikdemo.boomdevstheme.com/wp-content/themes/donik/style.css?ver=6.6.1' type='text/css' media='all'/>
+        <link rel='stylesheet' id='donik_breadcrumb_bg_img-css' href='https://donikdemo.boomdevstheme.com/wp-content/themes/donik/css/color/donik_inline_custom.css?ver=6.6.1' type='text/css' media='all'/>
+        <style id='donik_breadcrumb_bg_img-inline-css' type='text/css'>
+            .page-breadcrumb-area.page-bg {
+                background-image: url( https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/bg.jpg)
+            }
+        </style>
+        <link rel='stylesheet' id='donik_breadcrumb_bg_color-css' href='https://donikdemo.boomdevstheme.com/wp-content/themes/donik/css/color/donik_inline_custom.css?ver=6.6.1' type='text/css' media='all'/>
+        <style id='donik_breadcrumb_bg_color-inline-css' type='text/css'>
+            .page-breadcrumb-area.page-bg {
+                background-color: #f4f9fc
+            }
+        </style>
+        <link rel='stylesheet' id='donik_breadcrumb_shape_image_one_img-css' href='https://donikdemo.boomdevstheme.com/wp-content/themes/donik/css/color/donik_inline_custom.css?ver=6.6.1' type='text/css' media='all'/>
+        <style id='donik_breadcrumb_shape_image_one_img-inline-css' type='text/css'>
+            .page-breadcrumb-area .feature-shape1 {
+                background-image: url( https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/elements.png)
+            }
+        </style>
+        <link rel='stylesheet' id='donik_breadcrumb_shape_image_two_img-css' href='https://donikdemo.boomdevstheme.com/wp-content/themes/donik/css/color/donik_inline_custom.css?ver=6.6.1' type='text/css' media='all'/>
+        <style id='donik_breadcrumb_shape_image_two_img-inline-css' type='text/css'>
+            .page-breadcrumb-area .feature-shape2 {
+                background-image: url( https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/wave-white-2.png)
+            }
+        </style>
+        <link rel='stylesheet' id='donik_breadcrumb_shape_image_three_img-css' href='https://donikdemo.boomdevstheme.com/wp-content/themes/donik/css/color/donik_inline_custom.css?ver=6.6.1' type='text/css' media='all'/>
+        <style id='donik_breadcrumb_shape_image_three_img-inline-css' type='text/css'>
+            .page-breadcrumb-area .feature-shape3 {
+                background-image: url( https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/footer-slice-white.png)
+            }
+        </style>
+        <link rel='stylesheet' id='donik_footer_bg_img-css' href='https://donikdemo.boomdevstheme.com/wp-content/themes/donik/css/color/donik_inline_custom.css?ver=6.6.1' type='text/css' media='all'/>
+        <link rel='stylesheet' id='donik_footer_bg_shape_one_img-css' href='https://donikdemo.boomdevstheme.com/wp-content/themes/donik/css/color/donik_inline_custom.css?ver=6.6.1' type='text/css' media='all'/>
+        <style id='donik_footer_bg_shape_one_img-inline-css' type='text/css'>
+            .footer.style-1 .footer-sec .shape-2 {
+                background-image: url( https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/footer-slice-white.png)
+            }
+        </style>
+        <link rel='stylesheet' id='donik_footer_bg_shape_two_img-css' href='https://donikdemo.boomdevstheme.com/wp-content/themes/donik/css/color/donik_inline_custom.css?ver=6.6.1' type='text/css' media='all'/>
+        <style id='donik_footer_bg_shape_two_img-inline-css' type='text/css'>
+            .footer.style-1 .footer-sec .shape-1 {
+                background-image: url( https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/shape-1.png)
+            }
+        </style>
+        <link rel='stylesheet' id='donik_footer_bottom_bg-css' href='https://donikdemo.boomdevstheme.com/wp-content/themes/donik/css/color/donik_inline_custom.css?ver=6.6.1' type='text/css' media='all'/>
+        <link rel='stylesheet' id='elementor-frontend-css' href='https://donikdemo.boomdevstheme.com/wp-content/uploads/elementor/css/custom-frontend-lite.min.css?ver=1713589982' type='text/css' media='all'/>
+        <link rel='stylesheet' id='swiper-css' href='https://donikdemo.boomdevstheme.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' type='text/css' media='all'/>
+        <link rel='stylesheet' id='elementor-post-10-css' href='https://donikdemo.boomdevstheme.com/wp-content/uploads/elementor/css/post-10.css?ver=1713589982' type='text/css' media='all'/>
+        <link rel='stylesheet' id='elementor-global-css' href='https://donikdemo.boomdevstheme.com/wp-content/uploads/elementor/css/global.css?ver=1713589982' type='text/css' media='all'/>
+        <link rel='stylesheet' id='elementor-post-4407-css' href='https://donikdemo.boomdevstheme.com/wp-content/uploads/elementor/css/post-4407.css?ver=1719136280' type='text/css' media='all'/>
+        <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=PT%20Sans:400,700,400italic,700italic%7CPlus%20Jakarta%20Sans:200,300,400,500,600,700,800,200italic,300italic,400italic,500italic,600italic,700italic,800italic%7CVujahday%20Script:400%7COpen%20Sans:300,400,500,600,700,800,300italic,400italic,500italic,600italic,700italic,800italic&#038;display=swap&#038;ver=1719138086"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT%20Sans:400,700,400italic,700italic%7CPlus%20Jakarta%20Sans:200,300,400,500,600,700,800,200italic,300italic,400italic,500italic,600italic,700italic,800italic%7CVujahday%20Script:400%7COpen%20Sans:300,400,500,600,700,800,300italic,400italic,500italic,600italic,700italic,800italic&#038;display=swap&#038;ver=1719138086" media="print" onload="this.media='all'">
+        <noscript>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT%20Sans:400,700,400italic,700italic%7CPlus%20Jakarta%20Sans:200,300,400,500,600,700,800,200italic,300italic,400italic,500italic,600italic,700italic,800italic%7CVujahday%20Script:400%7COpen%20Sans:300,400,500,600,700,800,300italic,400italic,500italic,600italic,700italic,800italic&#038;display=swap&#038;ver=1719138086"/>
+        </noscript>
+        <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CVujahday+Script%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPlus+Jakarta+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.6.1' type='text/css' media='all'/>
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+        <script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+        <script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18" id="wp-hooks-js"></script>
+        <script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+        <script type="text/javascript" id="wp-i18n-js-after">     
+        <script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/plugins/give/assets/dist/js/give.js?ver=45021738ab584c0b" id="give-js"></script>
+        <script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/plugins/unlimited-elementor-inner-sections-by-boomdevs/public/js/euis-public.js?ver=1.0.6" id="euis-js"></script>
+        <script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/js/jquery.min.js?ver=1" id="donik-jquery-js-js"></script>
+        <link rel="https://api.w.org/" href="https://donikdemo.boomdevstheme.com/wp-json/"/>
+        <link rel="alternate" title="JSON" type="application/json" href="https://donikdemo.boomdevstheme.com/wp-json/wp/v2/pages/4407"/>
+        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://donikdemo.boomdevstheme.com/xmlrpc.php?rsd"/>
+        <meta name="generator" content="WordPress 6.6.1"/>
+        <link rel="canonical" href="https://donikdemo.boomdevstheme.com/home-3/"/>
+        <link rel='shortlink' href='https://donikdemo.boomdevstheme.com/?p=4407'/>
+        <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://donikdemo.boomdevstheme.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdonikdemo.boomdevstheme.com%2Fhome-3%2F"/>
+        <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://donikdemo.boomdevstheme.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdonikdemo.boomdevstheme.com%2Fhome-3%2F&#038;format=xml"/>
+        <meta name="generator" content="Redux 4.4.15"/>
+        <meta name="generator" content="Give v3.8.0"/>
+        <meta name="et-api-version" content="v1">
+        <meta name="et-api-origin" content="https://donikdemo.boomdevstheme.com">
+        <link rel="https://theeventscalendar.com/" href="https://donikdemo.boomdevstheme.com/wp-json/tribe/tickets/v1/"/>
+        <meta name="tec-api-version" content="v1">
+        <meta name="tec-api-origin" content="https://donikdemo.boomdevstheme.com">
+        <link rel="alternate" href="https://donikdemo.boomdevstheme.com/wp-json/tribe/events/v1/"/>
+        <meta name="generator" content="Elementor 3.21.1; features: e_optimized_assets_loading, e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+        <style type="text/css" id="wp-custom-css">
+            #post-645 {
+                margin-top: 0 !important;
+            }
+        </style>
+        <style id="donik_options-dynamic-css" title="dynamic-css" class="redux-options-output">
+            .header-top-info ul li a {
+                font-family: "PT Sans";
+                line-height: 14px;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+            .header-top-info ul li a {
+                color: #ffffff;
+            }
+
+            .header-top-info ul li a:hover {
+                color: #FFE144;
+            }
+
+            .header-btn {
+                font-family: "Plus Jakarta Sans";
+                line-height: 18px;
+                font-weight: 500;
+                font-style: normal;
+                font-size: 18px;
+            }
+
+            .header-btn {
+                color: #020a27;
+            }
+
+            .header-btn:hover {
+                color: #ffffff;
+            }
+
+            .header-btn {
+                background-color: var(--primary-color);
+            }
+
+            .header-btn:hover {
+                background-color: #ffffff;
+            }
+
+            .header-btn span {
+                background-color: #FFFFFF;
+            }
+
+            .header-btn:hover span {
+                background-color: #FF4638;
+            }
+
+            .header-btn {
+                padding-top: 16px;
+                padding-right: 24px;
+                padding-bottom: 16px;
+                padding-left: 24px;
+            }
+
+            .main-menu ul li a, {
+                font-family: "PT Sans";
+                text-transform: capitalize;
+                line-height: 18px;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 18px;
+            }
+
+            .main-menu ul ul li a {
+                font-family: "PT Sans";
+                text-transform: capitalize;
+                line-height: 18px;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 18px;
+            }
+
+            .main-menu ul li a, .main-menu ul ul li a {
+                color: #ffffff;
+            }
+
+            .main-menu ul li a:hover, .main-menu ul ul li a:hover, .main-menu ul li:hover a {
+                color: #FFE144;
+            }
+
+            .main-menu ul li.active > a {
+                color: #FFE144;
+            }
+
+            .header-menu-area.sticky_menu {
+                background-color: #ffffff;
+            }
+
+            .page-template .breadcrumb-wrapper .page-title {
+                font-family: "Plus Jakarta Sans";
+                text-transform: capitalize;
+                line-height: 51px;
+                font-weight: 700;
+                font-style: normal;
+                color: #ffffff;
+                font-size: 51px;
+            }
+
+            .page-template .breadcrumb-list a {
+                font-family: "Plus Jakarta Sans";
+                text-transform: capitalize;
+                line-height: 18px;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 18px;
+            }
+
+            .page-template .breadcrumb-list ul li a {
+                color: #ffffff;
+            }
+
+            .page-template .breadcrumb-list.active a {
+                color: #FFE144;
+            }
+
+            .page-template .breadcrumb-list ul li a:hover, .page-template .breadcrumb-list.active a:hover {
+                color: #ff6731;
+            }
+
+            .read-more .theme-btn {
+                color: #121212;
+            }
+
+            .read-more .theme-btn:hover {
+                color: #ffffff;
+            }
+
+            .read-more .theme-btn {
+                padding-top: 16px;
+                padding-right: 32px;
+                padding-bottom: 16px;
+                padding-left: 32px;
+            }
+
+            .single-donor-page .donor-profile .donate-amount p {
+                font-family: "PT Sans";
+                line-height: 30px;
+                font-weight: 400;
+                font-style: normal;
+                color: #5E5E5E;
+                font-size: 18px;
+            }
+
+            .single-donor-page .donor-profile .donate-amount h5 {
+                font-family: "Plus Jakarta Sans";
+                line-height: 30px;
+                font-weight: 600;
+                font-style: normal;
+                color: #121212;
+                font-size: 22px;
+            }
+
+            .single-donor-page .section-title .title {
+                font-family: "Plus Jakarta Sans";
+                line-height: 51px;
+                font-weight: 700;
+                font-style: normal;
+                color: #121212;
+                font-size: 51px;
+            }
+
+            .single-donor-page .donor-profile-wrapper .section-title p {
+                font-family: "PT Sans";
+                line-height: 30px;
+                font-weight: 400;
+                font-style: normal;
+                color: #5E5E5E;
+                font-size: 18px;
+            }
+
+            .single-donor-page .donor-info-wrapper .single-info .info-inner h4 {
+                font-family: "Plus Jakarta Sans";
+                line-height: 28px;
+                font-weight: 700;
+                font-style: normal;
+                color: #020a27;
+                font-size: 28px;
+            }
+
+            .single-donor-page .donor-info-wrapper .single-info .title {
+                font-family: "Plus Jakarta Sans";
+                line-height: 30px;
+                font-weight: 500;
+                font-style: normal;
+                color: #020a27;
+                font-size: 18px;
+            }
+
+            .single-donor-page .donor-info-wrapper .single-info {
+                background-color: #ffffff;
+            }
+
+            .donors_slider_header_wrapper h3 {
+                font-family: "Plus Jakarta Sans";
+                line-height: 38px;
+                font-weight: 700;
+                font-style: normal;
+                color: #121212;
+                font-size: 38px;
+            }
+
+            .donors_slider_header_wrapper .theme-btn {
+                font-family: "Plus Jakarta Sans";
+                line-height: 30px;
+                font-weight: 500;
+                font-style: normal;
+                color: #121212;
+                font-size: 18px;
+            }
+
+            .donors_slider_header_wrapper .theme-btn:hover {
+                color: #ffffff;
+            }
+
+            .donors_slider_header_wrapper .theme-btn {
+                background-color: #FFE144;
+            }
+
+            .donors_slider_header_wrapper .theme-btn:hover {
+                background-color: #ffffff;
+            }
+
+            .donors_slider_header_wrapper .theme-btn span {
+                background-color: #ffffff;
+            }
+
+            .donors_slider_header_wrapper .theme-btn:hover span {
+                background-color: #FF4638;
+            }
+
+            .single-volunteer-page .team-member-card .content-wrapper .content .title {
+                font-family: "Plus Jakarta Sans";
+                line-height: 22px;
+                font-weight: 600;
+                font-style: normal;
+                color: #121212;
+                font-size: 22px;
+            }
+
+            .single-volunteer-page .team-member-card .content-wrapper .content p {
+                font-family: "PT Sans";
+                line-height: 30px;
+                font-weight: 400;
+                font-style: normal;
+                color: #121212;
+                font-size: 18px;
+            }
+
+            .single-volunteer-page .social-profile-link .social i {
+                color: #111111;
+            }
+
+            .single-volunteer-page .social-profile-link {
+                background-color: #FFE144;
+            }
+
+            .single-donor-page .section-title .title {
+                font-family: "Plus Jakarta Sans";
+                line-height: 51px;
+                font-weight: 700;
+                font-style: normal;
+                color: #121212;
+                font-size: 51px;
+            }
+
+            .single-donor-page .donor-profile-wrapper .section-title p {
+                font-family: "PT Sans";
+                line-height: 30px;
+                font-weight: 400;
+                font-style: normal;
+                color: #5E5E5E;
+                font-size: 18px;
+            }
+
+            .single-volunteer-page .desc-icon-wrapper .single-desc-info .icon i {
+                color: #FF4638;
+            }
+
+            .single-volunteer-page .desc-icon-wrapper .single-desc-info span {
+                font-family: "Plus Jakarta Sans";
+                line-height: 22px;
+                font-weight: 600;
+                font-style: normal;
+                color: #111111;
+                font-size: 22px;
+            }
+
+            p, p.desc, p.title {
+                font-family: "PT Sans";
+                line-height: 30px;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 18px;
+            }
+
+            .slider-short-title {
+                font-family: "Vujahday Script";
+                line-height: 32px;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 32px;
+            }
+
+            h1, h1.slider-title {
+                font-family: "Plus Jakarta Sans";
+                line-height: 80px;
+                font-weight: 800;
+                font-style: normal;
+                font-size: 80px;
+            }
+
+            h2, h2.title {
+                font-family: "Plus Jakarta Sans";
+                line-height: 51px;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 51px;
+            }
+
+            h3, h3. heading-three {
+                font-family: "Plus Jakarta Sans";
+                line-height: 38px;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 38px;
+            }
+
+            h4, h4.heading-four {
+                font-family: "Plus Jakarta Sans";
+                line-height: 28px;
+                font-weight: 500;
+                font-style: normal;
+                font-size: 28px;
+            }
+
+            h5, h5.heading-five {
+                font-family: "Plus Jakarta Sans";
+                line-height: 22px;
+                font-weight: 600;
+                font-style: normal;
+                font-size: 22px;
+            }
+
+            h6, h6.heading-six {
+                font-family: "Plus Jakarta Sans";
+                line-height: 16px;
+                font-weight: 500;
+                font-style: normal;
+                font-size: 16px;
+            }
+
+            .error404 .blog-area {
+                padding-top: 120px;
+                padding-right: 0px;
+                padding-bottom: 120px;
+                padding-left: 0px;
+            }
+
+            .error-btn-bh a.theme-btn {
+                font-family: "Plus Jakarta Sans";
+                line-height: 31px;
+                font-weight: 500;
+                font-style: normal;
+                font-size: 18px;
+            }
+
+            .error-404-title, .error-title {
+                color: #121212;
+            }
+
+            .error-text span {
+                color: #5E5E5E;
+            }
+
+            .error-btn-bh a.theme-btn {
+                color: #121212;
+            }
+
+            .error-btn-bh a.theme-btn:hover {
+                color: #ffffff;
+            }
+
+            .error-btn-bh a.theme-btn {
+                background-color: #FFE144;
+            }
+
+            .error-btn-bh a.theme-btn:hover {
+                background-color: #FF4638;
+            }
+
+            .error-btn-bh a.theme-btn {
+                padding-top: 16px;
+                padding-right: 32px;
+                padding-bottom: 16px;
+                padding-left: 32px;
+            }
+
+            .newsletter-area.style-1 .subscribe-form .section-title .short-title {
+                font-family: "Vujahday Script";
+                line-height: 32px;
+                font-weight: 400;
+                font-style: normal;
+                color: #121212;
+                font-size: 32px;
+            }
+
+            .subscribe-area .section-title .title {
+                font-family: "Plus Jakarta Sans";
+                line-height: 51px;
+                font-weight: 700;
+                font-style: normal;
+                color: #121212;
+                font-size: 51px;
+            }
+
+            .subscribe-form-widget .single-field .theme-btn {
+                font-family: "Plus Jakarta Sans";
+                line-height: 30px;
+                font-weight: normal;
+                font-style: normal;
+                font-size: 18px;
+            }
+
+            .subscribe-form-widget .single-field .theme-btn {
+                color: #ffffff;
+            }
+
+            .subscribe-form-widget .single-field .theme-btn:hover {
+                color: #ffffff;
+            }
+
+            .subscribe-form-widget .single-field .theme-btn span {
+                background-color: #020a27;
+            }
+
+            .subscribe-form-widget .single-field .theme-btn:hover span {
+                background-color: #FF4638;
+            }
+
+            .subscribe-form-widget .submit-btn {
+                padding-top: 16px;
+                padding-right: 32px;
+                padding-bottom: 16px;
+                padding-left: 32px;
+            }
+
+            .footer-widget.widget_nav_menu li a, .footer-widget .footer-widget-contact .footer-contact ul li .contact-text p, .footer-widget .footer-widget-contact .footer-contact ul li .contact-text a {
+                color: #ffffff;
+            }
+
+            .footer-widget.widget_nav_menu li a, .footer-widget .footer-widget-contact .footer-contact ul li .contact-text p, .footer-widget .footer-widget-contact .footer-contact ul li .contact-text a {
+                -webkit-text-fill-color: #ffffff;
+            }
+
+            .footer-widget.widget_nav_menu li:hover a, .footer-widget .footer-widget-contact .footer-contact ul li:hover .contact-text p, .footer-widget .footer-widget-contact .footer-contact ul li:hover .contact-text a {
+                color: #FFE144;
+            }
+
+            .footer-widget.widget_nav_menu li:hover a, .footer-widget .footer-widget-contact .footer-contact ul li:hover .contact-text p, .footer-widget .footer-widget-contact .footer-contact ul li:hover .contact-text a {
+                -webkit-text-fill-color: #FFE144;
+            }
+
+            .footer-widget .footer-widget-info .social-profile a i, .footer-widget .footer-widget-contact .footer-contact ul li .contact-icon i {
+                color: #ffffff;
+            }
+
+            .footer-widget .footer-widget-info .social-profile a:hover i, .footer-widget .footer-widget-contact .footer-contact ul li:hover .contact-icon i {
+                color: #020a27;
+            }
+
+            .footer-widget .footer-widget-info .social-profile a, .footer-widget .footer-widget-contact .footer-contact ul li .contact-icon {
+                background-color: #000000;
+            }
+
+            .footer-widget .footer-widget-info .social-profile a:hover, .footer-widget .footer-widget-contact .footer-contact ul li:hover .contact-icon:before {
+                background-color: #FFE144;
+            }
+
+            .footer-widget .footer-widget-info .social-profile a, .footer-widget .footer-widget-contact .footer-contact ul li .contact-icon {
+                border-color: #ffffff;
+            }
+
+            .footer-widget .footer-widget-info .social-profile a:hover, .footer-widget .footer-widget-contact .footer-contact ul li:hover .contact-icon {
+                border-color: #FFE144;
+            }
+
+            .footer {
+                background-color: #121212;
+            }
+
+            .footer-bottom-area {
+                background-color: #232323;
+            }
+
+            .footer-widget-title {
+                font-family: "Plus Jakarta Sans";
+                line-height: 30px;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 21px;
+            }
+
+            .footer-widget-title {
+                color: #ffffff;
+            }
+
+            .footer-widget-title:hover {
+                color: #ffffff;
+            }
+
+            .footer-widget .footer-widget-info p {
+                font-family: "PT Sans";
+                line-height: 30px;
+                font-weight: 400;
+                font-style: normal;
+                color: #BDBDBD;
+                font-size: 18px;
+            }
+
+            .footer-bottom-area .copyright-text p {
+                font-family: "Open Sans";
+                line-height: 30px;
+                font-weight: 400;
+                font-style: normal;
+                color: #ffffff;
+                font-size: 14px;
+            }
+
+            .footer-bottom-menu ul li a {
+                font-family: "Open Sans";
+                line-height: 27px;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body class="page-template page-template-elementor_header_footer page page-id-4407 wp-embed-responsive tribe-no-js tec-no-tickets-on-recurring tec-no-rsvp-on-recurring no-sidebar elementor-default elementor-template-full-width elementor-kit-10 elementor-page elementor-page-4407 tribe-theme-donik">
+        <!-- Header Start !-->
     <header class="header-area style-1 style-3">
         <div class="header-menu-area sticky-header" style="margin-top: 0px;">
             <div class="container p-md-0">
@@ -2582,234 +3610,176 @@
        </section>
                </div>
        <div id="donik_subscriber_widget-1" class="footer-top-widget widget_donik_subscriber_widget">
-           <!-- Newsletter-area style-1 Start -->
-           <div class="newsletter-area style-1">
-                                           <div class="sketch-1"><img src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/heart-2-white.png" alt="sketch"></div>
-                                                   <div class="sketch-2" style="transform: matrix(1, 0, 0, 1, -8.8, -4.65);"><img src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/shape1.png" alt="sketch"></div>
-                                       <div class="container">
-                   <div class="subscribe-form">
-                       <div class="section-title">
-                           <span class="short-title">Join Us Now</span>
-                           <h2 class="title">Change begins with us</h2>
-                       </div>
-                       <div class="subscribe-form-widget">
-                                                                   <div class="sketch-3"><img src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/slice.png" alt="sketch"></div>
-                                                               <form action="#">
-                               <div class="mc4wp-form-fields">
-                                   <div class="single-field">
-                                       <script>(function() {
-   window.mc4wp = window.mc4wp || {
-       listeners: [],
-       forms: {
-           on: function(evt, cb) {
-               window.mc4wp.listeners.push(
-                   {
-                       event   : evt,
-                       callback: cb
-                   }
-               );
-           }
-       }
-   }
-})();
-</script><!-- Mailchimp for WordPress v4.9.11 - https://wordpress.org/plugins/mailchimp-for-wp/ --><div class="mc4wp-form-fields"><div class="single-field">
- <input type="email" placeholder="Enter your e-mail address">
- <button type="submit" class="theme-btn style-7 bubble">Join Now<span></span><span></span><span></span><span></span></button>
-</div></div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"></label><input type="hidden" name="_mc4wp_timestamp" value="1723105696"><input type="hidden" name="_mc4wp_form_id" value="1486"><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"><div class="mc4wp-response"></div><!-- / Mailchimp for WordPress Plugin -->                                    </div>
-                               </div></form>
-                           
-                       </div>
-                   </div>
-               </div>
-           </div>
-           <!-- Newsletter-area style-1 End -->
+        <!-- Newsletter-area style-1 Start -->
+<div class="newsletter-area style-1">
+    <div class="sketch-1">
+        <img src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/heart-2-white.png" alt="sketch">
+    </div>
+    <div class="sketch-2" style="transform: matrix(1, 0, 0, 1, -8.8, -4.65);">
+        <img src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/shape1.png" alt="sketch">
+    </div>
+    <div class="container">
+        <div class="subscribe-form">
+            <div class="section-title">
+                <span class="short-title">Join Us Now</span>
+                <h2 class="title">Change begins with us</h2>
+            </div>
+            <div class="subscribe-form-widget">
+                <div class="sketch-3">
+                    <img src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/slice.png" alt="sketch">
+                </div>
+                <form action="#">
+                    <div class="mc4wp-form-fields">
+                        <div class="single-field">
+                            <input type="email" placeholder="Enter your e-mail address">
+                            <button type="submit" class="theme-btn style-7 bubble">Join Now<span></span><span></span><span></span><span></span></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Newsletter-area style-1 End -->
 
-           </div>
-   <footer class="footer style-1">
-                   <div class="footer-sec">
-               <div class="shape-1" style="transform: matrix(1, 0, 0, 1, 26.85, -5.95);"></div>
-               <div class="shape-2" style="transform: matrix3d(0.986909, 0, -0.16128, 0, 0, 1, 0, 0, 0.16128, 0, 0.986909, 0, -26.85, 5.95, 0, 1);"></div>
-               <div class="container">
-                   <div class="row justify-content-between">
-                       <div class="col-lg-3 col-md-6 col-sm-12">
-                           <div id="donik_about_info_widget-1" class="footer-widget mb-30 widget_donik_about_info_widget">
-               <div class="footer-widget-info">
-                                           <div class="footer-logo">
-                           <a href="https://donikdemo.boomdevstheme.com"><img src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2024/02/logo-white.png" alt="Footer Logo"></a>
-                       </div>
-                   
-                                           <p>Lorem consultancy elit sed eiusmod tempor inci didunt labore et dolore magna aliqua sed eiusmod.</p>
-                   
-                   <div class="social-profile">
-                                                   <a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
-                       
-                                                   <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
-                       
-                                                   <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
-                       
-                                                   <a href="https://pinterest.com"><i class="fa-brands fa-pinterest-p"></i></a>
-                                           </div>
-               </div>
+<footer class="footer style-1">
+    <div class="footer-sec">
+        <div class="shape-1" style="transform: matrix(1, 0, 0, 1, 26.85, -5.95);"></div>
+        <div class="shape-2" style="transform: matrix3d(0.986909, 0, -0.16128, 0, 0, 1, 0, 0, 0.16128, 0, 0.986909, 0, -26.85, 5.95, 0, 1);"></div>
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div id="donik_about_info_widget-1" class="footer-widget mb-30 widget_donik_about_info_widget">
+                        <div class="footer-widget-info">
+                            <div class="footer-logo">
+                                <a href="https://donikdemo.boomdevstheme.com">
+                                    <img src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2024/02/logo-white.png" alt="Footer Logo">
+                                </a>
+                            </div>
+                            <p>Lorem consultancy elit sed eiusmod tempor inci didunt labore et dolore magna aliqua sed eiusmod.</p>
+                            <div class="social-profile">
+                                <a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://pinterest.com"><i class="fa-brands fa-pinterest-p"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                 </div>			                        </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div id="nav_menu-4" class="footer-widget mb-30 widget_nav_menu">
+                        <h2 class="footer-widget-title">Useful Links</h2>
+                        <div class="menu-useful-links-container">
+                            <ul id="menu-useful-links" class="menu">
+                                <li id="menu-item-4277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4277"><a href="https://donikdemo.boomdevstheme.com/about-us/">About Us</a></li>
+                                <li id="menu-item-4278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4278"><a href="https://donikdemo.boomdevstheme.com/causes/">Popular Causes</a></li>
+                                <li id="menu-item-4279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4279"><a href="https://donikdemo.boomdevstheme.com/event-pages/">Upcoming Events</a></li>
+                                <li id="menu-item-4276" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4276"><a href="https://donikdemo.boomdevstheme.com/blog/">Latest Blog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-                       <div class="col-lg-3 col-md-6 col-sm-12">
-                           <div id="nav_menu-4" class="footer-widget mb-30 widget_nav_menu"><h2 class="footer-widget-title">Useful Links</h2><div class="menu-useful-links-container"><ul id="menu-useful-links" class="menu"><li id="menu-item-4277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4277"><a href="https://donikdemo.boomdevstheme.com/about-us/">About Us</a></li>
-<li id="menu-item-4278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4278"><a href="https://donikdemo.boomdevstheme.com/causes/">Popular Causes</a></li>
-<li id="menu-item-4279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4279"><a href="https://donikdemo.boomdevstheme.com/event-pages/">Upcoming Events</a></li>
-<li id="menu-item-4276" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4276"><a href="https://donikdemo.boomdevstheme.com/blog/">Latest Blog</a></li>
-</ul></div></div>                        </div>
+                <div class="col-lg-2 col-md-6 col-sm-12">
+                    <div id="nav_menu-3" class="footer-widget mb-30 widget_nav_menu">
+                        <h2 class="footer-widget-title">Legal Links</h2>
+                        <div class="menu-legal-links-container">
+                            <ul id="menu-legal-links" class="menu">
+                                <li id="menu-item-4280" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4280"><a href="#">Term of use</a></li>
+                                <li id="menu-item-4281" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4281"><a href="#">Privacy Policy</a></li>
+                                <li id="menu-item-4282" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4282"><a href="#">Report Violation</a></li>
+                                <li id="menu-item-4283" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4283"><a href="#">Cookies</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-                       <div class="col-lg-2 col-md-6 col-sm-12">
-                           <div id="nav_menu-3" class="footer-widget mb-30 widget_nav_menu"><h2 class="footer-widget-title">Legal Links</h2><div class="menu-legal-links-container"><ul id="menu-legal-links" class="menu"><li id="menu-item-4280" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4280"><a href="#">Term of use</a></li>
-<li id="menu-item-4281" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4281"><a href="#">Privacy Policy</a></li>
-<li id="menu-item-4282" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4282"><a href="#">Report Violation</a></li>
-<li id="menu-item-4283" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4283"><a href="#">Cookies</a></li>
-</ul></div></div>                        </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div id="donik_contact_info_widget-1" class="footer-widget mb-30 widget_donik_contact_info_widget">
+                        <h2 class="footer-widget-title">Contact Us</h2>
+                        <div class="footer-widget-contact">
+                            <div class="footer-contact">
+                                <ul>
+                                    <li class="address">
+                                        <div class="contact-icon">
+                                            <i class="icon-location-bold"></i>
+                                        </div>
+                                        <div class="contact-text">
+                                            <p>Gauteng, Sandton</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="contact-icon">
+                                            <i class="fa-regular fa-envelope"></i>
+                                        </div>
+                                        <div class="contact-text">
+                                            <a href="mailto: hello@example.com">cep@yowza.com</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="contact-icon">
+                                            <i class="icon-phone"></i>
+                                        </div>
+                                        <div class="contact-text">
+                                            <a href="tel: + 123 456 7890">+ 123 456 7890</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-bottom-border"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="copyright-text">
+                        <p>Copyright ©2024  Powered by Siyakha. All Rights Reserved</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div id="donik_donate_link_widget-1" class="footer-bottom-widget widget_donik_donate_link_widget">
+                        <div class="footer-bottom-menu">
+                            <ul class="p-0">
+                                <li>Ways to reach us</li>
+                            </ul>
+                            <div class="card-wrapper">
+                                <a href="https://www.paypal.com/"><img src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/paypal.jpg" alt="card"></a>
+                                <a href="https://www.apple.com/apple-pay/"><img src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/apple-pay.jpg" alt="card"></a>
+                                <a href="https://bd.visa.com/"><img src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/visa.jpg" alt="card"></a>
+                                <a href="https://www.mastercard.us/"><img src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/master.jpg" alt="card"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
-                       <div class="col-lg-4 col-md-6 col-sm-12">
-                           <div id="donik_contact_info_widget-1" class="footer-widget mb-30 widget_donik_contact_info_widget"><h2 class="footer-widget-title"> 
-                   Contact Us                </h2>            
-
-           <div class="footer-widget-contact">
-               <div class="footer-contact">
-                   <ul>
-                                                   <li class="address">
-                               <div class="contact-icon">
-                                   <i class="icon-location-bold "></i>
-                               </div>
-                               <div class="contact-text">
-                                   <p>Gauteng, Sandton</p>
-                               </div>
-                           </li>
-                           
-
-                                                   <li>
-                               <div class="contact-icon">
-                                   <i class="fa-regular fa-envelope"></i>
-                               </div>
-                               <div class="contact-text">
-                                   <a href="mailto: hello@example.com">cep@yowza.com</a>
-                               </div>
-                           </li>
-                                                                           <li>
-                               <div class="contact-icon">
-                                   <i class="icon-phone "></i>
-                               </div>
-                               <div class="contact-text">
-                                   <a href="tel: + 123 456 7890">+ 123 456 7890</a>
-                               </div>
-                           </li>
-                                           </ul>
-               </div>
-           </div>
-           </div>  
-                               </div>
-                   </div>
-                   <div class="row">
-                       <div class="col-12">
-                           <div class="footer-bottom-border"></div>
-                       </div>
-                   </div>
-               </div>
-           </div>
-       
-       <div class="footer-bottom-area">
-           <div class="container">
-               <div class="row align-items-center">
-                                   <div class="col-lg-6">
-                       <div class="copyright-text">
-                           <p>Copyright ©2024  Powered by Siyakha
-                            . All Rights Reserved</p>
-                       </div>
-                   </div>
-                   <div class="col-lg-6">
-                       <div id="donik_donate_link_widget-1" class="footer-bottom-widget widget_donik_donate_link_widget">
-           <div class="footer-bottom-menu">
-                               <ul class="p-0">
-                   <li>Ways to reach us</li>
-               </ul>
-               
-               <div class="card-wrapper">
-                                                   <a href="https://www.paypal.com/"><img src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/paypal.jpg" alt="card"></a>
-                                                           <a href="https://www.apple.com/apple-pay/"><img src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/apple-pay.jpg" alt="card"></a>
-                                                           <a href="https://bd.visa.com/"><img src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/visa.jpg" alt="card"></a>
-                                                            <a href="https://www.mastercard.us/"><img src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/master.jpg" alt="card"></a>
-                                               
-               </div>
-           </div>
-
-           </div>  
-                           </div>
-               </div>
-                   
-           </div>
-       </div>
-   </footer>
-
-       <script>
-       ( function ( body ) {
-           'use strict';
-           body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
-       } )( document.body );
-       </script>
-       <script>(function() {function maybePrefixUrlField () {
- const value = this.value.trim()
- if (value !== '' && value.indexOf('http') !== 0) {
-   this.value = 'http://' + value
- }
-}
-
-const urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]')
-for (let j = 0; j < urlFields.length; j++) {
- urlFields[j].addEventListener('blur', maybePrefixUrlField)
-}
-})();</script>    <div id="scrollTop" class="scrollup-wrapper" style="display: none;">
-       <div class="scrollup-btn">
-           <i class="fa-regular fa-angle-up"></i>
-       </div>
+<script>
+   (function (body) {
+       'use strict';
+       body.className = body.className.replace(/\btribe-no-js\b/, 'tribe-js');
+   })(document.body);
+</script>
+<div id="scrollTop" class="scrollup-wrapper" style="display: none;">
+   <div class="scrollup-btn">
+       <i class="fa-regular fa-angle-up"></i>
    </div>
-   <script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"},"registration_prompt":"There is unsaved attendee information. Are you sure you want to continue?"};/* ]]> */ </script><script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.4" id="swv-js"></script>
-<script type="text/javascript" id="contact-form-7-js-extra">
-/* <![CDATA[ */
-var wpcf7 = {"api":{"root":"https:\/\/donikdemo.boomdevstheme.com\/wp-json\/","namespace":"contact-form-7\/v1"}};
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.4" id="contact-form-7-js"></script>
-<script type="text/javascript" id="give-donation-summary-script-frontend-js-extra">
-/* <![CDATA[ */
-var GiveDonationSummaryData = {"currencyPrecisionLookup":{"USD":2,"EUR":2,"GBP":2,"AUD":2,"BRL":2,"CAD":2,"CZK":2,"DKK":2,"HKD":2,"HUF":2,"ILS":2,"JPY":0,"MYR":2,"MXN":2,"MAD":2,"NZD":2,"NOK":2,"PHP":2,"PLN":2,"SGD":2,"KRW":0,"ZAR":2,"SEK":2,"CHF":2,"TWD":2,"THB":2,"INR":2,"TRY":2,"IRR":2,"RUB":2,"AED":2,"AMD":2,"ANG":2,"ARS":2,"AWG":2,"BAM":2,"BDT":2,"BHD":3,"BMD":2,"BND":2,"BOB":2,"BSD":2,"BWP":2,"BZD":2,"CLP":0,"CNY":2,"COP":2,"CRC":2,"CUC":2,"CUP":2,"DOP":2,"EGP":2,"GIP":2,"GTQ":2,"HNL":2,"HRK":2,"IDR":2,"ISK":0,"JMD":2,"JOD":2,"KES":2,"KWD":2,"KYD":2,"MKD":2,"NPR":2,"OMR":3,"PEN":2,"PKR":2,"RON":2,"SAR":2,"SZL":2,"TOP":2,"TZS":2,"UAH":2,"UYU":2,"VEF":2,"XCD":2,"AFN":2,"ALL":2,"AOA":2,"AZN":2,"BBD":2,"BGN":2,"BIF":0,"XBT":8,"BTN":1,"BYR":2,"BYN":2,"CDF":2,"CVE":2,"DJF":0,"DZD":2,"ERN":2,"ETB":2,"FJD":2,"FKP":2,"GEL":2,"GGP":2,"GHS":2,"GMD":2,"GNF":0,"GYD":2,"HTG":2,"IMP":2,"IQD":2,"IRT":2,"JEP":2,"KGS":2,"KHR":0,"KMF":2,"KPW":0,"KZT":2,"LAK":0,"LBP":2,"LKR":0,"LRD":2,"LSL":2,"LYD":3,"MDL":2,"MGA":0,"MMK":2,"MNT":2,"MOP":2,"MRO":2,"MUR":2,"MVR":1,"MWK":2,"MZN":0,"NAD":2,"NGN":2,"NIO":2,"PAB":2,"PGK":2,"PRB":2,"PYG":2,"QAR":2,"RSD":2,"RWF":2,"SBD":2,"SCR":2,"SDG":2,"SHP":2,"SLL":2,"SOS":2,"SRD":2,"SSP":2,"STD":2,"SYP":2,"TJS":2,"TMT":2,"TND":3,"TTD":2,"UGX":2,"UZS":2,"VND":1,"VUV":0,"WST":2,"XAF":2,"XOF":2,"XPF":2,"YER":2,"ZMW":2},"recurringLabelLookup":[]};
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/plugins/give/assets/dist/js/give-donation-summary.js?ver=3.8.0" id="give-donation-summary-script-frontend-js"></script>
+</div>
 <script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/js/bootstrap.min.js?ver=6.6.1" id="bootstrap-js"></script>
-<script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/js/jquery.nice-select.min.js?ver=6.6.1" id="jquery.nice-select-js"></script>
-<script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
-<script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/js/slick.min.js?ver=6.6.1" id="slick-js"></script>
-<script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/js/jquery.counterup.min.js?ver=6.6.1" id="jquery.counterup-js"></script>
-<script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/js/waypoints.min.js?ver=6.6.1" id="waypoints-js"></script>
-<script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/js/TweenMax.min.js?ver=6.6.1" id="TweenMax-js"></script>
-<script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/js/jquery.meanmenu.min.js?ver=6.6.1" id="jquery.meanmenu-js"></script>
 <script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/js/jquery.scrollUp.min.js?ver=6.6.1" id="jquery.scrollUp-js"></script>
-<script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/js/jquery.magnific-popup.min.js?ver=6.6.1" id="jquery.magnific-popup-js"></script>
-<script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/js/inview.min.js?ver=6.6.1" id="inview-js"></script>
-<script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/js/wow.min.js?ver=6.6.1" id="wow-js"></script>
-<script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/js/jquery-parallax.min.js?ver=6.6.1" id="jquery-parallax-js"></script>
-<script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/js/tilt.jquery.min.js?ver=6.6.1" id="tilt.jquery-js"></script>
-<script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/js/plugins.js?ver=6.6.1" id="donik-plugins-js"></script>
 <script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/js/custom.js?ver=1.0.1" id="donik-main-js"></script>
-<script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/plugins/donik-elementor/assets/js/donik-elementor.js?ver=1.0.0" id="donik-elementor-js"></script>
-<script type="text/javascript" defer="" src="https://donikdemo.boomdevstheme.com/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.9.11" id="mc4wp-forms-api-js"></script>
-<script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.21.1" id="elementor-webpack-runtime-js"></script>
-<script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.21.1" id="elementor-frontend-modules-js"></script>
-<script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
-<script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
-<script type="text/javascript" id="elementor-frontend-js-before">
-/* <![CDATA[ */
-var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":992,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":991,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1024,"default_value":1200,"direction":"max","is_enabled":true},"laptop":{"label":"Laptop","value":1280,"default_value":1366,"direction":"max","is_enabled":true},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.21.1","is_static":false,"experimentalFeatures":{"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"e_swiper_latest":true,"container_grid":true,"home_screen":true,"ai-layout":true,"landing-pages":true},"urls":{"assets":"https:\/\/donikdemo.boomdevstheme.com\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet","viewport_tablet_extra","viewport_laptop"],"viewport_tablet":991,"viewport_tablet_extra":1024,"viewport_laptop":1280,"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":4407,"title":"Home%203%20%E2%80%93%20Donik","excerpt":"","featuredImage":false}};
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.21.1" id="elementor-frontend-js"></script><span id="elementor-device-mode" class="elementor-screen-only"></span>
-   
+<style type="text/css">.typewrite > .wrap { border-right: 0.08em solid #FFFFFF}</style>
 
-<style type="text/css">.typewrite > .wrap { border-right: 0.08em solid #FFFFFF}</style></body>
+</body>
