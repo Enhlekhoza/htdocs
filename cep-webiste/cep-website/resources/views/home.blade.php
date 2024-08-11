@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="profile" href="https://gmpg.org/xfn/11">
-        <title>Home 3 &#8211;CEP</title>
+        <title>CEP</title>
         <meta name='robots' content='noindex, nofollow'/>
         <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
         <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin/>
@@ -22,7 +22,7 @@
                     "concatemoji": "https:\/\/donikdemo.boomdevstheme.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.1"
                 }
             };
-            /*! This file is auto-generated */
+            
             !function(i, n) {
                 var o, s, e;
                 function c(e) {
@@ -168,7 +168,7 @@
             }
         </style>
         <style id='classic-theme-styles-inline-css' type='text/css'>
-            /*! This file is auto-generated */
+            
             .wp-block-button__link {
                 color: #fff;
                 background-color: #32373c;
@@ -597,60 +597,7 @@
             });
             /* ]]> */
         </script>
-        <script type="text/javascript" id="give-js-extra">
-            /* <![CDATA[ */
-            var give_global_vars = {
-                "ajaxurl": "https:\/\/donikdemo.boomdevstheme.com\/wp-admin\/admin-ajax.php",
-                "checkout_nonce": "67b4be32d6",
-                "currency": "USD",
-                "currency_sign": "$",
-                "currency_pos": "before",
-                "thousands_separator": ",",
-                "decimal_separator": ".",
-                "no_gateway": "Please select a payment method.",
-                "bad_minimum": "The minimum custom donation amount for this form is",
-                "bad_maximum": "The maximum custom donation amount for this form is",
-                "general_loading": "Loading...",
-                "purchase_loading": "Please Wait...",
-                "textForOverlayScreen": "<h3>Processing...<\/h3><p>This will only take a second!<\/p>",
-                "number_decimals": "0",
-                "is_test_mode": "",
-                "give_version": "3.8.0",
-                "magnific_options": {
-                    "main_class": "give-modal",
-                    "close_on_bg_click": false
-                },
-                "form_translation": {
-                    "payment-mode": "Please select payment mode.",
-                    "give_first": "Please enter your first name.",
-                    "give_last": "Please enter your last name.",
-                    "give_email": "Please enter a valid email address.",
-                    "give_user_login": "Invalid email address or username.",
-                    "give_user_pass": "Enter a password.",
-                    "give_user_pass_confirm": "Enter the password confirmation.",
-                    "give_agree_to_terms": "You must agree to the terms and conditions."
-                },
-                "confirm_email_sent_message": "Please check your email and click on the link to access your complete donation history.",
-                "ajax_vars": {
-                    "ajaxurl": "https:\/\/donikdemo.boomdevstheme.com\/wp-admin\/admin-ajax.php",
-                    "ajaxNonce": "a52fe5a79f",
-                    "loading": "Loading",
-                    "select_option": "Please select an option",
-                    "default_gateway": "manual",
-                    "permalinks": "1",
-                    "number_decimals": 0
-                },
-                "cookie_hash": "ef2cfc1d07f79f86a280f9c67d02b2c8",
-                "session_nonce_cookie_name": "wp-give_session_reset_nonce_ef2cfc1d07f79f86a280f9c67d02b2c8",
-                "session_cookie_name": "wp-give_session_ef2cfc1d07f79f86a280f9c67d02b2c8",
-                "delete_session_nonce_cookie": "0"
-            };
-            var giveApiSettings = {
-                "root": "https:\/\/donikdemo.boomdevstheme.com\/wp-json\/give-api\/v2\/",
-                "rest_base": "give-api\/v2"
-            };
-            /* ]]> */
-        </script>
+        
         <script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/plugins/give/assets/dist/js/give.js?ver=45021738ab584c0b" id="give-js"></script>
         <script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/plugins/unlimited-elementor-inner-sections-by-boomdevs/public/js/euis-public.js?ver=1.0.6" id="euis-js"></script>
         <script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/js/jquery.min.js?ver=1" id="donik-jquery-js-js"></script>
@@ -812,158 +759,6 @@
                 padding-left: 32px;
             }
 
-            .single-donor-page .donor-profile .donate-amount p {
-                font-family: "PT Sans";
-                line-height: 30px;
-                font-weight: 400;
-                font-style: normal;
-                color: #5E5E5E;
-                font-size: 18px;
-            }
-
-            .single-donor-page .donor-profile .donate-amount h5 {
-                font-family: "Plus Jakarta Sans";
-                line-height: 30px;
-                font-weight: 600;
-                font-style: normal;
-                color: #121212;
-                font-size: 22px;
-            }
-
-            .single-donor-page .section-title .title {
-                font-family: "Plus Jakarta Sans";
-                line-height: 51px;
-                font-weight: 700;
-                font-style: normal;
-                color: #121212;
-                font-size: 51px;
-            }
-
-            .single-donor-page .donor-profile-wrapper .section-title p {
-                font-family: "PT Sans";
-                line-height: 30px;
-                font-weight: 400;
-                font-style: normal;
-                color: #5E5E5E;
-                font-size: 18px;
-            }
-
-            .single-donor-page .donor-info-wrapper .single-info .info-inner h4 {
-                font-family: "Plus Jakarta Sans";
-                line-height: 28px;
-                font-weight: 700;
-                font-style: normal;
-                color: #020a27;
-                font-size: 28px;
-            }
-
-            .single-donor-page .donor-info-wrapper .single-info .title {
-                font-family: "Plus Jakarta Sans";
-                line-height: 30px;
-                font-weight: 500;
-                font-style: normal;
-                color: #020a27;
-                font-size: 18px;
-            }
-
-            .single-donor-page .donor-info-wrapper .single-info {
-                background-color: #ffffff;
-            }
-
-            .donors_slider_header_wrapper h3 {
-                font-family: "Plus Jakarta Sans";
-                line-height: 38px;
-                font-weight: 700;
-                font-style: normal;
-                color: #121212;
-                font-size: 38px;
-            }
-
-            .donors_slider_header_wrapper .theme-btn {
-                font-family: "Plus Jakarta Sans";
-                line-height: 30px;
-                font-weight: 500;
-                font-style: normal;
-                color: #121212;
-                font-size: 18px;
-            }
-
-            .donors_slider_header_wrapper .theme-btn:hover {
-                color: #ffffff;
-            }
-
-            .donors_slider_header_wrapper .theme-btn {
-                background-color: #FFE144;
-            }
-
-            .donors_slider_header_wrapper .theme-btn:hover {
-                background-color: #ffffff;
-            }
-
-            .donors_slider_header_wrapper .theme-btn span {
-                background-color: #ffffff;
-            }
-
-            .donors_slider_header_wrapper .theme-btn:hover span {
-                background-color: #FF4638;
-            }
-
-            .single-volunteer-page .team-member-card .content-wrapper .content .title {
-                font-family: "Plus Jakarta Sans";
-                line-height: 22px;
-                font-weight: 600;
-                font-style: normal;
-                color: #121212;
-                font-size: 22px;
-            }
-
-            .single-volunteer-page .team-member-card .content-wrapper .content p {
-                font-family: "PT Sans";
-                line-height: 30px;
-                font-weight: 400;
-                font-style: normal;
-                color: #121212;
-                font-size: 18px;
-            }
-
-            .single-volunteer-page .social-profile-link .social i {
-                color: #111111;
-            }
-
-            .single-volunteer-page .social-profile-link {
-                background-color: #FFE144;
-            }
-
-            .single-donor-page .section-title .title {
-                font-family: "Plus Jakarta Sans";
-                line-height: 51px;
-                font-weight: 700;
-                font-style: normal;
-                color: #121212;
-                font-size: 51px;
-            }
-
-            .single-donor-page .donor-profile-wrapper .section-title p {
-                font-family: "PT Sans";
-                line-height: 30px;
-                font-weight: 400;
-                font-style: normal;
-                color: #5E5E5E;
-                font-size: 18px;
-            }
-
-            .single-volunteer-page .desc-icon-wrapper .single-desc-info .icon i {
-                color: #FF4638;
-            }
-
-            .single-volunteer-page .desc-icon-wrapper .single-desc-info span {
-                font-family: "Plus Jakarta Sans";
-                line-height: 22px;
-                font-weight: 600;
-                font-style: normal;
-                color: #111111;
-                font-size: 22px;
-            }
 
             p, p.desc, p.title {
                 font-family: "PT Sans";
@@ -1027,52 +822,6 @@
                 font-weight: 500;
                 font-style: normal;
                 font-size: 16px;
-            }
-
-            .error404 .blog-area {
-                padding-top: 120px;
-                padding-right: 0px;
-                padding-bottom: 120px;
-                padding-left: 0px;
-            }
-
-            .error-btn-bh a.theme-btn {
-                font-family: "Plus Jakarta Sans";
-                line-height: 31px;
-                font-weight: 500;
-                font-style: normal;
-                font-size: 18px;
-            }
-
-            .error-404-title, .error-title {
-                color: #121212;
-            }
-
-            .error-text span {
-                color: #5E5E5E;
-            }
-
-            .error-btn-bh a.theme-btn {
-                color: #121212;
-            }
-
-            .error-btn-bh a.theme-btn:hover {
-                color: #ffffff;
-            }
-
-            .error-btn-bh a.theme-btn {
-                background-color: #FFE144;
-            }
-
-            .error-btn-bh a.theme-btn:hover {
-                background-color: #FF4638;
-            }
-
-            .error-btn-bh a.theme-btn {
-                padding-top: 16px;
-                padding-right: 32px;
-                padding-bottom: 16px;
-                padding-left: 32px;
             }
 
             .newsletter-area.style-1 .subscribe-form .section-title .short-title {
@@ -1216,117 +965,80 @@
         </style>
     </head>
     <body>
-        <!-- Header Start !-->
-        <header class="header-area style-1 style-3">
-            <div class="header-menu-area sticky-header">
-                <div class="container p-md-0">
-                    <div class="header-menu-area-inner">
-                        <div class="row">
-                            <div class="col-xl-3 col-lg-3 col-md-6 col-6 d-flex align-items-center p-md-0">
-                                <div class="logo">
-                                    <a class="standard-logo" href="https://donikdemo.boomdevstheme.com/">
-                                        <img src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/logo4-1-1-1.png" alt="logo"/>
-                                    </a>
-                                    <a class="sticky-logo" href="https://donikdemo.boomdevstheme.com/">
-                                        <img src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/logo/logo.png" alt=" Sticky Logo">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-xl-9 col-lg-9 col-md-6 col-6 d-flex align-items-center justify-content-between p-0">
-                                <div class="menu d-inline-block">
-                                    <nav id="main-menu" class="main-menu">
-                                        <ul id="menu-main-menu" class="">
-                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1968" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children dropdown active menu-item-1968 nav-item">
-                                                <a title="Home" href="#" class="nav-link-menu">Home</a>
-                                            </li>
-                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1320 nav-item">
-                                                <a title="Get In Touch" href="https://donikdemo.boomdevstheme.com/about-us/" class="nav-link-menu">Get In Touch</a>
-                                            </li>
-                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1969" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-1969 nav-item">
-                                                <a title="Sign In" href="#" class="nav-link-menu">Sign In</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1977" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-1977 nav-item">
-                                                <a title="Pages" href="#" class="nav-link-menu">Register</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                    </nav>
-                                </div>
-                                <!-- Header Button Start !-->
-                                <a href="#" class="header-btn bubble">Register Now                               </a>
-                                <!-- Header Button Start !-->
-                                <!-- Mobile Menu Toggle Button Start !-->
-                                <div class="mobile-menu-bar  text-end">
-                                    <a href="#" class="mobile-menu-toggle-btn">
-                                        <i class="fal fa-bars"></i>
-                                    </a>
-                                </div>
-                                <!-- Mobile Menu Toggle Button End !-->
-                            </div>
+      <!-- Header Start -->
+<header class="header-area style-1 style-3">
+    <div class="header-menu-area sticky-header">
+        <div class="container p-md-0">
+            <div class="header-menu-area-inner">
+                <div class="row align-items-center">
+                    <!-- Logo Section -->
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-6">
+                        <div class="logo">
+                            <a href="https://donikdemo.boomdevstheme.com/">
+                                <img src="https://cep.yowza.co.za/images/community-engagement-platform_-logo_v4-1.png" alt="logo" class="standard-logo img-fluid" style="width: 120px;" />
+                                <img src="https://cep.yowza.co.za/images/community-engagement-platform_-logo_v4-1.png" alt="Sticky Logo" class="sticky-logo img-fluid" style="width: 120px;">
+                            </a>
                         </div>
                     </div>
-                </div>
-            </div>
-        </header>
-        <!-- Header End !-->
-        <!-- Menu Sidebar Section Start -->
-        <div class="menu-sidebar-area">
-            <div class="menu-sidebar-wrapper">
-                <div class="menu-sidebar-close">
-                    <button class="menu-sidebar-close-btn" id="menu_sidebar_close_btn">
-                        <i class="fal fa-times"></i>
-                    </button>
-                </div>
-                <div class="menu-sidebar-content">
-                    <div class="menu-sidebar-logo">
-                        <a href="https://donikdemo.boomdevstheme.com">
-                            <img src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/logo/logo.png" alt="logo"/>
-                        </a>
+                    
+                    <!-- Navigation Menu -->
+                    <div class="col-xl-9 col-lg-9 col-md-6 col-6 d-flex justify-content-end align-items-center">
+                        <nav id="main-menu" class="main-menu d-none d-lg-block">
+                            <ul class="nav">
+                                <li class="nav-item">
+                                    <a title="Home" href="#" class="nav-link">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a title="Get In Touch" href="#" class="nav-link">Get In Touch</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a title="Sign In" href="#" class="nav-link">Sign In</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a title="Register" href="#" class="nav-link">Register</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <!-- Mobile Menu Toggle Button -->
+                        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
                     </div>
-                    <div class="mobile-nav-menu"></div>
-                    <div class="menu-sidebar-content">
-                        <div class="menu-sidebar-single-widget">
-                            <h5 class="menu-sidebar-title">Contact Info</h5>
-                            <div class="header-contact-info">
-                                <span>
-                                    <i class="fa-solid fa-location-dot"></i>
-                                    20, Sandton, Gauteng, South Africa
-                                </span>
-                                <span>
-                                    <a href="mailto: ">
-                                        <i class="fa-solid fa-envelope"></i>
-                                        cep@yowza.com
-                                    </a>
-                                </span>
-                                <span>
-                                    <a href="tel:+123-456-7890">
-                                        <i class="fa-solid fa-phone"></i>
-                                        +123-456-7890
-                                    </a>
-                                </span>
-                            </div>
-                            <div class="social-profile">
-                                <a href="#">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fa-brands fa-youtube"></i>
-                                </a>
-                            </div>
+                </div>
+                
+                <!-- Mobile Menu -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="collapse" id="mobile-menu">
+                            <nav id="mobile-menu-nav" class="mobile-menu">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a title="Home" href="#" class="nav-link">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a title="Get In Touch" href="#" class="nav-link">Get In Touch</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a title="Sign In" href="#" class="nav-link">Sign In</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a title="Register" href="#" class="nav-link">Register</a>
+                                    </li>
+                                </ul>
+                            </nav>
                         </div>
+    
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</header>
+<!-- Header End -->
+        <!-- Header End !-->
         <!-- Menu Sidebar Section Start -->
+
         <div class="body-overlay"></div>
         <div data-elementor-type="wp-page" data-elementor-id="4407" class="elementor elementor-4407">
             <section class="elementor-section elementor-top-section elementor-element elementor-element-f8408fa elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="f8408fa" data-element_type="section">
@@ -1387,7 +1099,7 @@
                                                             <div class="col-lg-6 align-self-center order-2 order-md-1">
                                                                 <div class="slider-content-wrapper">
                                                                     <div class="slider-content">
-                                                                        <span class="slider-short-title">How you could help!!</span>
+                                                                        <span class="slider-short-title">Community Engagement Platform</span>
                                                                         <h1 class="slider-title">
                                                                             <span>
                                                                                 Your voice,<br>
@@ -1418,14 +1130,14 @@
                                                             <div class="col-lg-6 align-self-center order-2 order-md-1">
                                                                 <div class="slider-content-wrapper">
                                                                     <div class="slider-content">
-                                                                        <span class="slider-short-title">How you could help!!</span>
+                                                                        <span class="slider-short-title">Community Engagement Platform</span>
                                                                         <h1 class="slider-title">
                                                                             <span>The greatest</span>
                                                                             gift is the gift of kindness                                                        
                                                                         </h1>
                                                                         <div class="slider-btn-wrapper">
-                                                                            <a href="#" target="_self" class="theme-btn style-1 bubble">Learn More</a>
-                                                                            <a href="#" target="_self" class="theme-btn style-2 bubble">Donate Now</a>
+                                                                            <a href="#" target="_self" class="theme-btn style-1 bubble">Offerings</a>
+                                                                            <a href="#" target="_self" class="theme-btn style-2 bubble">Register</a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -1447,7 +1159,7 @@
                                                             <div class="col-lg-6 align-self-center order-2 order-md-1">
                                                                 <div class="slider-content-wrapper">
                                                                     <div class="slider-content">
-                                                                        <span class="slider-short-title">How you could help!!</span>
+                                                                        <span class="slider-short-title">Community Engagement Platform</span>
                                                                         <h1 class="slider-title">
                                                                             <span>Together we are the </span>
                                                                             heartbeat of humanity                                                        
@@ -1499,13 +1211,11 @@
                                             <div class="elementor-element elementor-element-b9665c6 elementor-widget__width-initial elementor-align-left elementor-widget elementor-widget-donik-header" data-id="b9665c6" data-element_type="widget" data-widget_type="donik-header.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="section-title">
-                                                        <span class="short-title">About us</span>
+                                                        <span class="short-title">Who is Siyakha</span>
                                                         <h2 class="title">Your voice, platform and opportunity to connect</h2>
-                                                        <p class="desc">Siyakha is the development partner behind the Community Engagement Platform, driving growth and development and ensuring sustainability within each of these communities.​​
-
-                                                            In our experience over the last 25 years, we have engaged with communities and implemented projects in rural and informal markets, which have taught us that if we focus on skills transfer and building capability, then we can legitimately move communities out of a developmental state and into a state of growth​. .
-
-</p>
+                                                        <p class="desc">Siyakha is the development partner behind the Community Engagement Platform, driving growth and development and ensuring sustainability within each of these communities.​</p>
+                                                        
+                                                        <p class="desc">In our experience over the last 25 years, we have engaged with communities and implemented projects in rural and informal markets, which have taught us that if we focus on skills transfer and building capability, then we can legitimately move communities out of a developmental state and into a state of growth​.</p>                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -1582,7 +1292,7 @@
                                                                                             <path id="circle" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0"/>
                                                                                         </defs>
                                                                                         <text font-size="10" letter-spacing="1.4">
-                                                                                            <textPath href="#circle">☆   E  N  G  A  G  E  ☆  E N  G  A G  E </textPath>
+                                                                                            <textPath href="#circle">☆   E  N  G  A  G  E  ☆  E N  G  A G  E  ☆ E  N  G  A  G  E </textPath>
                                                                                         </text>
                                                                                     </svg>
                                                                                 </div>
@@ -1913,390 +1623,298 @@
                     </div>
                 </div>
             </section>
-            <section class="elementor-section elementor-top-section elementor-element elementor-element-2e5b3fa elementor-section-full_width causes-area style-1 elementor-section-height-default elementor-section-height-default" data-id="2e5b3fa" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                <div class="elementor-container elementor-column-gap-no">
-                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2a2a85a" data-id="2a2a85a" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
-                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-2f508e5 container elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2f508e5" data-element_type="section">
-                                <div class="elementor-container elementor-column-gap-default">
-                                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-573682a causes-title" data-id="573682a" data-element_type="column">
+                            <section class="elementor-section elementor-top-section elementor-element elementor-element-2e5b3fa elementor-section-full_width causes-area style-1 elementor-section-height-default elementor-section-height-default" data-id="2e5b3fa" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                <div class="elementor-container elementor-column-gap-no">
+                                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2a2a85a" data-id="2a2a85a" data-element_type="column">
                                         <div class="elementor-widget-wrap elementor-element-populated">
-                                            <div class="elementor-element elementor-element-7c19a80 elementor-mobile-align-left elementor-widget-tablet__width-initial elementor-align-left elementor-widget elementor-widget-donik-header" data-id="7c19a80" data-element_type="widget" data-widget_type="donik-header.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="section-title">
-                                                        <span class="short-title">Platform Offerings</span>
-                                                        <h2 class="title">Let’s know about your Offerings on Communities</h2>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3f7d102" data-id="3f7d102" data-element_type="column">
-                                        <div class="elementor-widget-wrap elementor-element-populated">
-                                            <div class="elementor-element elementor-element-de432b3 elementor-align-right elementor-mobile-align-left elementor-widget elementor-widget-donik-button" data-id="de432b3" data-element_type="widget" data-widget_type="donik-button.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="theme-btn-wrapper">
-                                                        <a href="https://donikdemo.boomdevstheme.com/causes/" target="_blank" class="theme-btn style-6 bubble">More Causes</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-119e1de elementor-absolute feature-shape-2 elementor-hidden-tablet elementor-hidden-mobile elementor-hidden-laptop elementor-hidden-tablet_extra elementor-widget elementor-widget-image" data-id="119e1de" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
-                                                <div class="elementor-widget-container">
-                                                    <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/elementor/thumbs/heart-2-white-1-qfocos5begehleo0lywyvd1w4zpt14w7w5yx56bo5u.png" title="heart-2-white" alt="heart-2-white" loading="lazy"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-cf7f7a0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cf7f7a0" data-element_type="section">
-                                <div class="elementor-container elementor-column-gap-default">
-                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-f179725" data-id="f179725" data-element_type="column">
-                                        <div class="elementor-widget-wrap elementor-element-populated">
-                                            <div class="elementor-element elementor-element-6939f0a elementor-widget elementor-widget-donik-donation-post" data-id="6939f0a" data-element_type="widget" data-widget_type="donik-donation-post.default">
-                                                <div class="elementor-widget-container">
-                                                    <!-- Causes Area Start -->
-                                                    <div class="causes-area style-3" id="causes-area">
-                                                        <div class="container">
-                                                            <!-- Causes Slider Area Start -->
-                                                            <div class="causes-slider-area style-3">
-                                                                <div class="causes-slider" id="donation-slider-6939f0a" data-autoplay="true" data-autoplay-speed="3000" data-slide-speed="1500" data-slides-show-desktop="3" data-slides-show-tablet="2" data-slides-show-mobile="1" data-slides-scroll="1" data-loop="true" data-dots="false" data-arrows="false" data-swipe-slide="true" data-pause-hover="true">
-                                                                    <!-- Single Causes Card Start -->
-                                                                    <div class="causes-card-2">
-                                                                        <div class="image-wrapper">
-                                                                            <a href="https://donikdemo.boomdevstheme.com/donations/give-food-support-for-every-rural-homeless-poor-children/">
-                                                                                <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/10/Give-food-support-for-every-rural-homeless-poor-chi-scaled.jpg" alt="Give food support for every rural homeless poor children">
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="content">
-                                                                            <p class="theme-btn style-1">Community News</p>
-                                                                            <h3 class="title">
-                                                                                <a href="https://donikdemo.boomdevstheme.com/donations/give-food-support-for-every-rural-homeless-poor-children/">Give food support for every rural homeless poor children</a>
-                                                                            </h3>
-                                                                            <p class="decs">Lorem ipsum dolor sit amet consectetur quis est ultrices ultrices aget info</p>
-                                                                        </div>
-                                                                        <div class="skill-progressbar">
-                                                                            <div class="skill-progressbar">
-                                                                                <div class="progress-inner" data-percentage="62.16%">
-                                                                                    <div class="progress-content-outter">
-                                                                                        <div class="progress-content"></div>
-                                                                                    </div>
-                                                                                    <div class="progress-inner-item">
-                                                                                        <div class="goals">
-                                                                                            <p class="title">Goals</p>
-                                                                                            <p class="price">&#36;82000</p>
-                                                                                        </div>
-                                                                                        <span class="progress-number-count">
-                                                                                            <span class="progress-percent"></span>
-                                                                                        </span>
-                                                                                        <div class="raised">
-                                                                                            <p class="title">Raised</p>
-                                                                                            <p class="price">&#36;50975</p>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <!-- Single Causes Card End -->
-                                                                    <!-- Single Causes Card Start -->
-                                                                    <div class="causes-card-2">
-                                                                        <div class="image-wrapper">
-                                                                            <a href="https://donikdemo.boomdevstheme.com/donations/donation-form-4-2/">
-                                                                                <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/10/Need-Education-support-for-rural-homeless-poor-childre-scaled.jpg" alt="Need education support for rural homeless poor children">
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="content">
-                                                                            <p class="theme-btn style-1">Security Alerts</p>
-                                                                            <h3 class="title">
-                                                                                <a href="https://donikdemo.boomdevstheme.com/donations/donation-form-4-2/">Need education support for rural homeless poor children</a>
-                                                                            </h3>
-                                                                            <p class="decs">Lorem ipsum dolor sit amet consectetur quis est ultrices ultrices aget info</p>
-                                                                        </div>
-                                                                        <div class="skill-progressbar">
-                                                                            <div class="skill-progressbar">
-                                                                                <div class="progress-inner" data-percentage="55.74%">
-                                                                                    <div class="progress-content-outter">
-                                                                                        <div class="progress-content"></div>
-                                                                                    </div>
-                                                                                    <div class="progress-inner-item">
-                                                                                        <div class="goals">
-                                                                                            <p class="title">Goals</p>
-                                                                                            <p class="price">&#36;82000</p>
-                                                                                        </div>
-                                                                                        <span class="progress-number-count">
-                                                                                            <span class="progress-percent"></span>
-                                                                                        </span>
-                                                                                        <div class="raised">
-                                                                                            <p class="title">Raised</p>
-                                                                                            <p class="price">&#36;45706</p>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <!-- Single Causes Card End -->
-                                                                    <!-- Single Causes Card Start -->
-                                                                    <div class="causes-card-2">
-                                                                        <div class="image-wrapper">
-                                                                            <a href="https://donikdemo.boomdevstheme.com/donations/give-pure-water-support-for-every-rural-poor-children/">
-                                                                                <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/10/Pure-Water-scaled.jpg" alt="Give pure water support for every rural poor children">
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="content">
-                                                                            <p class="theme-btn style-1">Business Learning</p>
-                                                                            <h3 class="title">
-                                                                                <a href="https://donikdemo.boomdevstheme.com/donations/give-pure-water-support-for-every-rural-poor-children/">Give pure water support for every rural poor children</a>
-                                                                            </h3>
-                                                                            <p class="decs">Lorem ipsum dolor sit amet consectetur quis est ultrices ultrices aget info</p>
-                                                                        </div>
-                                                                        <div class="skill-progressbar">
-                                                                            <div class="skill-progressbar">
-                                                                                <div class="progress-inner" data-percentage="92.54%">
-                                                                                    <div class="progress-content-outter">
-                                                                                        <div class="progress-content"></div>
-                                                                                    </div>
-                                                                                    <div class="progress-inner-item">
-                                                                                        <div class="goals">
-                                                                                            <p class="title">Goals</p>
-                                                                                            <p class="price">&#36;82000</p>
-                                                                                        </div>
-                                                                                        <span class="progress-number-count">
-                                                                                            <span class="progress-percent"></span>
-                                                                                        </span>
-                                                                                        <div class="raised">
-                                                                                            <p class="title">Raised</p>
-                                                                                            <p class="price">&#36;75880</p>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <!-- Single Causes Card End -->
-                                                                    <!-- Single Causes Card Start -->
-                                                                    <div class="content">
-                                                                        <p class="theme-btn style-1">Emergency Contacts</p>
-                                                                        <h3 class="title">
-                                                                            <a href="https://donikdemo.boomdevstheme.com/donations/give-food-support-for-every-rural-homeless-poor-children/">Give food support for every rural homeless poor children</a>
-                                                                        </h3>
-                                                                        <p class="decs">Lorem ipsum dolor sit amet consectetur quis est ultrices ultrices aget info</p>
-                                                                    </div>
-                                                                    <div class="skill-progressbar">
-                                                                        <div class="skill-progressbar">
-                                                                            <div class="progress-inner" data-percentage="62.16%">
-                                                                                <div class="progress-content-outter">
-                                                                                    <div class="progress-content"></div>
-                                                                                </div>
-                                                                                <div class="progress-inner-item">
-                                                                                    <div class="goals">
-                                                                                        <p class="title">Goals</p>
-                                                                                        <p class="price">&#36;82000</p>
-                                                                                    </div>
-                                                                                    <span class="progress-number-count">
-                                                                                        <span class="progress-percent"></span>
-                                                                                    </span>
-                                                                                    <div class="raised">
-                                                                                        <p class="title">Raised</p>
-                                                                                        <p class="price">&#36;50975</p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <!-- Single Causes Card End -->
-                                                                <!-- Single Causes Card Start -->
-                                                                <div class="content">
-                                                                    <p class="theme-btn style-1">Health</p>
-                                                                    <h3 class="title">
-                                                                        <a href="https://donikdemo.boomdevstheme.com/donations/give-food-support-for-every-rural-homeless-poor-children/">Give food support for every rural homeless poor children</a>
-                                                                    </h3>
-                                                                    <p class="decs">Lorem ipsum dolor sit amet consectetur quis est ultrices ultrices aget info</p>
-                                                                </div>
-                                                                <div class="skill-progressbar">
-                                                                    <div class="skill-progressbar">
-                                                                        <div class="progress-inner" data-percentage="62.16%">
-                                                                            <div class="progress-content-outter">
-                                                                                <div class="progress-content"></div>
-                                                                            </div>
-                                                                            <div class="progress-inner-item">
-                                                                                <div class="goals">
-                                                                                    <p class="title">Goals</p>
-                                                                                    <p class="price">&#36;82000</p>
-                                                                                </div>
-                                                                                <span class="progress-number-count">
-                                                                                    <span class="progress-percent"></span>
-                                                                                </span>
-                                                                                <div class="raised">
-                                                                                    <p class="title">Raised</p>
-                                                                                    <p class="price">&#36;50975</p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
+                                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-2f508e5 container elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2f508e5" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-573682a causes-title" data-id="573682a" data-element_type="column">
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-element elementor-element-7c19a80 elementor-mobile-align-left elementor-widget-tablet__width-initial elementor-align-left elementor-widget elementor-widget-donik-header" data-id="7c19a80" data-element_type="widget" data-widget_type="donik-header.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <div class="section-title">
+                                                                        <span class="short-title">Platform Offerings</span>
+                                                                        <h2 class="title">Actively engage with local, district government and the private sector around the needs of each community.</h2>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <!-- Single Causes Card End -->
-                                                            <!-- Single Causes Card Start -->
-                                                             <div class="content">
-                                                                            <p class="theme-btn style-1">Education</p>
-                                                                            <h3 class="title">
-                                                                                <a href="https://donikdemo.boomdevstheme.com/donations/give-food-support-for-every-rural-homeless-poor-children/">Give food support for every rural homeless poor children</a>
-                                                                            </h3>
-                                                                            <p class="decs">Lorem ipsum dolor sit amet consectetur quis est ultrices ultrices aget info</p>
-                                                                        </div>
-                                                                        <div class="skill-progressbar">
-                                                                            <div class="skill-progressbar">
-                                                                                <div class="progress-inner" data-percentage="62.16%">
-                                                                                    <div class="progress-content-outter">
-                                                                                        <div class="progress-content"></div>
-                                                                                    </div>
-                                                                                    <div class="progress-inner-item">
-                                                                                        <div class="goals">
-                                                                                            <p class="title">Goals</p>
-                                                                                            <p class="price">&#36;82000</p>
-                                                                                        </div>
-                                                                                        <span class="progress-number-count">
-                                                                                            <span class="progress-percent"></span>
-                                                                                        </span>
-                                                                                        <div class="raised">
-                                                                                            <p class="title">Raised</p>
-                                                                                            <p class="price">&#36;50975</p>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <!-- Single Causes Card End -->
-                                                                    <!-- Single Causes Card Start -->
-                                                                    <div class="causes-card-2">
-                                                                        <div class="image-wrapper">
-                                                                            <a href="https://donikdemo.boomdevstheme.com/donations/donation-form-3/">
-                                                                                <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/10/Give-health-support-for-every-homeless-poor-children-1-scaled.jpg" alt="Give health support for every homeless poor children">
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="content">
-                                                                            <p class="theme-btn style-1">Marketplace</p>
-                                                                            <h3 class="title">
-                                                                                <a href="https://donikdemo.boomdevstheme.com/donations/donation-form-3/">Give health support for every homeless poor children</a>
-                                                                            </h3>
-                                                                            <p class="decs">Lorem ipsum dolor sit amet consectetur quis est ultrices ultrices aget info</p>
-                                                                        </div>
-                                                                        <div class="skill-progressbar">
-                                                                            <div class="skill-progressbar">
-                                                                                <div class="progress-inner" data-percentage="201.41%">
-                                                                                    <div class="progress-content-outter">
-                                                                                        <div class="progress-content"></div>
-                                                                                    </div>
-                                                                                    <div class="progress-inner-item">
-                                                                                        <div class="goals">
-                                                                                            <p class="title">Goals</p>
-                                                                                            <p class="price">&#36;82000</p>
-                                                                                        </div>
-                                                                                        <span class="progress-number-count">
-                                                                                            <span class="progress-percent"></span>
-                                                                                        </span>
-                                                                                        <div class="raised">
-                                                                                            <p class="title">Raised</p>
-                                                                                            <p class="price">&#36;165155</p>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <!-- Single Causes Card End -->
-                                                                    <!-- Single Causes Card Start -->
-                                                                    <div class="causes-card-2">
-                                                                        <div class="image-wrapper">
-                                                                            <a href="https://donikdemo.boomdevstheme.com/donations/donation-form-4/">
-                                                                                <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/10/Need-education-support-for-rural-homeless-poor-children-scaled.jpg" alt="Need education support for rural homeless poor children">
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="content">
-                                                                            <p class="theme-btn style-1">Forums</p>
-                                                                            <h3 class="title">
-                                                                                <a href="https://donikdemo.boomdevstheme.com/donations/donation-form-4/">Need education support for rural homeless poor children</a>
-                                                                            </h3>
-                                                                            <p class="decs">Lorem ipsum dolor sit amet consectetur quis est ultrices ultrices aget info</p>
-                                                                        </div>
-                                                                        <div class="skill-progressbar">
-                                                                            <div class="skill-progressbar">
-                                                                                <div class="progress-inner" data-percentage="112.23%">
-                                                                                    <div class="progress-content-outter">
-                                                                                        <div class="progress-content"></div>
-                                                                                    </div>
-                                                                                    <div class="progress-inner-item">
-                                                                                        <div class="goals">
-                                                                                            <p class="title">Goals</p>
-                                                                                            <p class="price">&#36;82000</p>
-                                                                                        </div>
-                                                                                        <span class="progress-number-count">
-                                                                                            <span class="progress-percent"></span>
-                                                                                        </span>
-                                                                                        <div class="raised">
-                                                                                            <p class="title">Raised</p>
-                                                                                            <p class="price">&#36;92025</p>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <!-- Single Causes Card End -->
-                                                                    <!-- Single Causes Card Start -->
-                                                                    <div class="causes-card-2">
-                                                                        <div class="image-wrapper">
-                                                                            <a href="https://donikdemo.boomdevstheme.com/donations/donation-form-5/">
-                                                                                <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/card-bg-4-scaled-2.jpg" alt="Shelter is a essential needs for every homeless children">
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="content">
-                                                                            <p class="theme-btn style-1">Social Cohesion</p>
-                                                                            <h3 class="title">
-                                                                                <a href="https://donikdemo.boomdevstheme.com/donations/donation-form-5/">Shelter is a essential needs for every homeless children</a>
-                                                                            </h3>
-                                                                            <p class="decs">Lorem ipsum dolor sit amet consectetur quis est ultrices ultrices aget info</p>
-                                                                        </div>
-                                                                        <div class="skill-progressbar">
-                                                                            <div class="skill-progressbar">
-                                                                                <div class="progress-inner" data-percentage="7.46%">
-                                                                                    <div class="progress-content-outter">
-                                                                                        <div class="progress-content"></div>
-                                                                                    </div>
-                                                                                    <div class="progress-inner-item">
-                                                                                        <div class="goals">
-                                                                                            <p class="title">Goals</p>
-                                                                                            <p class="price">&#36;82000</p>
-                                                                                        </div>
-                                                                                        <span class="progress-number-count">
-                                                                                            <span class="progress-percent"></span>
-                                                                                        </span>
-                                                                                        <div class="raised">
-                                                                                            <p class="title">Raised</p>
-                                                                                            <p class="price">&#36;6120</p>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <!-- Single Causes Card End -->
-                                                                </div>
-                                                            </div>
-                                                            <!-- Causes Slider Area End -->
                                                         </div>
                                                     </div>
-                                                    <!-- Causes Area End -->
+                                                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3f7d102" data-id="3f7d102" data-element_type="column">
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-element elementor-element-de432b3 elementor-align-right elementor-mobile-align-left elementor-widget elementor-widget-donik-button" data-id="de432b3" data-element_type="widget" data-widget_type="donik-button.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <div class="theme-btn-wrapper">
+                                                                        <a href="https://donikdemo.boomdevstheme.com/causes/" target="_blank" class="theme-btn style-6 bubble">More Offerings</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="elementor-element elementor-element-119e1de elementor-absolute feature-shape-2 elementor-hidden-tablet elementor-hidden-mobile elementor-hidden-laptop elementor-hidden-tablet_extra elementor-widget elementor-widget-image" data-id="119e1de" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/elementor/thumbs/heart-2-white-1-qfocos5begehleo0lywyvd1w4zpt14w7w5yx56bo5u.png" title="heart-2-white" alt="heart-2-white" loading="lazy"/>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-inner-section elementor-element elementor-element-cf7f7a0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cf7f7a0" data-element_type="section">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-f179725" data-id="f179725" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-6939f0a elementor-widget elementor-widget-donik-donation-post" data-id="6939f0a" data-element_type="widget" data-widget_type="donik-donation-post.default">
+                                <div class="elementor-widget-container">
+                                    <!-- Causes Area Start -->
+                                    <div class="causes-area style-3" id="causes-area">
+                                        <div class="container">
+                                            <!-- Causes Slider Area Start -->
+                                            <div class="causes-slider-area style-3">
+                                                <div class="causes-slider" id="donation-slider-6939f0a" data-autoplay="true" data-autoplay-speed="3000" data-slide-speed="1500" data-slides-show-desktop="3" data-slides-show-tablet="2" data-slides-show-mobile="1" data-slides-scroll="1" data-loop="true" data-dots="false" data-arrows="false" data-swipe-slide="true" data-pause-hover="true">
+                                                    <!-- Single Causes Card Start -->
+                                                    <div class="causes-card-2">
+                                                        <div class="image-wrapper">
+                                                            <a href="https://donikdemo.boomdevstheme.com/donations/give-food-support-for-every-rural-homeless-poor-children/">
+                                                                <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/10/Give-food-support-for-every-rural-homeless-poor-chi-scaled.jpg" alt="Give food support for every rural homeless poor children">
+                                                            </a>
+                                                        </div>
+                                                        <div class="content">
+                                                            <p class="theme-btn style-1">Marketplace</p>
+                                                            <h3 class="title">
+                                                                <a href="https://donikdemo.boomdevstheme.com/donations/give-food-support-for-every-rural-homeless-poor-children/">Give food support for every rural homeless poor children</a>
+                                                            </h3>
+                                                            <p class="decs">Lorem ipsum dolor sit amet consectetur quis est ultrices ultrices aget info</p>
+                                                        </div>
+                                                        <div class="skill-progressbar">
+                                                            <div class="skill-progressbar">
+                                                                <div class="progress-inner" data-percentage="62.16%">
+                                                                    <div class="progress-content-outter">
+                                                                        <div class="progress-content"></div>
+                                                                    </div>
+                                                                    <div class="progress-inner-item">
+                                                                        <div class="goals">
+                                                                            <p class="title">Goals</p>
+                                                                            <p class="price">&#36;82000</p>
+                                                                        </div>
+                                                                        <span class="progress-number-count">
+                                                                            <span class="progress-percent"></span>
+                                                                        </span>
+                                                                        <div class="raised">
+                                                                            <p class="title">Raised</p>
+                                                                            <p class="price">&#36;50975</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Single Causes Card End -->
+                                                    <!-- Single Causes Card Start -->
+                                                    <div class="causes-card-2">
+                                                        <div class="image-wrapper">
+                                                            <a href="https://donikdemo.boomdevstheme.com/donations/donation-form-4-2/">
+                                                                <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/10/Need-Education-support-for-rural-homeless-poor-childre-scaled.jpg" alt="Need education support for rural homeless poor children">
+                                                            </a>
+                                                        </div>
+                                                        <div class="content">
+                                                            <p class="theme-btn style-1">Education</p>
+                                                            <h3 class="title">
+                                                                <a href="https://donikdemo.boomdevstheme.com/donations/donation-form-4-2/">Need education support for rural homeless poor children</a>
+                                                            </h3>
+                                                            <p class="decs">Lorem ipsum dolor sit amet consectetur quis est ultrices ultrices aget info</p>
+                                                        </div>
+                                                        <div class="skill-progressbar">
+                                                            <div class="skill-progressbar">
+                                                                <div class="progress-inner" data-percentage="55.74%">
+                                                                    <div class="progress-content-outter">
+                                                                        <div class="progress-content"></div>
+                                                                    </div>
+                                                                    <div class="progress-inner-item">
+                                                                        <div class="goals">
+                                                                            <p class="title">Goals</p>
+                                                                            <p class="price">&#36;82000</p>
+                                                                        </div>
+                                                                        <span class="progress-number-count">
+                                                                            <span class="progress-percent"></span>
+                                                                        </span>
+                                                                        <div class="raised">
+                                                                            <p class="title">Raised</p>
+                                                                            <p class="price">&#36;45706</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Single Causes Card End -->
+                                                    <!-- Single Causes Card Start -->
+                                                    <div class="causes-card-2">
+                                                        <div class="image-wrapper">
+                                                            <a href="https://donikdemo.boomdevstheme.com/donations/give-pure-water-support-for-every-rural-poor-children/">
+                                                                <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/10/Pure-Water-scaled.jpg" alt="Give pure water support for every rural poor children">
+                                                            </a>
+                                                        </div>
+                                                        <div class="content">
+                                                            <p class="theme-btn style-1">Bussiness Learning</p>
+                                                            <h3 class="title">
+                                                                <a href="https://donikdemo.boomdevstheme.com/donations/give-pure-water-support-for-every-rural-poor-children/">Give pure water support for every rural poor children</a>
+                                                            </h3>
+                                                            <p class="decs">Lorem ipsum dolor sit amet consectetur quis est ultrices ultrices aget info</p>
+                                                        </div>
+                                                        <div class="skill-progressbar">
+                                                            <div class="skill-progressbar">
+                                                                <div class="progress-inner" data-percentage="92.54%">
+                                                                    <div class="progress-content-outter">
+                                                                        <div class="progress-content"></div>
+                                                                    </div>
+                                                                    <div class="progress-inner-item">
+                                                                        <div class="goals">
+                                                                            <p class="title">Goals</p>
+                                                                            <p class="price">&#36;82000</p>
+                                                                        </div>
+                                                                        <span class="progress-number-count">
+                                                                            <span class="progress-percent"></span>
+                                                                        </span>
+                                                                        <div class="raised">
+                                                                            <p class="title">Raised</p>
+                                                                            <p class="price">&#36;75880</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Single Causes Card End -->
+                                                    <!-- Single Causes Card Start -->
+                                                    <div class="causes-card-2">
+                                                        <div class="image-wrapper">
+                                                            <a href="https://donikdemo.boomdevstheme.com/donations/donation-form-3/">
+                                                                <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/10/Give-health-support-for-every-homeless-poor-children-1-scaled.jpg" alt="Give health support for every homeless poor children">
+                                                            </a>
+                                                        </div>
+                                                        <div class="content">
+                                                            <p class="theme-btn style-1">Health</p>
+                                                            <h3 class="title">
+                                                                <a href="https://donikdemo.boomdevstheme.com/donations/donation-form-3/">Give health support for every homeless poor children</a>
+                                                            </h3>
+                                                            <p class="decs">Lorem ipsum dolor sit amet consectetur quis est ultrices ultrices aget info</p>
+                                                        </div>
+                                                        <div class="skill-progressbar">
+                                                            <div class="skill-progressbar">
+                                                                <div class="progress-inner" data-percentage="207.51%">
+                                                                    <div class="progress-content-outter">
+                                                                        <div class="progress-content"></div>
+                                                                    </div>
+                                                                    <div class="progress-inner-item">
+                                                                        <div class="goals">
+                                                                            <p class="title">Goals</p>
+                                                                            <p class="price">&#36;82000</p>
+                                                                        </div>
+                                                                        <span class="progress-number-count">
+                                                                            <span class="progress-percent"></span>
+                                                                        </span>
+                                                                        <div class="raised">
+                                                                            <p class="title">Raised</p>
+                                                                            <p class="price">&#36;170155</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Single Causes Card End -->
+                                                    <!-- Single Causes Card Start -->
+                                                    <div class="causes-card-2">
+                                                        <div class="image-wrapper">
+                                                            <a href="https://donikdemo.boomdevstheme.com/donations/donation-form-4/">
+                                                                <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/10/Need-education-support-for-rural-homeless-poor-children-scaled.jpg" alt="Need education support for rural homeless poor children">
+                                                            </a>
+                                                        </div>
+                                                        <div class="content">
+                                                            <p class="theme-btn style-1">News</p>
+                                                            <h3 class="title">
+                                                                <a href="https://donikdemo.boomdevstheme.com/donations/donation-form-4/">Need education support for rural homeless poor children</a>
+                                                            </h3>
+                                                            <p class="decs">Lorem ipsum dolor sit amet consectetur quis est ultrices ultrices aget info</p>
+                                                        </div>
+                                                        <div class="skill-progressbar">
+                                                            <div class="skill-progressbar">
+                                                                <div class="progress-inner" data-percentage="112.23%">
+                                                                    <div class="progress-content-outter">
+                                                                        <div class="progress-content"></div>
+                                                                    </div>
+                                                                    <div class="progress-inner-item">
+                                                                        <div class="goals">
+                                                                            <p class="title">Goals</p>
+                                                                            <p class="price">&#36;82000</p>
+                                                                        </div>
+                                                                        <span class="progress-number-count">
+                                                                            <span class="progress-percent"></span>
+                                                                        </span>
+                                                                        <div class="raised">
+                                                                            <p class="title">Raised</p>
+                                                                            <p class="price">&#36;92025</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Single Causes Card End -->
+                                                    <!-- Single Causes Card Start -->
+                                                    <div class="causes-card-2">
+                                                        <div class="image-wrapper">
+                                                            <a href="https://donikdemo.boomdevstheme.com/donations/donation-form-5/">
+                                                                <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/card-bg-4-scaled-2.jpg" alt="Shelter is a essential needs for every homeless children">
+                                                            </a>
+                                                        </div>
+                                                        <div class="content">
+                                                            <p class="theme-btn style-1">Security Alertds</p>
+                                                            <h3 class="title">
+                                                                <a href="https://donikdemo.boomdevstheme.com/donations/donation-form-5/">Shelter is a essential needs for every homeless children</a>
+                                                            </h3>
+                                                            <p class="decs">Lorem ipsum dolor sit amet consectetur quis est ultrices ultrices aget info</p>
+                                                        </div>
+                                                        <div class="skill-progressbar">
+                                                            <div class="skill-progressbar">
+                                                                <div class="progress-inner" data-percentage="7.46%">
+                                                                    <div class="progress-content-outter">
+                                                                        <div class="progress-content"></div>
+                                                                    </div>
+                                                                    <div class="progress-inner-item">
+                                                                        <div class="goals">
+                                                                            <p class="title">Goals</p>
+                                                                            <p class="price">&#36;82000</p>
+                                                                        </div>
+                                                                        <span class="progress-number-count">
+                                                                            <span class="progress-percent"></span>
+                                                                        </span>
+                                                                        <div class="raised">
+                                                                            <p class="title">Raised</p>
+                                                                            <p class="price">&#36;6120</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Single Causes Card End -->
                                                 </div>
                                             </div>
+                                            <!-- Causes Slider Area End -->
                                         </div>
                                     </div>
+                                    <!-- Causes Area End -->
                                 </div>
-                            </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
                             <section class="elementor-section elementor-inner-section elementor-element elementor-element-0248df3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0248df3" data-element_type="section">
                                 <div class="elementor-container elementor-column-gap-default">
                                     <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-df057f6" data-id="df057f6" data-element_type="column">
@@ -2336,12 +1954,11 @@
                                                 <div class="elementor-widget-container">
                                                     <div class="section-title">
                                                         <span class="short-title">Community Engagement Platform</span>
-                                                        <h2 class="title">Your voice, platform and opportunity to connect </h2>
-                                                        <p class="desc">
-                                                        <p>
-                                                            Lorem ipsum dolor sit amet, con sectetur adipiscing<br/>elit. Quisque eget augue antel.
-                                                        </p>
-</p></div></div></div></div></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
 <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-f8d0a4d" data-id="f8d0a4d" data-element_type="column">
     <div class="elementor-widget-wrap elementor-element-populated">
         <section class="elementor-section elementor-inner-section elementor-element elementor-element-254b707 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="254b707" data-element_type="section">
@@ -2362,7 +1979,7 @@
                         <div class="elementor-element elementor-element-6d88d31 elementor-mobile-align-left elementor-widget__width-initial elementor-align-left elementor-widget elementor-widget-donik-button" data-id="6d88d31" data-element_type="widget" data-widget_type="donik-button.default">
                             <div class="elementor-widget-container">
                                 <div class="theme-btn-wrapper">
-                                    <a href="https://donikdemo.boomdevstheme.com/donations/give-food-support-for-every-rural-homeless-poor-children/" target="_blank" class="theme-btn style-1 bubble">Make a Donation</a>
+                                    <a href="https://donikdemo.boomdevstheme.com/donations/give-food-support-for-every-rural-homeless-poor-children/" target="_blank" class="theme-btn style-1 bubble">Make a contribution</a>
                                 </div>
                             </div>
                         </div>
@@ -2373,493 +1990,13 @@
     </div>
 </div>
 </div></section></div></div></div></section>
-<section class="elementor-section elementor-top-section elementor-element elementor-element-ba313c5 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="ba313c5" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-    <div class="elementor-container elementor-column-gap-no">
-        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4f0dd95" data-id="4f0dd95" data-element_type="column">
-            <div class="elementor-widget-wrap elementor-element-populated">
-                <section class="elementor-section elementor-inner-section elementor-element elementor-element-5b05c5a elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="5b05c5a" data-element_type="section">
-                    <div class="elementor-container elementor-column-gap-no">
-                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-cc873bd" data-id="cc873bd" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-90ec347 elementor-mobile-align-left elementor-widget-tablet__width-initial elementor-widget__width-initial elementor-align-left elementor-widget elementor-widget-donik-header" data-id="90ec347" data-element_type="widget" data-widget_type="donik-header.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="section-title">
-                                            <span class="short-title">Our Recent Events</span>
-                                            <h2 class="title">
-                                                Be ready for<br>
-                                                our upcoming<br>community events
-                                            </h2>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-381487e elementor-mobile-align-left elementor-widget__width-initial elementor-laptop-align-left elementor-align-left elementor-widget elementor-widget-donik-button" data-id="381487e" data-element_type="widget" data-widget_type="donik-button.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="theme-btn-wrapper">
-                                            <a href="https://donikdemo.boomdevstheme.com/event-pages/" target="_blank" class="theme-btn style-6 bubble">View All Events</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-88c06a3" data-id="88c06a3" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-b1153b5 elementor-align-left elementor-widget elementor-widget-donik-event-posts-slider" data-id="b1153b5" data-element_type="widget" data-widget_type="donik-event-posts-slider.default">
-                                    <div class="elementor-widget-container">
-                                        <!-- Event Slider Area Start -->
-                                        <div class="event-slider style-1" id="event-slider">
-                                            <div class="container">
-                                                <div class="row gy-5">
-                                                    <div class="col-12 col-lg-12 event-slider-wrapper">
-                                                        <div class="home-three-review-slider" id="event-slider-b1153b5" data-autoplay="true" data-autoplay-speed="3000" data-slide-speed="1500" data-slides-show-desktop="3" data-slides-show-tablet="2" data-slides-show-mobile="1" data-slides-scroll="1" data-loop="true" data-dots="false" data-arrows="false" data-swipe-slide="true" data-pause-hover="true">
-                                                            <!-- Single Card Start -->
-                                                            <div class="event-single-card">
-                                                                <div class="image-wrapper">
-                                                                    <a href="https://donikdemo.boomdevstheme.com/event/charity-caring-is-the-new-generation-guide/">
-                                                                        <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/Charity-caring-is-the-new-generation-guide-416x500.jpg" alt="event">
-                                                                    </a>
-                                                                </div>
-                                                                <div class="card-content-inner">
-                                                                    <div class="banner">
-                                                                        <p class="date m-0">31 </p>
-                                                                        <p class="name-of-date m-0">December</p>
-                                                                    </div>
-                                                                    <div class="content">
-                                                                        <h3 class="content-title">
-                                                                            <a href="https://donikdemo.boomdevstheme.com/event/charity-caring-is-the-new-generation-guide/">Charity caring is the new generation guide</a>
-                                                                        </h3>
-                                                                        <div class="schedule">
-                                                                            <div class="single-item">
-                                                                                <i class="fa-regular fa-clock"></i>
-                                                                                <p>9:00AM</p>
-                                                                            </div>
-                                                                            <div class="single-item">
-                                                                                <i class="fa-solid fa-location-dot"></i>
-                                                                                <p>Eastern Hall, New York</p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <a href="https://donikdemo.boomdevstheme.com/event/charity-caring-is-the-new-generation-guide/" class="button-link">
-                                                                        <i class="fa-solid fa-arrow-right"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                            <!-- Single Card End -->
-                                                            <!-- Single Card Start -->
-                                                            <div class="event-single-card">
-                                                                <div class="image-wrapper">
-                                                                    <a href="https://donikdemo.boomdevstheme.com/event/start-a-volunteer-to-reach-your-creative-people/">
-                                                                        <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/Start-a-volunteer-to-reach-your-creative-people-416x500.jpg" alt="event">
-                                                                    </a>
-                                                                </div>
-                                                                <div class="card-content-inner">
-                                                                    <div class="banner">
-                                                                        <p class="date m-0">31 </p>
-                                                                        <p class="name-of-date m-0">December</p>
-                                                                    </div>
-                                                                    <div class="content">
-                                                                        <h3 class="content-title">
-                                                                            <a href="https://donikdemo.boomdevstheme.com/event/start-a-volunteer-to-reach-your-creative-people/">Start a volunteer to reach your creative people</a>
-                                                                        </h3>
-                                                                        <div class="schedule">
-                                                                            <div class="single-item">
-                                                                                <i class="fa-regular fa-clock"></i>
-                                                                                <p>9:00AM</p>
-                                                                            </div>
-                                                                            <div class="single-item">
-                                                                                <i class="fa-solid fa-location-dot"></i>
-                                                                                <p>Eastern Hall, New York</p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <a href="https://donikdemo.boomdevstheme.com/event/start-a-volunteer-to-reach-your-creative-people/" class="button-link">
-                                                                        <i class="fa-solid fa-arrow-right"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                            <!-- Single Card End -->
-                                                            <!-- Single Card Start -->
-                                                            <div class="event-single-card">
-                                                                <div class="image-wrapper">
-                                                                    <a href="https://donikdemo.boomdevstheme.com/event/how-to-build-a-loyal-community-offlines/">
-                                                                        <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/How-to-build-a-loyal-community-offline-416x500.jpg" alt="event">
-                                                                    </a>
-                                                                </div>
-                                                                <div class="card-content-inner">
-                                                                    <div class="banner">
-                                                                        <p class="date m-0">31 </p>
-                                                                        <p class="name-of-date m-0">December</p>
-                                                                    </div>
-                                                                    <div class="content">
-                                                                        <h3 class="content-title">
-                                                                            <a href="https://donikdemo.boomdevstheme.com/event/how-to-build-a-loyal-community-offlines/">How to build a loyal community offlines</a>
-                                                                        </h3>
-                                                                        <div class="schedule">
-                                                                            <div class="single-item">
-                                                                                <i class="fa-regular fa-clock"></i>
-                                                                                <p>9:00AM</p>
-                                                                            </div>
-                                                                            <div class="single-item">
-                                                                                <i class="fa-solid fa-location-dot"></i>
-                                                                                <p>Eastern Hall, New York</p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <a href="https://donikdemo.boomdevstheme.com/event/how-to-build-a-loyal-community-offlines/" class="button-link">
-                                                                        <i class="fa-solid fa-arrow-right"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                            <!-- Single Card End -->
-                                                            <!-- Single Card Start -->
-                                                            <div class="event-single-card">
-                                                                <div class="image-wrapper">
-                                                                    <a href="https://donikdemo.boomdevstheme.com/event/start-a-campaign-to-reach-your-creative-peaks/">
-                                                                        <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/Start-a-campaign-to-reach-your-creative-peak-416x500.jpg" alt="event">
-                                                                    </a>
-                                                                </div>
-                                                                <div class="card-content-inner">
-                                                                    <div class="banner">
-                                                                        <p class="date m-0">31 </p>
-                                                                        <p class="name-of-date m-0">December</p>
-                                                                    </div>
-                                                                    <div class="content">
-                                                                        <h3 class="content-title">
-                                                                            <a href="https://donikdemo.boomdevstheme.com/event/start-a-campaign-to-reach-your-creative-peaks/">Start a campaign to reach your creative peaks</a>
-                                                                        </h3>
-                                                                        <div class="schedule">
-                                                                            <div class="single-item">
-                                                                                <i class="fa-regular fa-clock"></i>
-                                                                                <p>9:00AM</p>
-                                                                            </div>
-                                                                            <div class="single-item">
-                                                                                <i class="fa-solid fa-location-dot"></i>
-                                                                                <p>Eastern Hall, New York</p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <a href="https://donikdemo.boomdevstheme.com/event/start-a-campaign-to-reach-your-creative-peaks/" class="button-link">
-                                                                        <i class="fa-solid fa-arrow-right"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                            <!-- Single Card End -->
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Event Slider Area End -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="elementor-section elementor-top-section elementor-element elementor-element-90e1a12 team-slider-banner elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="90e1a12" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-    <div class="elementor-container elementor-column-gap-default">
-        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-63a801e" data-id="63a801e" data-element_type="column">
-            <div class="elementor-widget-wrap elementor-element-populated">
-                <div class="elementor-element elementor-element-6797112 elementor-absolute feature-item1 elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="6797112" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
-                    <div class="elementor-widget-container">
-                        <img loading="lazy" decoding="async" width="125" height="126" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/half-circle-1.png" class="attachment-large size-large wp-image-1713" alt=""/>
-                    </div>
-                </div>
-                <div class="elementor-element elementor-element-72ad70e elementor-absolute feature-item2 elementor-widget elementor-widget-image" data-id="72ad70e" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
-                    <div class="elementor-widget-container">
-                        <img loading="lazy" decoding="async" width="277" height="300" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/buble-shape-1.png" class="attachment-large size-large wp-image-1742" alt=""/>
-                    </div>
-                </div>
-                <div class="elementor-element elementor-element-26e63e6 elementor-absolute feature-item3 elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="26e63e6" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
-                    <div class="elementor-widget-container">
-                        <img fetchpriority="high" decoding="async" width="287" height="189" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/10/curlly3-1.png" class="attachment-large size-large wp-image-586" alt="" srcset="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/10/curlly3-1.png 287w, https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/10/elementor/thumbs/curlly3-1-qfoco6j17udztnnxpcy1u2su6o3maoxe5xjbbxeq5k.png 250w" sizes="(max-width: 287px) 100vw, 287px"/>
-                    </div>
-                </div>
-                <div class="elementor-element elementor-element-b1587dc elementor-align-center elementor-widget elementor-widget-donik-header" data-id="b1587dc" data-element_type="widget" data-widget_type="donik-header.default">
-                    <div class="elementor-widget-container">
-                        <div class="section-title">
-                            <span class="short-title">Meet Our Volunteers</span>
-                            <h2 class="title">
-                                Awesome guys behind<br>our charity activities
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="elementor-section elementor-top-section elementor-element elementor-element-ac34390 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="ac34390" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-    <div class="elementor-container elementor-column-gap-no">
-        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2e14743" data-id="2e14743" data-element_type="column">
-            <div class="elementor-widget-wrap elementor-element-populated">
-                <div class="elementor-element elementor-element-83a506a elementor-widget elementor-widget-donik-member-post-slider" data-id="83a506a" data-element_type="widget" data-widget_type="donik-member-post-slider.default">
-                    <div class="elementor-widget-container">
-                        <!-- Team Slider Area  Start-->
-                        <div class="team-slider-area style-1">
-                            <div class="team-slider-wrapper mt-0">
-                                <div class="container">
-                                    <div class="team-member-slider-wrapper" id="member-slider-83a506a" data-autoplay="true" data-autoplay-speed="3000" data-slide-speed="1500" data-slides-show-desktop="3" data-slides-show-tablet="2" data-slides-show-mobile="1" data-slides-scroll="1" data-loop="true" data-dots="true" data-arrows="false" data-swipe-slide="true" data-pause-hover="true">
-                                        <!-- Single Slider Start -->
-                                        <div class="team-member-card">
-                                            <img decoding="async" class="card-feature-shape-1" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/shape-red.png" alt="card-feature-shape">
-                                            <div class="image">
-                                                <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2024/01/Image-6.png" alt="team-member"/>
-                                            </div>
-                                            <div class="content-wrapper">
-                                                <div class="content">
-                                                    <a href="https://donikdemo.boomdevstheme.com/volunteers/jonathan-doe/" class="title">Jonathan Doe</a>
-                                                    <p class="desc">Education Volunteer </p>
-                                                    <div class="social-profile-link">
-                                                        <div class="social">
-                                                            <div class="social-inner">
-                                                                <a href="https://www.facebook.com/">
-                                                                    <i class="fa-brands fa-facebook"></i>
-                                                                </a>
-                                                                <a href="https://www.twitter.com/">
-                                                                    <i class="fa-brands fa-twitter"></i>
-                                                                </a>
-                                                                <a href="https://www.linkedin.com/">
-                                                                    <i class="fa-brands fa-linkedin"></i>
-                                                                </a>
-                                                                <a href="https://www.instagram.com/">
-                                                                    <i class="fa-brands fa-instagram"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="social-profile-btn">
-                                                            <i class="fas fa-plus"></i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Single Slider End -->
-                                        <!-- Single Slider Start -->
-                                        <div class="team-member-card">
-                                            <img decoding="async" class="card-feature-shape-1" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/shape-red.png" alt="card-feature-shape">
-                                            <div class="image">
-                                                <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2024/01/Image-4.png" alt="team-member"/>
-                                            </div>
-                                            <div class="content-wrapper">
-                                                <div class="content">
-                                                    <a href="https://donikdemo.boomdevstheme.com/volunteers/maria-smith/" class="title">Maria Smith</a>
-                                                    <p class="desc">Education Volunteer </p>
-                                                    <div class="social-profile-link">
-                                                        <div class="social">
-                                                            <div class="social-inner">
-                                                                <a href="https://www.facebook.com/">
-                                                                    <i class="fa-brands fa-facebook"></i>
-                                                                </a>
-                                                                <a href="https://www.twitter.com/">
-                                                                    <i class="fa-brands fa-twitter"></i>
-                                                                </a>
-                                                                <a href="https://www.linkedin.com/">
-                                                                    <i class="fa-brands fa-linkedin"></i>
-                                                                </a>
-                                                                <a href="https://www.instagram.com/">
-                                                                    <i class="fa-brands fa-instagram"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="social-profile-btn">
-                                                            <i class="fas fa-plus"></i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Single Slider End -->
-                                        <!-- Single Slider Start -->
-                                        <div class="team-member-card">
-                                            <img decoding="async" class="card-feature-shape-1" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/shape-red.png" alt="card-feature-shape">
-                                            <div class="image">
-                                                <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2024/01/Image-5.png" alt="team-member"/>
-                                            </div>
-                                            <div class="content-wrapper">
-                                                <div class="content">
-                                                    <a href="https://donikdemo.boomdevstheme.com/volunteers/michel-missel/" class="title">Michel Missel</a>
-                                                    <p class="desc">Education Volunteer </p>
-                                                    <div class="social-profile-link">
-                                                        <div class="social">
-                                                            <div class="social-inner">
-                                                                <a href="https://www.facebook.com/">
-                                                                    <i class="fa-brands fa-facebook"></i>
-                                                                </a>
-                                                                <a href="https://www.twitter.com/">
-                                                                    <i class="fa-brands fa-twitter"></i>
-                                                                </a>
-                                                                <a href="https://www.linkedin.com/">
-                                                                    <i class="fa-brands fa-linkedin"></i>
-                                                                </a>
-                                                                <a href="https://www.instagram.com/">
-                                                                    <i class="fa-brands fa-instagram"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="social-profile-btn">
-                                                            <i class="fas fa-plus"></i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Single Slider End -->
-                                        <!-- Single Slider Start -->
-                                        <div class="team-member-card">
-                                            <img decoding="async" class="card-feature-shape-1" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/shape-red.png" alt="card-feature-shape">
-                                            <div class="image">
-                                                <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/10/profile4-1.png" alt="team-member"/>
-                                            </div>
-                                            <div class="content-wrapper">
-                                                <div class="content">
-                                                    <a href="https://donikdemo.boomdevstheme.com/volunteers/adiba-cherry/" class="title">Adiba Cherry</a>
-                                                    <p class="desc">Healthcare Volunteer </p>
-                                                    <div class="social-profile-link">
-                                                        <div class="social">
-                                                            <div class="social-inner">
-                                                                <a href="https://www.facebook.com/">
-                                                                    <i class="fa-brands fa-facebook"></i>
-                                                                </a>
-                                                                <a href="https://www.twitter.com/">
-                                                                    <i class="fa-brands fa-twitter"></i>
-                                                                </a>
-                                                                <a href="https://www.linkedin.com/">
-                                                                    <i class="fa-brands fa-linkedin"></i>
-                                                                </a>
-                                                                <a href="https://www.instagram.com/">
-                                                                    <i class="fa-brands fa-instagram"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="social-profile-btn">
-                                                            <i class="fas fa-plus"></i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Single Slider End -->
-                                        <!-- Single Slider Start -->
-                                        <div class="team-member-card">
-                                            <img decoding="async" class="card-feature-shape-1" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/shape-red.png" alt="card-feature-shape">
-                                            <div class="image">
-                                                <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/10/profile1-1.png" alt="team-member"/>
-                                            </div>
-                                            <div class="content-wrapper">
-                                                <div class="content">
-                                                    <a href="https://donikdemo.boomdevstheme.com/volunteers/jenny-wilson/" class="title">Jenny Wilson</a>
-                                                    <p class="desc">Education Volunteer </p>
-                                                    <div class="social-profile-link">
-                                                        <div class="social">
-                                                            <div class="social-inner">
-                                                                <a href="https://www.facebook.com/">
-                                                                    <i class="fa-brands fa-facebook"></i>
-                                                                </a>
-                                                                <a href="https://www.twitter.com/">
-                                                                    <i class="fa-brands fa-twitter"></i>
-                                                                </a>
-                                                                <a href="https://www.linkedin.com/">
-                                                                    <i class="fa-brands fa-linkedin"></i>
-                                                                </a>
-                                                                <a href="https://www.instagram.com/">
-                                                                    <i class="fa-brands fa-instagram"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="social-profile-btn">
-                                                            <i class="fas fa-plus"></i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Single Slider End -->
-                                        <!-- Single Slider Start -->
-                                        <div class="team-member-card">
-                                            <img decoding="async" class="card-feature-shape-1" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/shape-red.png" alt="card-feature-shape">
-                                            <div class="image">
-                                                <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/10/profile3-1.png" alt="team-member"/>
-                                            </div>
-                                            <div class="content-wrapper">
-                                                <div class="content">
-                                                    <a href="https://donikdemo.boomdevstheme.com/volunteers/dianne-russell/" class="title">Dianne Russell</a>
-                                                    <p class="desc">Social Change Volunteer </p>
-                                                    <div class="social-profile-link">
-                                                        <div class="social">
-                                                            <div class="social-inner">
-                                                                <a href="https://www.facebook.com/">
-                                                                    <i class="fa-brands fa-facebook"></i>
-                                                                </a>
-                                                                <a href="https://www.twitter.com/">
-                                                                    <i class="fa-brands fa-twitter"></i>
-                                                                </a>
-                                                                <a href="https://www.linkedin.com/">
-                                                                    <i class="fa-brands fa-linkedin"></i>
-                                                                </a>
-                                                                <a href="https://www.instagram.com/">
-                                                                    <i class="fa-brands fa-instagram"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="social-profile-btn">
-                                                            <i class="fas fa-plus"></i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Single Slider End -->
-                                        <!-- Single Slider Start -->
-                                        <div class="team-member-card">
-                                            <img decoding="async" class="card-feature-shape-1" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/shape-red.png" alt="card-feature-shape">
-                                            <div class="image">
-                                                <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/10/profile2-1.png" alt="team-member"/>
-                                            </div>
-                                            <div class="content-wrapper">
-                                                <div class="content">
-                                                    <a href="https://donikdemo.boomdevstheme.com/volunteers/robert-fox/" class="title">Robert Fox</a>
-                                                    <p class="desc">Education Volunteer </p>
-                                                    <div class="social-profile-link">
-                                                        <div class="social">
-                                                            <div class="social-inner">
-                                                                <a href="https://www.facebook.com/">
-                                                                    <i class="fa-brands fa-facebook"></i>
-                                                                </a>
-                                                                <a href="https://www.twitter.com/">
-                                                                    <i class="fa-brands fa-twitter"></i>
-                                                                </a>
-                                                                <a href="https://www.linkedin.com/">
-                                                                    <i class="fa-brands fa-linkedin"></i>
-                                                                </a>
-                                                                <a href="https://www.instagram.com/">
-                                                                    <i class="fa-brands fa-instagram"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="social-profile-btn">
-                                                            <i class="fas fa-plus"></i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Single Slider End -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Team Slider Area  Start-->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
 <section class="elementor-section elementor-top-section elementor-element elementor-element-35db13d elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="35db13d" data-element_type="section">
+   
     <div class="elementor-container elementor-column-gap-no">
         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cec4013" data-id="cec4013" data-element_type="column">
             <div class="elementor-widget-wrap elementor-element-populated">
@@ -2879,50 +2016,54 @@
                                 <div class="row m-0">
                                     <div class="col-lg-7 col-12 p-0">
                                         <div class="slider-inner">
-                                            <img decoding="async" class=" bottom-feature-icon" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/slice-1.png" alt="Shape">
-                                            <div class="testimonial-slider-wrapper has-backgorund-slider testimonial-slider-two-v2 style-3" id="testimonial_slider-area-3" id="testimonial-slider-two-v2-b67c50b" data-autoplay="true" data-autoplay-speed="3000" data-slide-speed="1500" data-slides-show-desktop="1" data-slides-show-mobile="1" data-slides-scroll="1" data-loop="true" data-dots="false" data-arrows="true" data-swipe-slide="true" data-pause-hover="true">
-                                                <!-- Single Slider Start -->
-                                                <div class="slider-card">
-                                                    <div class="quote-text">
-                                                        <i class="fa-solid fa-quote-right"></i>
-                                                    </div>
-                                                    <div class=" section-title">
-                                                        <span class="short-title">Testimonials</span>
-                                                        <h2 class="title m-0">What people say about us</h2>
-                                                        <p class="desc m-0">Humanity is a wonderful, easy to use site. We wereable to have a successful silent auction nd we could have done It.Lorem ipsum consectetur.</p>
-                                                        <div class="meta-user">
-                                                            <div class="user-image">
-                                                                <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/user1-1.jpg" alt="Wiliam Johnson"/>
-                                                            </div>
-                                                            <div class="info">
-                                                                <h2>Wiliam Johnson</h2>
-                                                                <p>Azerbaijan</p>
+                                            <img decoding="async" class="bottom-feature-icon" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/slice-1.png" alt="Shape">
+                                            <div class="testimonial-slider-wrapper has-backgorund-slider testimonial-slider-two-v2 style-3" id="testimonial_slider-area-3">
+                                                <!-- Slider Start -->
+                                                <div class="testimonial-slider">
+                                                    <!-- Single Slider Start -->
+                                                    <div class="slider-card">
+                                                        <div class="quote-text">
+                                                            <i class="fa-solid fa-quote-right"></i>
+                                                        </div>
+                                                        <div class="section-title">
+                                                            <span class="short-title">Testimonials</span>
+                                                            <h2 class="title m-0">What people say about us</h2>
+                                                            <p class="desc m-0">Humanity is a wonderful, easy to use site. We were able to have a successful silent auction and we could have done it. Lorem ipsum consectetur.</p>
+                                                            <div class="meta-user">
+                                                                <div class="user-image">
+                                                                    <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/user1-1.jpg" alt="Wiliam Johnson"/>
+                                                                </div>
+                                                                <div class="info">
+                                                                    <h2>Wiliam Johnson</h2>
+                                                                    <p>Azerbaijan</p>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <!-- Single Slider End -->
-                                                <!-- Single Slider Start -->
-                                                <div class="slider-card">
-                                                    <div class="quote-text">
-                                                        <i class="fa-solid fa-quote-right"></i>
-                                                    </div>
-                                                    <div class=" section-title">
-                                                        <span class="short-title">Testimonials</span>
-                                                        <h2 class="title m-0">What people say about us</h2>
-                                                        <p class="desc m-0">Humanity is a wonderful, easy to use site. We wereable to have a successful silent auction nd we could have done It.Lorem ipsum consectetur.</p>
-                                                        <div class="meta-user">
-                                                            <div class="user-image">
-                                                                <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/user2-1.jpg" alt="Robart Jack"/>
-                                                            </div>
-                                                            <div class="info">
-                                                                <h2>Robart Jack</h2>
-                                                                <p>Azerbaijan</p>
+                                                    <!-- Single Slider End -->
+                                                    <!-- Single Slider Start -->
+                                                    <div class="slider-card">
+                                                        <div class="quote-text">
+                                                            <i class="fa-solid fa-quote-right"></i>
+                                                        </div>
+                                                        <div class="section-title">
+                                                            <span class="short-title">Testimonials</span>
+                                                            <h2 class="title m-0">What people say about us</h2>
+                                                            <p class="desc m-0">Humanity is a wonderful, easy to use site. We were able to have a successful silent auction and we could have done it. Lorem ipsum consectetur.</p>
+                                                            <div class="meta-user">
+                                                                <div class="user-image">
+                                                                    <img decoding="async" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/user2-1.jpg" alt="Robart Jack"/>
+                                                                </div>
+                                                                <div class="info">
+                                                                    <h2>Robart Jack</h2>
+                                                                    <p>Azerbaijan</p>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <!-- Single Slider End -->
                                                 </div>
-                                                <!-- Single Slider End -->
+                                                <!-- Slider End -->
                                             </div>
                                         </div>
                                     </div>
@@ -2936,6 +2077,24 @@
         </div>
     </div>
 </section>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.testimonial-slider').slick({
+            autoplay: true,
+            autoplaySpeed: 3000,
+            speed: 1500,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: false,
+            infinite: true,
+            pauseOnHover: true,
+            swipe: true,
+        });
+    });
+</script>
+
 <section class="elementor-section elementor-top-section elementor-element elementor-element-dda7bff elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="dda7bff" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
     <div class="elementor-container elementor-column-gap-no">
         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-71f3a77" data-id="71f3a77" data-element_type="column">
@@ -3041,73 +2200,7 @@
         </div>
     </div>
 </section>
-<section class="elementor-section elementor-top-section elementor-element elementor-element-42639a0 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="42639a0" data-element_type="section">
-    <div class="elementor-container elementor-column-gap-no">
-        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-449f20e" data-id="449f20e" data-element_type="column">
-            <div class="elementor-widget-wrap elementor-element-populated">
-                <div class="elementor-element elementor-element-31edde6 elementor-widget elementor-widget-donik-portfolio-gallery" data-id="31edde6" data-element_type="widget" data-widget_type="donik-portfolio-gallery.default">
-                    <div class="elementor-widget-container">
-                        <!-- Portfolio Area Start -->
-                        <div class="portfolio-area style-1 ">
-                            <div class="protfolio-inner">
-                                <!-- Single Portfolio Item Card Start -->
-                                <div class="img-content-wrapper">
-                                    <img decoding="async" class="img-wrapper" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/10/Give-food-support-for-every-rural-homeless-poor-chi-scaled.jpg" alt="Portfolio Image">
-                                    <a class="content" target="_blank" href="https://donikdemo.boomdevstheme.com/donations/give-food-support-for-every-rural-homeless-poor-children/">
-                                        <i class="fa-solid fa-link-simple"></i>
-                                    </a>
-                                </div>
-                                <!-- Single Portfolio Item Card End -->
-                                <!-- Single Portfolio Item Card Start -->
-                                <div class="img-content-wrapper">
-                                    <img decoding="async" class="img-wrapper" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/10/Need-Education-support-for-rural-homeless-poor-childre-scaled.jpg" alt="Portfolio Image">
-                                    <a class="content" target="_blank" href="https://donikdemo.boomdevstheme.com/donations/donation-form-4-2/">
-                                        <i class="fa-solid fa-link-simple"></i>
-                                    </a>
-                                </div>
-                                <!-- Single Portfolio Item Card End -->
-                                <!-- Single Portfolio Item Card Start -->
-                                <div class="img-content-wrapper">
-                                    <img decoding="async" class="img-wrapper" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/10/Pure-Water-scaled.jpg" alt="Portfolio Image">
-                                    <a class="content" target="_blank" href="https://donikdemo.boomdevstheme.com/donations/give-pure-water-support-for-every-rural-poor-children/">
-                                        <i class="fa-solid fa-link-simple"></i>
-                                    </a>
-                                </div>
-                                <!-- Single Portfolio Item Card End -->
-                                <!-- Single Portfolio Item Card Start -->
-                                <div class="img-content-wrapper">
-                                    <img decoding="async" class="img-wrapper" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/10/Give-health-support-for-every-homeless-poor-children-1-scaled.jpg" alt="Portfolio Image">
-                                    <a class="content" target="_blank" href="https://donikdemo.boomdevstheme.com/donations/donation-form-3/">
-                                        <i class="fa-solid fa-link-simple"></i>
-                                    </a>
-                                </div>
-                                <!-- Single Portfolio Item Card End -->
-                                <!-- Single Portfolio Item Card Start -->
-                                <div class="img-content-wrapper">
-                                    <img decoding="async" class="img-wrapper" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/10/Need-education-support-for-rural-homeless-poor-children-scaled.jpg" alt="Portfolio Image">
-                                    <a class="content" target="_blank" href="https://donikdemo.boomdevstheme.com/donations/donation-form-4/">
-                                        <i class="fa-solid fa-link-simple"></i>
-                                    </a>
-                                </div>
-                                <!-- Single Portfolio Item Card End -->
-                                <!-- Single Portfolio Item Card Start -->
-                                <div class="img-content-wrapper">
-                                    <img decoding="async" class="img-wrapper" src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2023/11/card-bg-4-scaled-2.jpg" alt="Portfolio Image">
-                                    <a class="content" target="_blank" href="https://donikdemo.boomdevstheme.com/donations/donation-form-5/">
-                                        <i class="fa-solid fa-link-simple"></i>
-                                    </a>
-                                </div>
-                                <!-- Single Portfolio Item Card End -->
-                            </div>
-                        </div>
-                        <!-- Portfolio Area End -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-</div>
+
 <div id="donik_subscriber_widget-1" class="footer-top-widget widget_donik_subscriber_widget">
     <!-- Newsletter-area style-1 Start -->
     <div class="newsletter-area style-1">
@@ -3171,159 +2264,20 @@
         </div>
     </div>
     <!-- Newsletter-area style-1 End -->
+
 </div>
-<footer class="footer style-1">
-    <div class="footer-sec">
-        <div class="shape-1"></div>
-        <div class="shape-2"></div>
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div id="donik_about_info_widget-1" class="footer-widget mb-30 widget_donik_about_info_widget">
-                        <div class="footer-widget-info">
-                            <div class="footer-logo">
-                                <a href="https://donikdemo.boomdevstheme.com">
-                                    <img src="https://donikdemo.boomdevstheme.com/wp-content/uploads/2024/02/logo-white.png" alt="Footer Logo"/>
-                                </a>
-                            </div>
-                            <p>Lorem consultancy elit sed eiusmod tempor inci didunt labore et dolore magna aliqua sed eiusmod.</p>
-                            <div class="social-profile">
-                                <a href="https://facebook.com">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </a>
-                                <a href="https://twitter.com">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </a>
-                                <a href="https://instagram.com">
-                                    <i class="fa-brands fa-instagram"></i>
-                                </a>
-                                <a href="https://pinterest.com">
-                                    <i class="fa-brands fa-pinterest-p"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div id="nav_menu-4" class="footer-widget mb-30 widget_nav_menu">
-                        <h2 class="footer-widget-title">Useful Links</h2>
-                        <div class="menu-useful-links-container">
-                            <ul id="menu-useful-links" class="menu">
-                                <li id="menu-item-4277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4277">
-                                    <a href="https://donikdemo.boomdevstheme.com/about-us/">About Us</a>
-                                </li>
-                                <li id="menu-item-4278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4278">
-                                    <a href="https://donikdemo.boomdevstheme.com/causes/">Popular Causes</a>
-                                </li>
-                                <li id="menu-item-4279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4279">
-                                    <a href="https://donikdemo.boomdevstheme.com/event-pages/">Upcoming Events</a>
-                                </li>
-                                <li id="menu-item-4276" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4276">
-                                    <a href="https://donikdemo.boomdevstheme.com/blog/">Latest Blog</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-6 col-sm-12">
-                    <div id="nav_menu-3" class="footer-widget mb-30 widget_nav_menu">
-                        <h2 class="footer-widget-title">Legal Links</h2>
-                        <div class="menu-legal-links-container">
-                            <ul id="menu-legal-links" class="menu">
-                                <li id="menu-item-4280" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4280">
-                                    <a href="#">Term of use</a>
-                                </li>
-                                <li id="menu-item-4281" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4281">
-                                    <a href="#">Privacy Policy</a>
-                                </li>
-                                <li id="menu-item-4282" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4282">
-                                    <a href="#">Report Violation</a>
-                                </li>
-                                <li id="menu-item-4283" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4283">
-                                    <a href="#">Cookies</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div id="donik_contact_info_widget-1" class="footer-widget mb-30 widget_donik_contact_info_widget">
-                        <h2 class="footer-widget-title">Contact Us                </h2>
-                        <div class="footer-widget-contact">
-                            <div class="footer-contact">
-                                <ul>
-                                    <li class="address">
-                                        <div class="contact-icon">
-                                            <i class="icon-location-bold "></i>
-                                        </div>
-                                        <div class="contact-text">
-                                            <p>45 Grand Ventral New York, NY 10017</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="contact-icon">
-                                            <i class="fa-regular fa-envelope"></i>
-                                        </div>
-                                        <div class="contact-text">
-                                            <a href="mailto: hello@example.com">hello@example.com</a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="contact-icon">
-                                            <i class="icon-phone "></i>
-                                        </div>
-                                        <div class="contact-text">
-                                            <a href="tel: + 123 456 7890">+ 123 456 7890</a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="footer-bottom-border"></div>
+<div class="footer-bottom-area">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="copyright-text">
+                    <p>Copyright ©2024 Siyakha. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="footer-bottom-area">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="copyright-text">
-                        <p>Copyright ©2024 Siyakha. All Rights Reserved</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div id="donik_donate_link_widget-1" class="footer-bottom-widget widget_donik_donate_link_widget">
-                        <div class="footer-bottom-menu">
-                            <ul class="p-0">
-                                <li>Ways to donate by</li>
-                            </ul>
-                            <div class="card-wrapper">
-                                <a href="https://www.paypal.com/">
-                                    <img src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/paypal.jpg" alt="card">
-                                </a>
-                                <a href="https://www.apple.com/apple-pay/">
-                                    <img src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/apple-pay.jpg" alt="card">
-                                </a>
-                                <a href="https://bd.visa.com/">
-                                    <img src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/visa.jpg" alt="card">
-                                </a>
-                                <a href="https://www.mastercard.us/">
-                                    <img src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/img/master.jpg" alt="card">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+</div>
+
 <script>
     (function(body) {
         'use strict';
@@ -3410,178 +2364,7 @@
     };
     /* ]]> */
 </script>
-<script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.4" id="contact-form-7-js"></script>
-<script type="text/javascript" id="give-donation-summary-script-frontend-js-extra">
-    /* <![CDATA[ */
-    var GiveDonationSummaryData = {
-        "currencyPrecisionLookup": {
-            "USD": 2,
-            "EUR": 2,
-            "GBP": 2,
-            "AUD": 2,
-            "BRL": 2,
-            "CAD": 2,
-            "CZK": 2,
-            "DKK": 2,
-            "HKD": 2,
-            "HUF": 2,
-            "ILS": 2,
-            "JPY": 0,
-            "MYR": 2,
-            "MXN": 2,
-            "MAD": 2,
-            "NZD": 2,
-            "NOK": 2,
-            "PHP": 2,
-            "PLN": 2,
-            "SGD": 2,
-            "KRW": 0,
-            "ZAR": 2,
-            "SEK": 2,
-            "CHF": 2,
-            "TWD": 2,
-            "THB": 2,
-            "INR": 2,
-            "TRY": 2,
-            "IRR": 2,
-            "RUB": 2,
-            "AED": 2,
-            "AMD": 2,
-            "ANG": 2,
-            "ARS": 2,
-            "AWG": 2,
-            "BAM": 2,
-            "BDT": 2,
-            "BHD": 3,
-            "BMD": 2,
-            "BND": 2,
-            "BOB": 2,
-            "BSD": 2,
-            "BWP": 2,
-            "BZD": 2,
-            "CLP": 0,
-            "CNY": 2,
-            "COP": 2,
-            "CRC": 2,
-            "CUC": 2,
-            "CUP": 2,
-            "DOP": 2,
-            "EGP": 2,
-            "GIP": 2,
-            "GTQ": 2,
-            "HNL": 2,
-            "HRK": 2,
-            "IDR": 2,
-            "ISK": 0,
-            "JMD": 2,
-            "JOD": 2,
-            "KES": 2,
-            "KWD": 2,
-            "KYD": 2,
-            "MKD": 2,
-            "NPR": 2,
-            "OMR": 3,
-            "PEN": 2,
-            "PKR": 2,
-            "RON": 2,
-            "SAR": 2,
-            "SZL": 2,
-            "TOP": 2,
-            "TZS": 2,
-            "UAH": 2,
-            "UYU": 2,
-            "VEF": 2,
-            "XCD": 2,
-            "AFN": 2,
-            "ALL": 2,
-            "AOA": 2,
-            "AZN": 2,
-            "BBD": 2,
-            "BGN": 2,
-            "BIF": 0,
-            "XBT": 8,
-            "BTN": 1,
-            "BYR": 2,
-            "BYN": 2,
-            "CDF": 2,
-            "CVE": 2,
-            "DJF": 0,
-            "DZD": 2,
-            "ERN": 2,
-            "ETB": 2,
-            "FJD": 2,
-            "FKP": 2,
-            "GEL": 2,
-            "GGP": 2,
-            "GHS": 2,
-            "GMD": 2,
-            "GNF": 0,
-            "GYD": 2,
-            "HTG": 2,
-            "IMP": 2,
-            "IQD": 2,
-            "IRT": 2,
-            "JEP": 2,
-            "KGS": 2,
-            "KHR": 0,
-            "KMF": 2,
-            "KPW": 0,
-            "KZT": 2,
-            "LAK": 0,
-            "LBP": 2,
-            "LKR": 0,
-            "LRD": 2,
-            "LSL": 2,
-            "LYD": 3,
-            "MDL": 2,
-            "MGA": 0,
-            "MMK": 2,
-            "MNT": 2,
-            "MOP": 2,
-            "MRO": 2,
-            "MUR": 2,
-            "MVR": 1,
-            "MWK": 2,
-            "MZN": 0,
-            "NAD": 2,
-            "NGN": 2,
-            "NIO": 2,
-            "PAB": 2,
-            "PGK": 2,
-            "PRB": 2,
-            "PYG": 2,
-            "QAR": 2,
-            "RSD": 2,
-            "RWF": 2,
-            "SBD": 2,
-            "SCR": 2,
-            "SDG": 2,
-            "SHP": 2,
-            "SLL": 2,
-            "SOS": 2,
-            "SRD": 2,
-            "SSP": 2,
-            "STD": 2,
-            "SYP": 2,
-            "TJS": 2,
-            "TMT": 2,
-            "TND": 3,
-            "TTD": 2,
-            "UGX": 2,
-            "UZS": 2,
-            "VND": 1,
-            "VUV": 0,
-            "WST": 2,
-            "XAF": 2,
-            "XOF": 2,
-            "XPF": 2,
-            "YER": 2,
-            "ZMW": 2
-        },
-        "recurringLabelLookup": []
-    };
-    /* ]]> */
-</script>
+
 <script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/plugins/give/assets/dist/js/give-donation-summary.js?ver=3.8.0" id="give-donation-summary-script-frontend-js"></script>
 <script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/js/bootstrap.min.js?ver=6.6.1" id="bootstrap-js"></script>
 <script type="text/javascript" src="https://donikdemo.boomdevstheme.com/wp-content/themes/donik/js/jquery.nice-select.min.js?ver=6.6.1" id="jquery.nice-select-js"></script>
