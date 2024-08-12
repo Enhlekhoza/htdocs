@@ -1,103 +1,88 @@
-<body>
+<body data-new-gr-c-s-check-loaded="14.1190.0" data-gr-ext-installed="">
 
     <!-- Preloader -->
     <div class="preloader preloader-dark" style="display: none;">
-        <div class="lds-ellipsis" style="display: none;">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+      <div class="lds-ellipsis" style="display: none;">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
     <!-- Preloader End -->
-
+    
     <div id="main-wrapper" class="CEP-login-register">
-        <div class="container-fluid px-0">
-            <div class="row g-0 min-vh-100">
-
-                <!-- Welcome Text -->
-                <div class="col-md-4">
-                    <div class="hero-wrap h-100">
-                        <div class="hero-mask opacity-5 bg-dark"></div>
-                        <div class="hero-bg hero-bg-scroll" style="background-image:url('./images/login-bg-6.jpg');"></div>
-                        <div class="hero-content mx-auto w-100 h-100">
-                            <div class="container d-flex flex-column h-100">
-                                <div class="row g-0">
-                                    <div class="col-11 col-lg-9 mx-auto">
-                                        <div class="logo mt-5 mb-5">
-                                            <a class="d-flex" href="index.html" title="CEP">
-                                                <img src="images/logo-2-light.png" alt="CEP Logo">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row g-0 mt-3">
-                                    <div class="col-11 col-lg-9 mx-auto">
-                                        <h1 class="text-9 text-white fw-300 mb-5">
-                                            <span class="fw-500">Welcome</span>, Create your account and join us!
-                                        </h1>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+      <div class="container-fluid px-0">
+        <div class="row g-0 min-vh-100"> 
+          <!-- Welcome Text
+          ========================= -->
+          <div class="col-md-4">
+            <div class="hero-wrap h-100">
+              <div class="hero-mask opacity-5 bg-dark"></div>
+              <div class="hero-bg hero-bg-scroll" style="background-image:url('./images/login-bg-6.jpg');"></div>
+              <div class="hero-content mx-auto w-100 h-100">
+                <div class="container d-flex flex-column h-100">
+                  <div class="row g-0">
+                    <div class="col-11 col-lg-9 mx-auto">
+                      <div class="logo mt-5 mb-5"> <a class="d-flex" href="index.html" title="Oxyy"><img src="images/logo-2-light.png" alt="Oxyy"></a> </div>
                     </div>
-                </div>
-                <!-- Welcome Text End -->
-
-                <!-- Register Form -->
-                <div class="col-md-8 d-flex flex-column align-items-center bg-dark">
-                    <div class="container my-auto py-5">
-                        <div class="row g-0">
-                            <div class="col-11 col-md-8 col-lg-7 col-xl-6 mx-auto">
-                                <p class="text-2 text-light">Already a member? <a class="fw-500" href="login-17.html">Login</a></p>
-                                <h3 class="text-white mb-4">Register Your Account</h3>
-                                <div class="d-flex">
-                                    <button type="button" class="btn btn-primary btn-sm fw-400 rounded-3 shadow-none">
-                                        <span class="me-2"><i class="fab fa-google"></i></span>
-                                        <span class="mx-3">Register with Google</span>
-                                    </button>
-                                    <ul class="social-icons d-inline-block social-icons-rounded">
-                                        <li class="social-icons-apple mb-0">
-                                            <a class="bg-dark-4" href="#" data-bs-toggle="tooltip" data-bs-original-title="Register with Apple">
-                                                <i class="fab fa-apple"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="d-flex align-items-center my-4">
-                                    <hr class="col-1 border-secondary">
-                                    <span class="mx-3 text-2 text-white-50">OR</span>
-                                    <hr class="flex-grow-1 border-secondary">
-                                </div>
-                                <form id="registerForm" class="form-dark" method="post" action="/register">
-                                    <div class="mb-3">
-                                        <label class="form-label text-light" for="fullName">Full Name</label>
-                                        <input type="text" class="form-control" id="fullName" name="name" required="" placeholder="Enter Your Name">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label class="form-label text-light" for="emailAddress">Email Address</label>
-                                        <input type="email" class="form-control" id="emailAddress" name="email" required="" placeholder="Enter Your Email">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label class="form-label text-light" for="loginPassword">Password</label>
-                                        <input type="password" class="form-control" id="loginPassword" name="password" required="" placeholder="Enter Password">
-                                    </div>
-                                    <div class="form-check text-light my-4">
-                                        <input id="agree" name="agree" class="form-check-input" type="checkbox" required>
-                                        <label class="form-check-label" for="agree">
-                                            I agree to the <a href="#">Terms</a> and <a href="#">Privacy Policy</a>.
-                                        </label>
-                                    </div>
-                                    <button class="btn btn-primary shadow-none my-2" type="submit">Register</button>
-                                </form>
-                            </div>
-                        </div>
+                  </div>
+                  <div class="row g-0 mt-3">
+                    <div class="col-11 col-lg-9 mx-auto">
+                      <h1 class="text-9 text-white fw-300 mb-5"><span class="fw-500">Welcome</span>, Looks like you're new here!</h1>
                     </div>
+                  </div>
                 </div>
-                <!-- Register Form End -->
-
+              </div>
             </div>
+          </div>
+          <!-- Welcome Text End --> 
+          
+          <!-- Register Form
+          ========================= -->
+          <div class="col-md-8 d-flex flex-column align-items-center bg-dark">
+            <div class="container my-auto py-5">
+              <div class="row g-0">
+                <div class="col-11 col-md-8 col-lg-7 col-xl-6 mx-auto">
+                  <p class="text-2 text-light">Already a member? <a class="fw-500" href="login-17.html">Login</a></p>
+                  <h3 class="text-white mb-4">Register Your Account</h3>
+                  <div class="d-flex">
+                    <button type="button" class="btn btn-primary btn-sm fw-400 rounded-3 shadow-none"><span class="me-2"><i class="fab fa-google"></i></span><span class="mx-3">Register with Google</span></button>
+                    <ul class="social-icons d-inline-block social-icons-rounded">
+                      <li class="social-icons-apple mb-0"><a class="bg-dark-4" href="#" data-bs-toggle="tooltip" data-bs-original-title="Register with Apple"><i class="fab fa-apple"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="d-flex align-items-center my-4">
+                    <hr class="col-1 border-secondary">
+                    <span class="mx-3 text-2 text-white-50">OR</span>
+                    <hr class="flex-grow-1 border-secondary">
+                  </div>
+                  <form id="registerForm" class="form-dark" method="post">
+                    <div class="mb-3">
+                      <label class="form-label text-light" for="fullName">Full Name</label>
+                      <input type="text" class="form-control" id="fullName" required="" placeholder="Enter Your Name">
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label text-light" for="emailAddress">Email Address</label>
+                      <input type="email" class="form-control" id="emailAddress" required="" placeholder="Enter Your Email">
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label text-light" for="loginPassword">Password</label>
+                      <input type="password" class="form-control" id="loginPassword" required="" placeholder="Enter Password">
+                    </div>
+                    <div class="form-check text-light my-4">
+                      <input id="agree" name="agree" class="form-check-input" type="checkbox">
+                      <label class="form-check-label" for="agree">I agree to the <a href="#">Terms</a> and <a href="#">Privacy Policy</a>.</label>
+                    </div>
+                    <button class="btn btn-primary shadow-none my-2" type="submit">Register</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Register Form End --> 
         </div>
+      </div>
     </div>
     
     <!-- Styles Switcher -->

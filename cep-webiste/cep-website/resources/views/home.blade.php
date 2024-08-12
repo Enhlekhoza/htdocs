@@ -981,25 +981,25 @@
                         </div>
                     </div>
                     
-                    <!-- Navigation Menu -->
-                    <div class="col-xl-9 col-lg-9 col-md-6 col-6 d-flex justify-content-end align-items-center">
-                        <nav id="main-menu" class="main-menu d-none d-lg-block">
-                            <ul class="nav">
-                                <li class="nav-item">
-                                    <a title="Home" href="#" class="nav-link">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a title="Get In Touch" href="#" class="nav-link">Get In Touch</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a title="Sign In" href="#" class="nav-link">Sign In</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a title="Register" href="#" class="nav-link">Register</a>
-                                </li>
-                            </ul>
-                        </nav>
-
+                  <!-- Navigation Menu -->
+<div class="col-xl-9 col-lg-9 col-md-6 col-6 d-flex justify-content-end align-items-center">
+    <nav id="main-menu" class="main-menu d-none d-lg-block">
+        <ul class="nav">
+            <li class="nav-item">
+                <a title="Home" href="{{ route('home') }}" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a title="Get In Touch" href="{{ route('contactus') }}" class="nav-link">Get In Touch</a>
+            </li>
+            <li class="nav-item">
+                <a title="Sign In" href="{{ route('login') }}" class="nav-link">Sign In</a>
+            </li>
+            <li class="nav-item">
+                <a title="Register" href="{{ route('signup') }}" class="nav-link">Register</a>
+            </li>
+        </ul>
+    </nav>
+</div>
                         <!-- Mobile Menu Toggle Button -->
                         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
