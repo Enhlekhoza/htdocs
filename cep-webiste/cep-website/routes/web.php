@@ -17,7 +17,14 @@ Route::get('/login', function () {
     return view('login');
 })->name('login');
 
-// Route for the Signup page
-Route::get('/signup', function () {
-    return view('signup');
-})->name('signup');
+use App\Http\Controllers\RegisterController;
+
+Route::get('/register/step1', [RegisterController::class, 'showStep1'])->name('register.step1');
+Route::post('/register/step1', [RegisterController::class, 'postStep1']);
+
+Route::get('/register/step2', [RegisterController::class, 'showStep2'])->name('register.step2');
+Route::post('/register/step2', [RegisterController::class, 'postStep2']);
+
+Route::get('/register/step3', [RegisterController::class, 'showStep3'])->name('register.step3');
+Route::post('/register/step3', [RegisterController::class, 'postStep3']);
+
