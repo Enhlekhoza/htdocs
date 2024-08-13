@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
 
-class RegisterController extends Controller
+class SignupController extends Controller
 {
     public function showStep1()
     {
@@ -25,7 +25,7 @@ class RegisterController extends Controller
         // Store the data in the session
         Session::put('step1', $request->except('_token'));
 
-        return redirect()->route('register.step2');
+        return redirect()->route('signup.step2');
     }
 
     public function showStep2()
@@ -47,7 +47,7 @@ class RegisterController extends Controller
         // Store the data in the session
         Session::put('step2', $request->except('_token'));
 
-        return redirect()->route('register.step3');
+        return redirect()->route('signup.step3');
     }
 
     public function showStep3()
@@ -85,4 +85,3 @@ class RegisterController extends Controller
         return redirect()->route('home')->with('success', 'Registration completed!');
     }
 }
-

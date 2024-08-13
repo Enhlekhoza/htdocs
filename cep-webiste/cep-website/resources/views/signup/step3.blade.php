@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <h2>Register - Step 3</h2>
-    <form method="POST" action="{{ route('register.step3') }}">
+    <form method="POST" action="{{ route('signup.step3') }}">
         @csrf
 
         <label for="home-language">Home Language *</label>
