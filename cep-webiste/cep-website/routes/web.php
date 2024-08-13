@@ -19,12 +19,11 @@ Route::get('/login', function () {
 
 use App\Http\Controllers\RegisterController;
 
-Route::get('/register/step1', [RegisterController::class, 'showStep1'])->name('register.step1');
-Route::post('/register/step1', [RegisterController::class, 'postStep1']);
+Route::get('/signup', [RegisterController::class, 'showStep1'])->name('signup');
+Route::post('/signup', [RegisterController::class, 'postStep1'])->name('signup.post');
 
-Route::get('/register/step2', [RegisterController::class, 'showStep2'])->name('register.step2');
-Route::post('/register/step2', [RegisterController::class, 'postStep2']);
+Route::get('/signup/step2', [RegisterController::class, 'showStep2'])->name('signup.step2');
+Route::post('/signup/step2', [RegisterController::class, 'postStep2'])->name('signup.step2.post');
 
-Route::get('/register/step3', [RegisterController::class, 'showStep3'])->name('register.step3');
-Route::post('/register/step3', [RegisterController::class, 'postStep3']);
-
+Route::get('/signup/step3', [RegisterController::class, 'showStep3'])->name('signup.step3');
+Route::post('/signup/step3', [RegisterController::class, 'postStep3'])->name('signup.step3.post');
