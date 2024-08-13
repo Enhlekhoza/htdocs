@@ -167,74 +167,73 @@
                 width: 100%
             }
         </style>
-        <style id='classic-theme-styles-inline-css' type='text/css'>
-            
-            .wp-block-button__link {
-                color: #fff;
-                background-color: #32373c;
-                border-radius: 9999px;
-                box-shadow: none;
-                text-decoration: none;
-                padding: calc(.667em + 2px) calc(1.333em + 2px);
-                font-size: 1.125em
-            }
-
-            .wp-block-file__button {
-                background: #32373c;
-                color: #fff;
-                text-decoration: none
-            }
-        </style>
-        <style id='global-styles-inline-css' type='text/css'>
-            :root {
-                --wp--preset--aspect-ratio--square: 1;
-                --wp--preset--aspect-ratio--4-3: 4/3;
-                --wp--preset--aspect-ratio--3-4: 3/4;
-                --wp--preset--aspect-ratio--3-2: 3/2;
-                --wp--preset--aspect-ratio--2-3: 2/3;
-                --wp--preset--aspect-ratio--16-9: 16/9;
-                --wp--preset--aspect-ratio--9-16: 9/16;
-                --wp--preset--color--black: #000000;
-                --wp--preset--color--cyan-bluish-gray: #abb8c3;
-                --wp--preset--color--white: #ffffff;
-                --wp--preset--color--pale-pink: #f78da7;
-                --wp--preset--color--vivid-red: #cf2e2e;
-                --wp--preset--color--luminous-vivid-orange: #ff6900;
-                --wp--preset--color--luminous-vivid-amber: #fcb900;
-                --wp--preset--color--light-green-cyan: #7bdcb5;
-                --wp--preset--color--vivid-green-cyan: #00d084;
-                --wp--preset--color--pale-cyan-blue: #8ed1fc;
-                --wp--preset--color--vivid-cyan-blue: #0693e3;
-                --wp--preset--color--vivid-purple: #9b51e0;
-                --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);
-                --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);
-                --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);
-                --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);
-                --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);
-                --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
-                --wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);
-                --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);
-                --wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);
-                --wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);
-                --wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);
-                --wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);
-                --wp--preset--font-size--small: 13px;
-                --wp--preset--font-size--medium: 20px;
-                --wp--preset--font-size--large: 36px;
-                --wp--preset--font-size--x-large: 42px;
-                --wp--preset--spacing--20: 0.44rem;
-                --wp--preset--spacing--30: 0.67rem;
-                --wp--preset--spacing--40: 1rem;
-                --wp--preset--spacing--50: 1.5rem;
-                --wp--preset--spacing--60: 2.25rem;
-                --wp--preset--spacing--70: 3.38rem;
-                --wp--preset--spacing--80: 5.06rem;
-                --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
-                --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
-                --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
-                --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
-                --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
-            }
+      <style id='classic-theme-styles-inline-css' type='text/css'>
+        .wp-block-button__link {
+            color: #333; /* Dark text for contrast */
+            background-color: #f4f9fc; /* Light background color */
+            border-radius: 9999px;
+            box-shadow: none;
+            text-decoration: none;
+            padding: calc(.667em + 2px) calc(1.333em + 2px);
+            font-size: 1.125em;
+        }
+    
+        .wp-block-file__button {
+            background: #f4f9fc; /* Light background color */
+            color: #333; /* Dark text for contrast */
+            text-decoration: none;
+        }
+    </style>    
+       <style id='global-styles-inline-css' type='text/css'>
+        :root {
+            --wp--preset--aspect-ratio--square: 1;
+            --wp--preset--aspect-ratio--4-3: 4/3;
+            --wp--preset--aspect-ratio--3-4: 3/4;
+            --wp--preset--aspect-ratio--3-2: 3/2;
+            --wp--preset--aspect-ratio--2-3: 2/3;
+            --wp--preset--aspect-ratio--16-9: 16/9;
+            --wp--preset--aspect-ratio--9-16: 9/16;
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #d6dbe1; /* Light gray */
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f0f0f0; /* Very light gray-pink */
+            --wp--preset--color--vivid-red: #a0a0a0; /* Dark gray for contrast */
+            --wp--preset--color--luminous-vivid-orange: #f0f0f0; /* Light gray */
+            --wp--preset--color--luminous-vivid-amber: #f0f0f0; /* Light gray */
+            --wp--preset--color--light-green-cyan: #e0e0e0; /* Light green-gray */
+            --wp--preset--color--vivid-green-cyan: #c0c0c0; /* Light green-gray */
+            --wp--preset--color--pale-cyan-blue: #e0e0e0; /* Light blue-gray */
+            --wp--preset--color--vivid-cyan-blue: #c0c0c0; /* Light blue-gray */
+            --wp--preset--color--vivid-purple: #b0b0b0; /* Light purple-gray */
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(204,204,204,1) 0%,rgba(187,187,187,1) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgba(204,204,204,1) 0%,rgba(187,187,187,1) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(240,240,240,1) 0%,rgba(240,240,240,1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(240,240,240,1) 0%,rgba(160,160,160,1) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgba(245,245,245,1) 0%,rgba(214,219,225,1) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgba(192,192,192,1) 0%,rgba(160,160,160,1) 20%,rgba(128,128,128,1) 40%,rgba(96,96,96,1) 60%,rgba(64,64,64,1) 80%,rgba(32,32,32,1) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgba(240,240,240,1) 0%,rgba(160,160,160,1) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgba(240,240,240,1) 0%,rgba(160,160,160,1) 50%,rgba(96,96,96,1) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgba(240,240,240,1) 0%,rgba(160,160,160,1) 50%,rgba(96,96,96,1) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgba(240,240,240,1) 0%,rgba(192,192,192,1) 50%,rgba(128,128,128,1) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg,rgba(204,204,204,1) 0%,rgba(160,160,160,1) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg,rgba(0,0,0,1) 0%,rgba(64,64,64,1) 100%);
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+            --wp--preset--spacing--20: 0.44rem;
+            --wp--preset--spacing--30: 0.67rem;
+            --wp--preset--spacing--40: 1rem;
+            --wp--preset--spacing--50: 1.5rem;
+            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--70: 3.38rem;
+            --wp--preset--spacing--80: 5.06rem;
+            --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+            --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+            --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+        }
 
             :where(.is-layout-flex) {
                 gap: 0.5em;
@@ -524,11 +523,30 @@
         <link rel='stylesheet' id='animate-css' href='https://donikdemo.boomdevstheme.com/wp-content/themes/donik/css/animate.min.css?ver=6.6.1' type='text/css' media='all'/>
         <link rel='stylesheet' id='donik-main-css' href='https://donikdemo.boomdevstheme.com/wp-content/themes/donik/css/style.css?ver=1723260327' type='text/css' media='all'/>
         <style id='donik-main-inline-css' type='text/css'>
-            :root {
-                --primary-color: #FFE144;
-                --brand: #ff4638;
-            }
-        </style>
+            <style id='donik-main-inline-css' type='text/css'>
+    :root {
+        --primary-color: #f4f9fc; /* Light gray for the background */
+        --brand: #333333; /* Dark gray for primary text */
+    }
+
+    body {
+        background-color: #f4f9fc; /* Set background color */
+        color: #333333; /* Set primary text color */
+    }
+
+    a {
+        color: #333333; /* Set link color */
+    }
+
+    .border {
+        border-color: #dddddd; /* Set border color */
+    }
+
+    .highlight {
+        color: #000000; /* Set highlight color */
+    }
+
+</style>
         <link rel='stylesheet' id='donik-style-css' href='https://donikdemo.boomdevstheme.com/wp-content/themes/donik/style.css?ver=6.6.1' type='text/css' media='all'/>
         <link rel='stylesheet' id='donik_breadcrumb_bg_img-css' href='https://donikdemo.boomdevstheme.com/wp-content/themes/donik/css/color/donik_inline_custom.css?ver=6.6.1' type='text/css' media='all'/>
         <style id='donik_breadcrumb_bg_img-inline-css' type='text/css'>
@@ -623,346 +641,296 @@
                 margin-top: 0 !important;
             }
         </style>
-        <style id="donik_options-dynamic-css" title="dynamic-css" class="redux-options-output">
-            .header-top-info ul li a {
-                font-family: "PT Sans";
-                line-height: 14px;
-                font-weight: 400;
-                font-style: normal;
-                font-size: 14px;
-            }
+  <style id="CEP_options-dynamic-css" title="dynamic-css" class="redux-options-output">
+    /* General Background and Font Colors */
+    body {
+        background-color: #f5f5f5; /* Light gray background */
+    }
+    
+    /* Header Styles */
+    .header-top-info ul li a {
+        font-family: "PT Sans";
+        line-height: 14px;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        color: #333; /* Dark gray text */
+    }
 
-            .header-top-info ul li a {
-                color: #ffffff;
-            }
+    .header-top-info ul li a:hover {
+        color: #FF5733; /* Light black accent on hover */
+    }
 
-            .header-top-info ul li a:hover {
-                color: #FFE144;
-            }
+    .header-btn {
+        font-family: "Plus Jakarta Sans";
+        line-height: 18px;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 18px;
+        color: #fff; /* White text */
+        background-color: #333; /* Dark black for buttons */
+        padding: 16px 24px;
+        border-radius: 4px;
+    }
 
-            .header-btn {
-                font-family: "Plus Jakarta Sans";
-                line-height: 18px;
-                font-weight: 500;
-                font-style: normal;
-                font-size: 18px;
-            }
+    .header-btn:hover {
+        color: #333; /* Dark black text on hover */
+        background-color: #fff; /* White background on hover */
+    }
 
-            .header-btn {
-                color: #020a27;
-            }
+    .header-btn span {
+        background-color: #fff; /* White background for button span */
+    }
 
-            .header-btn:hover {
-                color: #ffffff;
-            }
+    .header-btn:hover span {
+        background-color: #FF5733; /* Light black accent on hover */
+    }
 
-            .header-btn {
-                background-color: var(--primary-color);
-            }
+    /* Main Menu Styles */
+    .main-menu ul li a,
+    .main-menu ul ul li a {
+        font-family: "PT Sans";
+        text-transform: capitalize;
+        line-height: 18px;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        color: #333; /* Dark gray text */
+    }
 
-            .header-btn:hover {
-                background-color: #ffffff;
-            }
+    .main-menu ul li a:hover,
+    .main-menu ul ul li a:hover,
+    .main-menu ul li:hover a {
+        color: #FF5733; /* Light black accent on hover */
+    }
 
-            .header-btn span {
-                background-color: #FFFFFF;
-            }
+    .main-menu ul li.active > a {
+        color: #FF5733; /* Light black accent for active menu item */
+    }
 
-            .header-btn:hover span {
-                background-color: #FF4638;
-            }
+    .header-menu-area.sticky_menu {
+        background-color: #fff; /* White background for sticky menu */
+    }
 
-            .header-btn {
-                padding-top: 16px;
-                padding-right: 24px;
-                padding-bottom: 16px;
-                padding-left: 24px;
-            }
+    /* Breadcrumb Styles */
+    .page-template .breadcrumb-wrapper .page-title {
+        font-family: "Plus Jakarta Sans";
+        text-transform: capitalize;
+        line-height: 51px;
+        font-weight: 700;
+        font-size: 51px;
+        color: #333; /* Dark gray text */
+    }
 
-            .main-menu ul li a, {
-                font-family: "PT Sans";
-                text-transform: capitalize;
-                line-height: 18px;
-                font-weight: 400;
-                font-style: normal;
-                font-size: 18px;
-            }
+    .page-template .breadcrumb-list a {
+        font-family: "Plus Jakarta Sans";
+        text-transform: capitalize;
+        line-height: 18px;
+        font-weight: 400;
+        font-size: 18px;
+        color: #333; /* Dark gray text */
+    }
 
-            .main-menu ul ul li a {
-                font-family: "PT Sans";
-                text-transform: capitalize;
-                line-height: 18px;
-                font-weight: 400;
-                font-style: normal;
-                font-size: 18px;
-            }
+    .page-template .breadcrumb-list.active a {
+        color: #FF5733; /* Light black accent for active breadcrumb */
+    }
 
-            .main-menu ul li a, .main-menu ul ul li a {
-                color: #ffffff;
-            }
+    .page-template .breadcrumb-list ul li a:hover,
+    .page-template .breadcrumb-list.active a:hover {
+        color: #FF5733; /* Light black accent on hover */
+    }
 
-            .main-menu ul li a:hover, .main-menu ul ul li a:hover, .main-menu ul li:hover a {
-                color: #FFE144;
-            }
+    /* Read More Button Styles */
+    .read-more .theme-btn {
+        color: #333; /* Dark gray text */
+        background-color: #fff; /* White background */
+        padding: 16px 32px;
+        border-radius: 4px;
+    }
 
-            .main-menu ul li.active > a {
-                color: #FFE144;
-            }
+    .read-more .theme-btn:hover {
+        color: #fff; /* White text on hover */
+        background-color: #FF5733; /* Light black accent on hover */
+    }
 
-            .header-menu-area.sticky_menu {
-                background-color: #ffffff;
-            }
+    /* Paragraph Styles */
+    p, p.desc, p.title {
+        font-family: "PT Sans";
+        line-height: 30px;
+        font-weight: 400;
+        font-size: 18px;
+        color: #333; /* Dark gray text */
+    }
 
-            .page-template .breadcrumb-wrapper .page-title {
-                font-family: "Plus Jakarta Sans";
-                text-transform: capitalize;
-                line-height: 51px;
-                font-weight: 700;
-                font-style: normal;
-                color: #ffffff;
-                font-size: 51px;
-            }
+    /* Slider Title Styles */
+    .slider-short-title {
+        font-family: "Vujahday Script";
+        line-height: 32px;
+        font-weight: 400;
+        font-size: 32px;
+        color: #333; /* Dark gray text */
+    }
 
-            .page-template .breadcrumb-list a {
-                font-family: "Plus Jakarta Sans";
-                text-transform: capitalize;
-                line-height: 18px;
-                font-weight: 400;
-                font-style: normal;
-                font-size: 18px;
-            }
+    h1, h1.slider-title {
+        font-family: "Plus Jakarta Sans";
+        line-height: 80px;
+        font-weight: 800;
+        font-size: 80px;
+        color: #333; /* Dark gray text */
+    }
 
-            .page-template .breadcrumb-list ul li a {
-                color: #ffffff;
-            }
+    h2, h2.title {
+        font-family: "Plus Jakarta Sans";
+        line-height: 51px;
+        font-weight: 700;
+        font-size: 51px;
+        color: #333; /* Dark gray text */
+    }
 
-            .page-template .breadcrumb-list.active a {
-                color: #FFE144;
-            }
+    h3, h3.heading-three {
+        font-family: "Plus Jakarta Sans";
+        line-height: 38px;
+        font-weight: 700;
+        font-size: 38px;
+        color: #333; /* Dark gray text */
+    }
 
-            .page-template .breadcrumb-list ul li a:hover, .page-template .breadcrumb-list.active a:hover {
-                color: #ff6731;
-            }
+    h4, h4.heading-four {
+        font-family: "Plus Jakarta Sans";
+        line-height: 28px;
+        font-weight: 500;
+        font-size: 28px;
+        color: #333; /* Dark gray text */
+    }
 
-            .read-more .theme-btn {
-                color: #121212;
-            }
+    h5, h5.heading-five {
+        font-family: "Plus Jakarta Sans";
+        line-height: 22px;
+        font-weight: 600;
+        font-size: 22px;
+        color: #333; /* Dark gray text */
+    }
 
-            .read-more .theme-btn:hover {
-                color: #ffffff;
-            }
+    h6, h6.heading-six {
+        font-family: "Plus Jakarta Sans";
+        line-height: 16px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #333; /* Dark gray text */
+    }
 
-            .read-more .theme-btn {
-                padding-top: 16px;
-                padding-right: 32px;
-                padding-bottom: 16px;
-                padding-left: 32px;
-            }
+    /* Newsletter and Subscribe Styles */
+    .newsletter-area.style-1 .subscribe-form .section-title .short-title {
+        font-family: "Vujahday Script";
+        line-height: 32px;
+        font-weight: 400;
+        font-size: 32px;
+        color: #333; /* Dark gray text */
+    }
 
+    .subscribe-area .section-title .title {
+        font-family: "Plus Jakarta Sans";
+        line-height: 51px;
+        font-weight: 700;
+        font-size: 51px;
+        color: #333; /* Dark gray text */
+    }
 
-            p, p.desc, p.title {
-                font-family: "PT Sans";
-                line-height: 30px;
-                font-weight: 400;
-                font-style: normal;
-                font-size: 18px;
-            }
+    .subscribe-form-widget .single-field .theme-btn {
+        font-family: "Plus Jakarta Sans";
+        line-height: 30px;
+        font-weight: normal;
+        font-size: 18px;
+        color: #fff; /* White text */
+        background-color: #333; /* Dark black background */
+        padding: 16px 32px;
+        border-radius: 4px;
+    }
 
-            .slider-short-title {
-                font-family: "Vujahday Script";
-                line-height: 32px;
-                font-weight: 400;
-                font-style: normal;
-                font-size: 32px;
-            }
+    .subscribe-form-widget .single-field .theme-btn:hover {
+        color: #fff; /* White text on hover */
+        background-color: #FF5733; /* Light black accent on hover */
+    }
 
-            h1, h1.slider-title {
-                font-family: "Plus Jakarta Sans";
-                line-height: 80px;
-                font-weight: 800;
-                font-style: normal;
-                font-size: 80px;
-            }
+    /* Footer Styles */
+    .footer-widget.widget_nav_menu li a,
+    .footer-widget .footer-widget-contact .footer-contact ul li .contact-text p,
+    .footer-widget .footer-widget-contact .footer-contact ul li .contact-text a {
+        color: #fff; /* White text */
+    }
 
-            h2, h2.title {
-                font-family: "Plus Jakarta Sans";
-                line-height: 51px;
-                font-weight: 700;
-                font-style: normal;
-                font-size: 51px;
-            }
+    .footer-widget.widget_nav_menu li:hover a,
+    .footer-widget .footer-widget-contact .footer-contact ul li:hover .contact-text p,
+    .footer-widget .footer-widget-contact .footer-contact ul li:hover .contact-text a {
+        color: #FF5733; /* Light black accent on hover */
+    }
 
-            h3, h3. heading-three {
-                font-family: "Plus Jakarta Sans";
-                line-height: 38px;
-                font-weight: 700;
-                font-style: normal;
-                font-size: 38px;
-            }
+    .footer-widget .footer-widget-info .social-profile a i,
+    .footer-widget .footer-widget-contact .footer-contact ul li .contact-icon i {
+        color: #fff; /* White icons */
+    }
 
-            h4, h4.heading-four {
-                font-family: "Plus Jakarta Sans";
-                line-height: 28px;
-                font-weight: 500;
-                font-style: normal;
-                font-size: 28px;
-            }
+    .footer-widget .footer-widget-info .social-profile a:hover i,
+    .footer-widget .footer-widget-contact .footer-contact ul li:hover .contact-icon i {
+        color: #333; /* Dark gray icons on hover */
+    }
 
-            h5, h5.heading-five {
-                font-family: "Plus Jakarta Sans";
-                line-height: 22px;
-                font-weight: 600;
-                font-style: normal;
-                font-size: 22px;
-            }
+    .footer-widget .footer-widget-info .social-profile a,
+    .footer-widget .footer-widget-contact .footer-contact ul li .contact-icon {
+        background-color: #000; /* Black background */
+        border-color: #fff; /* White border */
+    }
 
-            h6, h6.heading-six {
-                font-family: "Plus Jakarta Sans";
-                line-height: 16px;
-                font-weight: 500;
-                font-style: normal;
-                font-size: 16px;
-            }
+    .footer-widget .footer-widget-info .social-profile a:hover,
+    .footer-widget .footer-widget-contact .footer-contact ul li:hover .contact-icon:before {
+        background-color: #FF5733; /* Light black accent on hover */
+        border-color: #FF5733; /* Light black border on hover */
+    }
 
-            .newsletter-area.style-1 .subscribe-form .section-title .short-title {
-                font-family: "Vujahday Script";
-                line-height: 32px;
-                font-weight: 400;
-                font-style: normal;
-                color: #121212;
-                font-size: 32px;
-            }
+    .footer {
+        background-color: #121212; /* Very dark background */
+    }
 
-            .subscribe-area .section-title .title {
-                font-family: "Plus Jakarta Sans";
-                line-height: 51px;
-                font-weight: 700;
-                font-style: normal;
-                color: #121212;
-                font-size: 51px;
-            }
+    .footer-bottom-area {
+        background-color: #1a1a1a; /* Darker gray background */
+    }
 
-            .subscribe-form-widget .single-field .theme-btn {
-                font-family: "Plus Jakarta Sans";
-                line-height: 30px;
-                font-weight: normal;
-                font-style: normal;
-                font-size: 18px;
-            }
+    .footer-widget-title {
+        font-family: "Plus Jakarta Sans";
+        line-height: 30px;
+        font-weight: 700;
+        font-size: 21px;
+        color: #fff; /* White text */
+    }
 
-            .subscribe-form-widget .single-field .theme-btn {
-                color: #ffffff;
-            }
+    .footer-widget-title:hover {
+        color: #fff; /* White text on hover */
+    }
 
-            .subscribe-form-widget .single-field .theme-btn:hover {
-                color: #ffffff;
-            }
+    .footer-widget .footer-widget-info p {
+        font-family: "PT Sans";
+        line-height: 30px;
+        font-weight: 400;
+        font-size: 18px;
+        color: #BDBDBD; /* Light gray text */
+    }
 
-            .subscribe-form-widget .single-field .theme-btn span {
-                background-color: #020a27;
-            }
+    .footer-bottom-area .copyright-text p {
+        font-family: "Open Sans";
+        line-height: 30px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #fff; /* White text */
+    }
 
-            .subscribe-form-widget .single-field .theme-btn:hover span {
-                background-color: #FF4638;
-            }
-
-            .subscribe-form-widget .submit-btn {
-                padding-top: 16px;
-                padding-right: 32px;
-                padding-bottom: 16px;
-                padding-left: 32px;
-            }
-
-            .footer-widget.widget_nav_menu li a, .footer-widget .footer-widget-contact .footer-contact ul li .contact-text p, .footer-widget .footer-widget-contact .footer-contact ul li .contact-text a {
-                color: #ffffff;
-            }
-
-            .footer-widget.widget_nav_menu li a, .footer-widget .footer-widget-contact .footer-contact ul li .contact-text p, .footer-widget .footer-widget-contact .footer-contact ul li .contact-text a {
-                -webkit-text-fill-color: #ffffff;
-            }
-
-            .footer-widget.widget_nav_menu li:hover a, .footer-widget .footer-widget-contact .footer-contact ul li:hover .contact-text p, .footer-widget .footer-widget-contact .footer-contact ul li:hover .contact-text a {
-                color: #FFE144;
-            }
-
-            .footer-widget.widget_nav_menu li:hover a, .footer-widget .footer-widget-contact .footer-contact ul li:hover .contact-text p, .footer-widget .footer-widget-contact .footer-contact ul li:hover .contact-text a {
-                -webkit-text-fill-color: #FFE144;
-            }
-
-            .footer-widget .footer-widget-info .social-profile a i, .footer-widget .footer-widget-contact .footer-contact ul li .contact-icon i {
-                color: #ffffff;
-            }
-
-            .footer-widget .footer-widget-info .social-profile a:hover i, .footer-widget .footer-widget-contact .footer-contact ul li:hover .contact-icon i {
-                color: #020a27;
-            }
-
-            .footer-widget .footer-widget-info .social-profile a, .footer-widget .footer-widget-contact .footer-contact ul li .contact-icon {
-                background-color: #000000;
-            }
-
-            .footer-widget .footer-widget-info .social-profile a:hover, .footer-widget .footer-widget-contact .footer-contact ul li:hover .contact-icon:before {
-                background-color: #FFE144;
-            }
-
-            .footer-widget .footer-widget-info .social-profile a, .footer-widget .footer-widget-contact .footer-contact ul li .contact-icon {
-                border-color: #ffffff;
-            }
-
-            .footer-widget .footer-widget-info .social-profile a:hover, .footer-widget .footer-widget-contact .footer-contact ul li:hover .contact-icon {
-                border-color: #FFE144;
-            }
-
-            .footer {
-                background-color: #121212;
-            }
-
-            .footer-bottom-area {
-                background-color: #232323;
-            }
-
-            .footer-widget-title {
-                font-family: "Plus Jakarta Sans";
-                line-height: 30px;
-                font-weight: 700;
-                font-style: normal;
-                font-size: 21px;
-            }
-
-            .footer-widget-title {
-                color: #ffffff;
-            }
-
-            .footer-widget-title:hover {
-                color: #ffffff;
-            }
-
-            .footer-widget .footer-widget-info p {
-                font-family: "PT Sans";
-                line-height: 30px;
-                font-weight: 400;
-                font-style: normal;
-                color: #BDBDBD;
-                font-size: 18px;
-            }
-
-            .footer-bottom-area .copyright-text p {
-                font-family: "Open Sans";
-                line-height: 30px;
-                font-weight: 400;
-                font-style: normal;
-                color: #ffffff;
-                font-size: 14px;
-            }
-
-            .footer-bottom-menu ul li a {
-                font-family: "Open Sans";
-                line-height: 27px;
-                font-weight: 400;
-                font-style: normal;
-                font-size: 16px;
-            }
-        </style>
+    .footer-bottom-menu ul li a {
+        font-family: "Open Sans";
+        line-height: 27px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff; /* White text */
+    }
+   </style>
     </head>
     <body>
       <!-- Header Start -->
@@ -1000,35 +968,6 @@
         </ul>
     </nav>
 </div>
-                        <!-- Mobile Menu Toggle Button -->
-                        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </div>
-                </div>
-                
-                <!-- Mobile Menu -->
-                <div class="row">
-                    <div class="col-12">
-                        <div class="collapse" id="mobile-menu">
-                            <nav id="mobile-menu-nav" class="mobile-menu">
-                                <ul class="nav flex-column">
-                                    <li class="nav-item">
-                                        <a title="Home" href="#" class="nav-link">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a title="Get In Touch" href="#" class="nav-link">Get In Touch</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a title="Sign In" href="#" class="nav-link">Sign In</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a title="Register" href="#" class="nav-link">Register</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-    
                     </div>
                 </div>
             </div>

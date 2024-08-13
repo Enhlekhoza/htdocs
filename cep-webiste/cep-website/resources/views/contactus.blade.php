@@ -7,22 +7,22 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
     <style>
         .bg-gradient {
-            background: linear-gradient(to right, #FFB300, #FFC107);
+            background: linear-gradient(to right, #1a1a1a, #333); /* Light black gradient */
         }
         .btn-primary {
-            background-color: #FFB300;
-            color: black;
+            background-color: #333; /* Dark black for buttons */
+            color: white;
         }
         .btn-primary:hover {
-            background-color: #FF9800;
+            background-color: #555; /* Lighter black on hover */
         }
         .input-focus:focus {
-            border-color: #FFB300;
-            box-shadow: 0 0 0 3px rgba(255, 179, 0, 0.5);
+            border-color: #555; /* Lighter black border on focus */
+            box-shadow: 0 0 0 3px rgba(85, 85, 85, 0.5); /* Light black shadow */
         }
         .card-bg {
-            background-color: #222;
-            color: #FFEB3B;
+            background-color: #1a1a1a; /* Light black background for card */
+            color: #e0e0e0; /* Light gray text */
         }
         .map-container {
             height: 400px;
@@ -40,19 +40,19 @@
             <div>
                 <label for="name" class="block text-lg font-medium">Full Name</label>
                 <input type="text" id="name" name="name"
-                       class="mt-2 block w-full px-4 py-2 border border-yellow-500 rounded-md shadow-sm input-focus transition duration-300 ease-in-out"
+                       class="mt-2 block w-full px-4 py-2 border border-gray-600 rounded-md shadow-sm input-focus transition duration-300 ease-in-out"
                        required>
             </div>
             <div>
                 <label for="email" class="block text-lg font-medium">Email Address</label>
                 <input type="email" id="email" name="email"
-                       class="mt-2 block w-full px-4 py-2 border border-yellow-500 rounded-md shadow-sm input-focus transition duration-300 ease-in-out"
+                       class="mt-2 block w-full px-4 py-2 border border-gray-600 rounded-md shadow-sm input-focus transition duration-300 ease-in-out"
                        required>
             </div>
             <div>
                 <label for="message" class="block text-lg font-medium">Message</label>
                 <textarea id="message" name="message" rows="4"
-                          class="mt-2 block w-full px-4 py-2 border border-yellow-500 rounded-md shadow-sm input-focus transition duration-300 ease-in-out"
+                          class="mt-2 block w-full px-4 py-2 border border-gray-600 rounded-md shadow-sm input-focus transition duration-300 ease-in-out"
                           required></textarea>
             </div>
             <button type="submit"
@@ -60,7 +60,7 @@
                 Send Message
             </button>
             <div class="mt-4 text-center">
-                <a href="/" class="text-yellow-400 hover:underline">
+                <a href="/" class="text-gray-400 hover:underline">
                     Back to Home
                 </a>
             </div>
