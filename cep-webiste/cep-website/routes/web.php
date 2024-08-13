@@ -27,3 +27,4 @@ Route::post('/signup/step2', [RegisterController::class, 'postStep2'])->name('si
 
 Route::get('/signup/step3', [RegisterController::class, 'showStep3'])->name('signup.step3');
 Route::post('/signup/step3', [RegisterController::class, 'postStep3'])->name('signup.step3.post');
+

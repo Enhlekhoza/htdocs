@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <h2>Register - Step 1</h2>
-    <form method="POST" action="{{ route('register.step1') }}">
+    <form method="POST" action="{{ route('signup.step1') }}">
         @csrf
         <label for="name">Name *</label>
         <input type="text" id="name" name="name" value="{{ old('name') }}" required>

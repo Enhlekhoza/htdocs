@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <h2>Register - Step 2</h2>
-    <form method="POST" action="{{ route('register.step2') }}">
+    <form method="POST" action="{{ route('signup.step2') }}">
         @csrf
         <label for="first-name">First Name *</label>
         <input type="text" id="first-name" name="first-name" value="{{ old('first-name') }}" required>
@@ -16,16 +16,16 @@
 
         <label for="gender">Gender *</label>
         <select id="gender" name="gender" required>
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-            <option value="other">Other</option>
+            <option value="male" {{ old('gender') == 'male' ? 'selected' : '' }}>Male</option>
+            <option value="female" {{ old('gender') == 'female' ? 'selected' : '' }}>Female</option>
+            <option value="other" {{ old('gender') == 'other' ? 'selected' : '' }}>Other</option>
         </select>
 
         <label for="location">Location *</label>
         <select id="location" name="location" required>
-            <option value="diepsloot">Diepsloot</option>
-            <option value="alexander">Alexander</option>
-            <option value="soweto">Soweto</option>
+            <option value="diepsloot" {{ old('location') == 'diepsloot' ? 'selected' : '' }}>Diepsloot</option>
+            <option value="alexander" {{ old('location') == 'alexander' ? 'selected' : '' }}>Alexander</option>
+            <option value="soweto" {{ old('location') == 'soweto' ? 'selected' : '' }}>Soweto</option>
             <!-- Add more locations as needed -->
         </select>
 
@@ -51,11 +51,27 @@
 
 <script>
     // JavaScript to handle showing/hiding the extension fields based on location selection
-    document.getElementById('location').addEventListener('change', function () {
-        var location = this.value;
-        document.getElementById('extension-diepsloot').style.display = (location === 'diepsloot') ? 'block' : 'none';
-        document.getElementById('extension-alexander').style.display = (location === 'alexander') ? 'block' : 'none';
-        document.getElementById('extension-soweto').style.display = (location === 'soweto') ? 'block' : 'none';
+    document.addEventListener('DOMContentLoaded', function() {
+        var locationSelect = document.getElementById('location');
+        var extensions = {
+            diepsloot: document.getElementById('extension-diepsloot'),
+            alexander: document.getElementById('extension-alexander'),
+            soweto: document.getElementById('extension-soweto')
+        };
+
+        function updateExtensions() {
+            var selectedLocation = locationSelect.value;
+            for (var key in extensions) {
+                if (extensions.hasOwnProperty(key)) {
+                    extensions[key].style.display = (key === selectedLocation) ? 'block' : 'none';
+                }
+            }
+        }
+
+        locationSelect.addEventListener('change', updateExtensions);
+
+        // Initial call to handle preselected values
+        updateExtensions();
     });
 </script>
 @endsection
