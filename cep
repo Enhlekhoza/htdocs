@@ -1,0 +1,974 @@
+ <body>
+        <div class="body-wrapper">
+            <div class="body-innerwrapper">
+                <header id="sp-header">
+                    <div class="fluid-container">
+                        <div class="container-inner">
+                            <div class="row">
+                                <div id="sp-logo" class="col-8 col-lg-2">
+                                    <div class="sp-column">
+                                        <div class="logo">
+                                            <a href="/">
+                                                <img class="logo-image" src="/images/community-engagement-platform_-logo_v4-1.png" alt="CEP">
+                                                <img class="logo-image dark-logo" src="/" alt="CEP">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="sp-menu" class="col-4 col-lg-10">
+                                    <div class="sp-column">
+                                        <nav class="sp-megamenu-wrapper" role="navigation">
+                                            <a id="offcanvas-toggler" aria-label="Navigation" class="offcanvas-toggler-right d-block d-lg-none" href="#">
+                                                <i class="fa fa-bars" aria-hidden="true" title="Navigation"></i>
+                                            </a>
+                                            <ul class="sp-megamenu-parent menu-animation-none d-none d-lg-block">
+                                                <li class="sp-menu-item current-item active">
+                                                    <a aria-current="page" href="/index.php">Home</a>
+                                                </li>
+                                                <li class="sp-menu-item">
+                                                    <a href="/index.php/get-in-touch">Get In Touch</a>
+                                                </li>
+                                                <li class="sp-menu-item">
+                                                    <a href="/index.php/sign-in">Sign In</a>
+                                                </li>
+                                                <li class="sp-menu-item">
+                                                    <a href="/index.php/register/register">Register</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <section id="sp-section-1">
+                    <div class="row">
+                        <div id="sp-title" class="col-lg-12 ">
+                            <div class="sp-column "></div>
+                        </div>
+                    </div>
+                </section>
+                <section id="sp-main-body">
+                    <div class="row">
+                        <main id="sp-component" class="col-lg-12 ">
+                            <div class="sp-column ">
+                                <div id="system-message-container" aria-live="polite"></div>
+                                <div id="sp-page-builder" class="sp-page-builder  page-10">
+                                    <div class="page-content" x-data="easystoreProductDetails">
+                                        <section id="section-id-1590910476767" class="sppb-section sppb-section-content-center">
+                                            <div class="sppb-shape-container sppb-bottom-shape ">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                                                    <path d="M0 0h1000v100L0 0z"/>
+                                                </svg>
+                                            </div>
+                                            <div class="sppb-row-container">
+                                                <div class="sppb-row sppb-align-center">
+                                                    <div class="sppb-col-md-6  " id="column-wrap-id-1590910476766">
+                                                        <div id="column-id-1590910476766" class="sppb-column  ">
+                                                            <div class="sppb-column-addons">
+                                                                <div id="sppb-addon-wrapper-1590911999194" class="sppb-addon-wrapper  addon-root-heading">
+                                                                    <div id="sppb-addon-1590911999194" class="clearfix  sppb-wow fadeInUp  sppb-positioned-addon" data-sppb-wow-duration="300ms" data-sppb-wow-delay="300ms" data-col-zindex="2" data-rowid="1590910476767" data-colid="1590910476766">
+                                                                        <div class="sppb-addon sppb-addon-header">
+                                                                            <h1 class="sppb-addon-title">Community Engagement Platform</h1>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div id="sppb-addon-wrapper-1590912032193" class="sppb-addon-wrapper  addon-root-button-group">
+                                                                    <div id="sppb-addon-1590912032193" class="clearfix  sppb-wow fadeInUp  sppb-positioned-addon" data-sppb-wow-duration="400ms" data-sppb-wow-delay="400ms" data-col-zindex="2" data-rowid="1590910476767" data-colid="1590910476766">
+                                                                        <div class="sppb-addon sppb-addon-button-group">
+                                                                            <div class="sppb-addon-content">
+                                                                                <a href="https://radapps.co.za/cepdev/index.php/#CEP-Offerings" id="btn-15909120321930" class="sppb-btn  sppb-btn-custom sppb-btn-rounded">Offerings</a>
+                                                                                <a href="https://radapps.co.za/cepdev/index.php/register/register" target="_blank" id="btn-15909120321931" class="sppb-btn  sppb-btn-custom sppb-btn-rounded">Register</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div id="section-id-1590985318156" class="sppb-section">
+                                                                    <div class="sppb-container-inner">
+                                                                        <div class="sppb-row sppb-nested-row">
+                                                                            <div class="sppb-col-md-6 sppb-col-sm-6  " id="column-wrap-id-1590985318160">
+                                                                                <div id="column-id-1590985318160" class="sppb-column  ">
+                                                                                    <div class="sppb-column-addons">
+                                                                                        <div id="sppb-addon-wrapper-1590912111727" class="sppb-addon-wrapper  addon-root-feature">
+                                                                                            <div id="sppb-addon-1590912111727" class="clearfix  sppb-wow fadeInUp  sppb-positioned-addon" data-sppb-wow-duration="500ms" data-sppb-wow-delay="500ms" data-zindex="2" data-col-zindex="2" data-rowid="1590985318156" data-colid="1590985318160">
+                                                                                                <div class="sppb-addon sppb-addon-feature  ">
+                                                                                                    <div class="sppb-addon-content">
+                                                                                                        <div class="sppb-icon">
+                                                                                                            <span class="sppb-icon-container" role="img" aria-label="">
+                                                                                                                <i class="fas fa-bullhorn" aria-hidden="true"></i>
+                                                                                                            </span>
+                                                                                                        </div>
+                                                                                                        <div class="sppb-media-content">
+                                                                                                            <div class="sppb-addon-text">
+                                                                                                                <p>
+                                                                                                                    <strong>Your voice, platform and opportunity to connect &nbsp;</strong>
+                                                                                                                    <span style="color: rgb(0, 0, 0)">
+                                                                                                                        <strong>​</strong>
+                                                                                                                    </span>
+                                                                                                                </p>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sppb-col-md-6  " id="column-wrap-id-1590910476768">
+                                                        <div id="column-id-1590910476768" class="sppb-column  ">
+                                                            <div class="sppb-column-addons">
+                                                                <div id="sppb-addon-wrapper-1590912256286" class="sppb-addon-wrapper  addon-root-image">
+                                                                    <div id="sppb-addon-1590912256286" class="clearfix  sppb-wow zoomIn  sppb-positioned-addon" data-sppb-wow-duration="600ms" data-sppb-wow-delay="600ms" data-col-zindex="2" data-rowid="1590910476767" data-colid="1590910476768">
+                                                                        <div class="sppb-addon sppb-addon-single-image  ">
+                                                                            <div class="sppb-addon-content">
+                                                                                <div class="sppb-addon-single-image-container">
+                                                                                    <img class="sppb-img-responsive" src="/images/2023/12/07/sandy-ravaloniaina-bksxa157lf4-unsplash.jpg" alt="Image" title="" width="4608" height="3072"/>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section id="section-id-35793dea-f923-484c-829f-63a025c16317" class="sppb-section">
+                                            <div class="sppb-row-container">
+                                                <div class="sppb-row">
+                                                    <div class="sppb-col-md-12  " id="column-wrap-id-9b863a2c-4ef0-442c-b3b3-5ab17e7bc512">
+                                                        <div id="column-id-9b863a2c-4ef0-442c-b3b3-5ab17e7bc512" class="sppb-column ">
+                                                            <div class="sppb-column-addons">
+                                                                <div id="sppb-addon-wrapper-4d117bce-e6ac-4e63-a840-cc868b77b94f" class="sppb-addon-wrapper  addon-root-heading">
+                                                                    <div id="sppb-addon-4d117bce-e6ac-4e63-a840-cc868b77b94f" class="clearfix  ">
+                                                                        <div class="sppb-addon sppb-addon-header">
+                                                                            <h2 class="sppb-addon-title">About the Community Engagement Platform</h2>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sppb-col-md-4 sppb-col-sm-6  " id="column-wrap-id-55b7fa97-9dd9-4a43-b4d1-2778d3cc1c6c">
+                                                        <div id="column-id-55b7fa97-9dd9-4a43-b4d1-2778d3cc1c6c" class="sppb-column  ">
+                                                            <div class="sppb-column-addons">
+                                                                <div id="sppb-addon-wrapper-595e67df-4803-4ace-a613-c6eda456c80f" class="sppb-addon-wrapper  addon-root-blocknumber">
+                                                                    <div id="sppb-addon-595e67df-4803-4ace-a613-c6eda456c80f" class="clearfix  ">
+                                                                        <div class="sppb-addon sppb-addon-blocknumber ">
+                                                                            <div class="sppb-addon-content">
+                                                                                <div class="sppb-blocknumber sppb-media">
+                                                                                    <div class="pull-left">
+                                                                                        <span class="sppb-blocknumber-number">01</span>
+                                                                                    </div>
+                                                                                    <div class="sppb-media-body sppb-text-left">
+                                                                                        <h3 class="sppb-media-heading">Our Purpose</h3>
+                                                                                        <div class="sppb-blocknumber-text">The community engagement platform is based on the reality that ordinary South Africans living in township or rural communities still experience limitations in their access to opportunity that furthers the divide of social and economic inequity.</div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sppb-col-md-4 sppb-col-sm-6  " id="column-wrap-id-90e0dc7a-bfed-4320-83d3-97ea556671c6">
+                                                        <div id="column-id-90e0dc7a-bfed-4320-83d3-97ea556671c6" class="sppb-column ">
+                                                            <div class="sppb-column-addons">
+                                                                <div id="sppb-addon-wrapper-b1436e5e-2db1-4f64-92f0-33d3e2539deb" class="sppb-addon-wrapper  addon-root-blocknumber">
+                                                                    <div id="sppb-addon-b1436e5e-2db1-4f64-92f0-33d3e2539deb" class="clearfix  ">
+                                                                        <div class="sppb-addon sppb-addon-blocknumber ">
+                                                                            <div class="sppb-addon-content">
+                                                                                <div class="sppb-blocknumber sppb-media">
+                                                                                    <div class="pull-left">
+                                                                                        <span class="sppb-blocknumber-number">02</span>
+                                                                                    </div>
+                                                                                    <div class="sppb-media-body sppb-text-left">
+                                                                                        <h3 class="sppb-media-heading">Our Objective</h3>
+                                                                                        <div class="sppb-blocknumber-text">To create a common platform, upon which the community can access knowledge, information and resources to build their own community tool that meets their needs, in their own individual way.</div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sppb-col-md-4 sppb-col-sm-6  " id="column-wrap-id-88ef7134-e408-4f26-8dcf-12e805b73c2d">
+                                                        <div id="column-id-88ef7134-e408-4f26-8dcf-12e805b73c2d" class="sppb-column ">
+                                                            <div class="sppb-column-addons">
+                                                                <div id="sppb-addon-wrapper-bf0d1d6d-8ae1-4d99-ab0c-2166cf68495e" class="sppb-addon-wrapper  addon-root-blocknumber">
+                                                                    <div id="sppb-addon-bf0d1d6d-8ae1-4d99-ab0c-2166cf68495e" class="clearfix  ">
+                                                                        <div class="sppb-addon sppb-addon-blocknumber ">
+                                                                            <div class="sppb-addon-content">
+                                                                                <div class="sppb-blocknumber sppb-media">
+                                                                                    <div class="pull-left">
+                                                                                        <span class="sppb-blocknumber-number">03</span>
+                                                                                    </div>
+                                                                                    <div class="sppb-media-body sppb-text-left">
+                                                                                        <h3 class="sppb-media-heading">OUR CEOs</h3>
+                                                                                        <div class="sppb-blocknumber-text">Our Youth development teams capture community information including job seekers, small businesses, community policing forum, the community leaders and the carers for elderly and people with disabilities.</div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section id="section-id-a78922a6-7de4-42a7-b3d8-31fc68908d05" class="sppb-section">
+                                            <div class="sppb-row-container">
+                                                <div class="sppb-row">
+                                                    <div class="sppb-col-md-12  " id="column-wrap-id-0746ab66-4dc5-44f2-84c8-d81ffc1330ed">
+                                                        <div id="column-id-0746ab66-4dc5-44f2-84c8-d81ffc1330ed" class="sppb-column ">
+                                                            <div class="sppb-column-addons">
+                                                                <div id="sppb-addon-wrapper-d77e0cf6-cc55-4761-a962-9dd2fca50d80" class="sppb-addon-wrapper  addon-root-text-block">
+                                                                    <div id="sppb-addon-d77e0cf6-cc55-4761-a962-9dd2fca50d80" class="clearfix  ">
+                                                                        <div class="sppb-addon sppb-addon-text-block ">
+                                                                            <div class="sppb-addon-content">
+                                                                                <p>
+                                                                                    <span style="color: rgb(255, 255, 255)">With this information, the CEP allows community members</span>
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div id="sppb-addon-wrapper-34de2dc6-2063-41f7-80ea-ece50a0347fc" class="sppb-addon-wrapper  addon-root-text-block">
+                                                                    <div id="sppb-addon-34de2dc6-2063-41f7-80ea-ece50a0347fc" class="clearfix  ">
+                                                                        <div class="sppb-addon sppb-addon-text-block ">
+                                                                            <h2 class="sppb-addon-title">“ ​To publish security alerts​ have an active marketplace that advertises small business promotions, specials so that communities support their own SMME’s ​  Provide knowledge and information and public meetings, forums and announcements ​”</h2>
+                                                                            <div class="sppb-addon-content">
+                                                                                <p></p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section id="section-id-8a10230c-3264-4745-85c4-9b0aaa95597c" class="sppb-section">
+                                            <div class="sppb-row-container">
+                                                <div class="sppb-row">
+                                                    <div class="sppb-col-md-12  " id="column-wrap-id-53b7e8a4-3c65-49d0-a353-01ecbe4c0053">
+                                                        <div id="column-id-53b7e8a4-3c65-49d0-a353-01ecbe4c0053" class="sppb-column ">
+                                                            <div class="sppb-column-addons">
+                                                                <div id="sppb-addon-wrapper-ec7995a9-a212-4d1a-b006-1a9b63b7e038" class="sppb-addon-wrapper  addon-root-heading">
+                                                                    <div id="sppb-addon-ec7995a9-a212-4d1a-b006-1a9b63b7e038" class="clearfix  ">
+                                                                        <div class="sppb-addon sppb-addon-header">
+                                                                            <h2 class="sppb-addon-title">Activated Communities​</h2>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <div id="section-id-1591159504590" class="sppb-section">
+                                            <div class="sppb-container-inner">
+                                                <div class="sppb-row">
+                                                    <div class="sppb-col-md-12  " id="column-wrap-id-1591159504591">
+                                                        <div id="column-id-1591159504591" class="sppb-column  ">
+                                                            <div class="sppb-column-addons">
+                                                                <div id="sppb-addon-wrapper-1591163114562" class="sppb-addon-wrapper  addon-root-testimonial-carousel">
+                                                                    <div id="sppb-addon-1591163114562" class="clearfix  ">
+                                                                        <div class="sppb-addon sppb-carousel-extended sppb-testimonial-carousel-testi_layout1" data-left-arrow="fa-long-arrow-left" data-right-arrow="fa-long-arrow-right" data-arrow="0" data-dots="0" data-testi-layout="testi_layout1" data-autoplay="1" data-speed="1000" data-interval="2500" data-margin="25" data-item-number-xl="4" data-item-number-lg="2" data-item-number-md="2" data-item-number-sm="1" data-item-number-xs="2">
+                                                                            <div id="sppb-testi-1591163114562-carousel-item-key-0" class="sppb-carousel-extended-item">
+                                                                                <div class="sppb-testimonial-carousel-item-content">
+                                                                                    <div class="sppb-testimonial-carousel-message"></div>
+                                                                                </div>
+                                                                                <div class="sppb-testimonial-carousel-content-wrap">
+                                                                                    <div class="sppb-testimonial-carousel-img-wrap">
+                                                                                        <img src="/images/2023/12/07/thungela_logo.jpg" alt="Thungela">
+                                                                                    </div>
+                                                                                    <div class="sppb-testimonial-carousel-name-designation">
+                                                                                        <div class="sppb-testimonial-carousel-name">Thungela</div>
+                                                                                        <div class="sppb-testimonial-carousel-designation"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div id="sppb-testi-1591163114562-carousel-item-key-1" class="sppb-carousel-extended-item">
+                                                                                <div class="sppb-testimonial-carousel-item-content">
+                                                                                    <div class="sppb-testimonial-carousel-message"></div>
+                                                                                </div>
+                                                                                <div class="sppb-testimonial-carousel-content-wrap">
+                                                                                    <div class="sppb-testimonial-carousel-img-wrap">
+                                                                                        <img src="/images/2023/12/07/geo-location-pin-vector-icon.jpg" alt="Soweto">
+                                                                                    </div>
+                                                                                    <div class="sppb-testimonial-carousel-name-designation">
+                                                                                        <div class="sppb-testimonial-carousel-name">Soweto</div>
+                                                                                        <div class="sppb-testimonial-carousel-designation"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div id="sppb-testi-1591163114562-carousel-item-key-2" class="sppb-carousel-extended-item">
+                                                                                <div class="sppb-testimonial-carousel-item-content">
+                                                                                    <div class="sppb-testimonial-carousel-message"></div>
+                                                                                </div>
+                                                                                <div class="sppb-testimonial-carousel-content-wrap">
+                                                                                    <div class="sppb-testimonial-carousel-img-wrap">
+                                                                                        <img src="/images/2023/12/07/geo-location-pin-vector-icon.jpg" alt="Diepsloot">
+                                                                                    </div>
+                                                                                    <div class="sppb-testimonial-carousel-name-designation">
+                                                                                        <div class="sppb-testimonial-carousel-name">Diepsloot</div>
+                                                                                        <div class="sppb-testimonial-carousel-designation"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div id="sppb-testi-1591163114562-carousel-item-key-3" class="sppb-carousel-extended-item">
+                                                                                <div class="sppb-testimonial-carousel-item-content">
+                                                                                    <div class="sppb-testimonial-carousel-message"></div>
+                                                                                </div>
+                                                                                <div class="sppb-testimonial-carousel-content-wrap">
+                                                                                    <div class="sppb-testimonial-carousel-img-wrap">
+                                                                                        <img src="/images/2023/12/07/geo-location-pin-vector-icon.jpg" alt="Alexandra">
+                                                                                    </div>
+                                                                                    <div class="sppb-testimonial-carousel-name-designation">
+                                                                                        <div class="sppb-testimonial-carousel-name">Alexandra</div>
+                                                                                        <div class="sppb-testimonial-carousel-designation"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div id="sppb-testi-1591163114562-carousel-item-key-4" class="sppb-carousel-extended-item">
+                                                                                <div class="sppb-testimonial-carousel-item-content">
+                                                                                    <div class="sppb-testimonial-carousel-message"></div>
+                                                                                </div>
+                                                                                <div class="sppb-testimonial-carousel-content-wrap">
+                                                                                    <div class="sppb-testimonial-carousel-img-wrap">
+                                                                                        <img src="/images/2023/12/07/geo-location-pin-vector-icon.jpg" alt="Tembisa">
+                                                                                    </div>
+                                                                                    <div class="sppb-testimonial-carousel-name-designation">
+                                                                                        <div class="sppb-testimonial-carousel-name">Tembisa</div>
+                                                                                        <div class="sppb-testimonial-carousel-designation"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div id="sppb-testi-1591163114562-carousel-item-key-5" class="sppb-carousel-extended-item">
+                                                                                <div class="sppb-testimonial-carousel-item-content">
+                                                                                    <div class="sppb-testimonial-carousel-message"></div>
+                                                                                </div>
+                                                                                <div class="sppb-testimonial-carousel-content-wrap">
+                                                                                    <div class="sppb-testimonial-carousel-img-wrap">
+                                                                                        <img src="/images/2023/12/07/geo-location-pin-vector-icon.jpg" alt="Mogale City">
+                                                                                    </div>
+                                                                                    <div class="sppb-testimonial-carousel-name-designation">
+                                                                                        <div class="sppb-testimonial-carousel-name">Mogale City</div>
+                                                                                        <div class="sppb-testimonial-carousel-designation"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div id="sppb-testi-1591163114562-carousel-item-key-6" class="sppb-carousel-extended-item">
+                                                                                <div class="sppb-testimonial-carousel-item-content">
+                                                                                    <div class="sppb-testimonial-carousel-message"></div>
+                                                                                </div>
+                                                                                <div class="sppb-testimonial-carousel-content-wrap">
+                                                                                    <div class="sppb-testimonial-carousel-img-wrap">
+                                                                                        <img src="/images/2023/12/07/geo-location-pin-vector-icon.jpg" alt="Vaal">
+                                                                                    </div>
+                                                                                    <div class="sppb-testimonial-carousel-name-designation">
+                                                                                        <div class="sppb-testimonial-carousel-name">Vaal</div>
+                                                                                        <div class="sppb-testimonial-carousel-designation"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <section id="CEP-Offerings" class="sppb-section">
+                                            <div class="sppb-shape-container sppb-top-shape  sppb-shape-flip">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                                                    <path d="M0 0h1000v100L0 0z"/>
+                                                </svg>
+                                            </div>
+                                            <div class="sppb-row-container">
+                                                <div class="sppb-row">
+                                                    <div class="sppb-col-md-12  " id="column-wrap-id-e8a156ac-a047-4a78-b8d3-ebc621f9fb65">
+                                                        <div id="column-id-e8a156ac-a047-4a78-b8d3-ebc621f9fb65" class="sppb-column  ">
+                                                            <div class="sppb-column-addons">
+                                                                <div id="sppb-addon-wrapper-1483fed6-79f3-444d-8b6a-be93ef7798e1" class="sppb-addon-wrapper  addon-root-empty-space">
+                                                                    <div id="sppb-addon-1483fed6-79f3-444d-8b6a-be93ef7798e1" class="clearfix  ">
+                                                                        <div class="sppb-empty-space  clearfix"></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div id="section-id-8a3874d1-ff8a-413b-b4e4-bc771c89b2d9" class="sppb-section">
+                                                                    <div class="sppb-container-inner">
+                                                                        <div class="sppb-row sppb-nested-row">
+                                                                            <div class="sppb-col-md-6  " id="column-wrap-id-afe76479-83c2-4b45-93c3-b3cd8603d7ea">
+                                                                                <div id="column-id-afe76479-83c2-4b45-93c3-b3cd8603d7ea" class="sppb-column  ">
+                                                                                    <div class="sppb-column-addons">
+                                                                                        <div id="sppb-addon-wrapper-27749bf0-3189-48ed-861b-ada5ebcf419f" class="sppb-addon-wrapper  addon-root-heading">
+                                                                                            <div id="sppb-addon-27749bf0-3189-48ed-861b-ada5ebcf419f" class="clearfix  ">
+                                                                                                <div class="sppb-addon sppb-addon-header">
+                                                                                                    <h2 class="sppb-addon-title">Platform Offerings</h2>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="sppb-col-md-6  " id="column-wrap-id-98fd6a9e-956f-4be2-b45e-e0db533b8ef5">
+                                                                                <div id="column-id-98fd6a9e-956f-4be2-b45e-e0db533b8ef5" class="sppb-column  ">
+                                                                                    <div class="sppb-column-addons">
+                                                                                        <div id="sppb-addon-wrapper-64d53f9e-d3ff-4685-8319-1f27bd141f89" class="sppb-addon-wrapper  addon-root-text-block">
+                                                                                            <div id="sppb-addon-64d53f9e-d3ff-4685-8319-1f27bd141f89" class="clearfix  sppb-wow fadeInRight  " data-sppb-wow-duration="500ms" data-sppb-wow-delay="500ms">
+                                                                                                <div class="sppb-addon sppb-addon-text-block ">
+                                                                                                    <div class="sppb-addon-content">
+                                                                                                        <p>Actively engage with local, district government and the private sector around the needs of each community.</p>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sppb-col-md-4 sppb-col-sm-6  " id="column-wrap-id-99e09358-57ee-4683-a094-bd431a6d7bee">
+                                                        <div id="column-id-99e09358-57ee-4683-a094-bd431a6d7bee" class="sppb-column  ">
+                                                            <div class="sppb-column-addons">
+                                                                <div id="sppb-addon-wrapper-a18d6d5d-ee14-4081-aaa7-f030053160b0" class="sppb-addon-wrapper  addon-root-feature">
+                                                                    <div id="sppb-addon-a18d6d5d-ee14-4081-aaa7-f030053160b0" class="clearfix  sppb-wow fadeInUp  sppb-positioned-addon" data-sppb-wow-duration="300ms" data-sppb-wow-delay="300ms" data-col-zindex="2" data-rowid="a1db8083-3a9f-461f-8d14-265dadc49f88" data-colid="99e09358-57ee-4683-a094-bd431a6d7bee">
+                                                                        <div class="sppb-addon sppb-addon-feature  ">
+                                                                            <div class="sppb-addon-content">
+                                                                                <div class="sppb-icon">
+                                                                                    <span class="sppb-icon-container" role="img" aria-label="Community News">
+                                                                                        <i class="fas fa-newspaper" aria-hidden="true"></i>
+                                                                                    </span>
+                                                                                </div>
+                                                                                <div class="sppb-media-content">
+                                                                                    <h3 class="sppb-addon-title sppb-feature-box-title">Community News</h3>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sppb-col-md-4 sppb-col-sm-6  " id="column-wrap-id-01e218ae-b12d-4cec-88ed-bbf5768b1377">
+                                                        <div id="column-id-01e218ae-b12d-4cec-88ed-bbf5768b1377" class="sppb-column  ">
+                                                            <div class="sppb-column-addons">
+                                                                <div id="sppb-addon-wrapper-76fe7b77-e880-44f6-a568-bb1311f46847" class="sppb-addon-wrapper  addon-root-feature">
+                                                                    <div id="sppb-addon-76fe7b77-e880-44f6-a568-bb1311f46847" class="clearfix  sppb-wow fadeInUp  sppb-positioned-addon" data-sppb-wow-duration="300ms" data-sppb-wow-delay="300ms" data-col-zindex="2" data-rowid="a1db8083-3a9f-461f-8d14-265dadc49f88" data-colid="01e218ae-b12d-4cec-88ed-bbf5768b1377">
+                                                                        <div class="sppb-addon sppb-addon-feature  ">
+                                                                            <div class="sppb-addon-content">
+                                                                                <div class="sppb-icon">
+                                                                                    <span class="sppb-icon-container" role="img" aria-label="Security Alerts">
+                                                                                        <i class="fas fa-lock" aria-hidden="true"></i>
+                                                                                    </span>
+                                                                                </div>
+                                                                                <div class="sppb-media-content">
+                                                                                    <h3 class="sppb-addon-title sppb-feature-box-title">Security Alerts</h3>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sppb-col-md-4 sppb-col-sm-6  " id="column-wrap-id-02df4f52-28c5-4e04-a2ee-567cec60c07e">
+                                                        <div id="column-id-02df4f52-28c5-4e04-a2ee-567cec60c07e" class="sppb-column ">
+                                                            <div class="sppb-column-addons">
+                                                                <div id="sppb-addon-wrapper-0e63072e-7802-4e77-a3bb-332f4695d714" class="sppb-addon-wrapper  addon-root-feature">
+                                                                    <div id="sppb-addon-0e63072e-7802-4e77-a3bb-332f4695d714" class="clearfix  sppb-wow fadeInUp  sppb-positioned-addon" data-sppb-wow-duration="300ms" data-sppb-wow-delay="300ms" data-col-zindex="2" data-rowid="a1db8083-3a9f-461f-8d14-265dadc49f88" data-colid="02df4f52-28c5-4e04-a2ee-567cec60c07e">
+                                                                        <div class="sppb-addon sppb-addon-feature  ">
+                                                                            <div class="sppb-addon-content">
+                                                                                <div class="sppb-icon">
+                                                                                    <span class="sppb-icon-container" role="img" aria-label="Business Learning">
+                                                                                        <i class="fas fa-business-time" aria-hidden="true"></i>
+                                                                                    </span>
+                                                                                </div>
+                                                                                <div class="sppb-media-content">
+                                                                                    <h3 class="sppb-addon-title sppb-feature-box-title">Business Learning</h3>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sppb-col-md-4 sppb-col-sm-6  " id="column-wrap-id-544de75a-8f06-43c2-8598-32c694e64b39">
+                                                        <div id="column-id-544de75a-8f06-43c2-8598-32c694e64b39" class="sppb-column  ">
+                                                            <div class="sppb-column-addons">
+                                                                <div id="sppb-addon-wrapper-62b75fae-bb36-4f13-8d55-755fea9d6fd9" class="sppb-addon-wrapper  addon-root-feature">
+                                                                    <div id="sppb-addon-62b75fae-bb36-4f13-8d55-755fea9d6fd9" class="clearfix  sppb-wow fadeInUp  sppb-positioned-addon" data-sppb-wow-duration="300ms" data-sppb-wow-delay="300ms" data-col-zindex="2" data-rowid="a1db8083-3a9f-461f-8d14-265dadc49f88" data-colid="544de75a-8f06-43c2-8598-32c694e64b39">
+                                                                        <div class="sppb-addon sppb-addon-feature  ">
+                                                                            <div class="sppb-addon-content">
+                                                                                <div class="sppb-icon">
+                                                                                    <span class="sppb-icon-container" role="img" aria-label="Emergency Contacts ">
+                                                                                        <i class="fas fa-info-circle" aria-hidden="true"></i>
+                                                                                    </span>
+                                                                                </div>
+                                                                                <div class="sppb-media-content">
+                                                                                    <h3 class="sppb-addon-title sppb-feature-box-title">Emergency Contacts </h3>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sppb-col-md-4 sppb-col-sm-6  " id="column-wrap-id-1de4215f-fc2d-4851-8ef7-13e8805d1e52">
+                                                        <div id="column-id-1de4215f-fc2d-4851-8ef7-13e8805d1e52" class="sppb-column  ">
+                                                            <div class="sppb-column-addons">
+                                                                <div id="sppb-addon-wrapper-983216e3-959b-4a3a-aa3f-c9768d73a8e5" class="sppb-addon-wrapper  addon-root-feature">
+                                                                    <div id="sppb-addon-983216e3-959b-4a3a-aa3f-c9768d73a8e5" class="clearfix  sppb-positioned-addon" data-col-zindex="2" data-rowid="a1db8083-3a9f-461f-8d14-265dadc49f88" data-colid="1de4215f-fc2d-4851-8ef7-13e8805d1e52">
+                                                                        <div class="sppb-addon sppb-addon-feature  ">
+                                                                            <div class="sppb-addon-content">
+                                                                                <div class="sppb-icon">
+                                                                                    <span class="sppb-icon-container" role="img" aria-label="Health">
+                                                                                        <i class="fas fa-briefcase-medical" aria-hidden="true"></i>
+                                                                                    </span>
+                                                                                </div>
+                                                                                <div class="sppb-media-content">
+                                                                                    <h3 class="sppb-addon-title sppb-feature-box-title">Health</h3>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sppb-col-md-4 sppb-col-sm-6  " id="column-wrap-id-ab0b09a8-135b-4a57-b358-f7c3b14d4f1b">
+                                                        <div id="column-id-ab0b09a8-135b-4a57-b358-f7c3b14d4f1b" class="sppb-column  ">
+                                                            <div class="sppb-column-addons">
+                                                                <div id="sppb-addon-wrapper-791a9308-7c66-4afa-85a8-2ebbcf8d7add" class="sppb-addon-wrapper  addon-root-feature">
+                                                                    <div id="sppb-addon-791a9308-7c66-4afa-85a8-2ebbcf8d7add" class="clearfix  sppb-positioned-addon" data-col-zindex="2" data-rowid="a1db8083-3a9f-461f-8d14-265dadc49f88" data-colid="ab0b09a8-135b-4a57-b358-f7c3b14d4f1b">
+                                                                        <div class="sppb-addon sppb-addon-feature  ">
+                                                                            <div class="sppb-addon-content">
+                                                                                <div class="sppb-icon">
+                                                                                    <span class="sppb-icon-container" role="img" aria-label="Education">
+                                                                                        <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                                                                                    </span>
+                                                                                </div>
+                                                                                <div class="sppb-media-content">
+                                                                                    <h3 class="sppb-addon-title sppb-feature-box-title">Education</h3>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sppb-col-md-4 sppb-col-sm-6  " id="column-wrap-id-8ce7dacb-9e23-4b87-8570-bd3570333cad">
+                                                        <div id="column-id-8ce7dacb-9e23-4b87-8570-bd3570333cad" class="sppb-column  ">
+                                                            <div class="sppb-column-addons">
+                                                                <div id="sppb-addon-wrapper-401cc2e6-33d8-4263-890d-cbc41998b800" class="sppb-addon-wrapper  addon-root-feature">
+                                                                    <div id="sppb-addon-401cc2e6-33d8-4263-890d-cbc41998b800" class="clearfix  sppb-positioned-addon" data-col-zindex="2" data-rowid="a1db8083-3a9f-461f-8d14-265dadc49f88" data-colid="8ce7dacb-9e23-4b87-8570-bd3570333cad">
+                                                                        <div class="sppb-addon sppb-addon-feature  ">
+                                                                            <div class="sppb-addon-content">
+                                                                                <div class="sppb-icon">
+                                                                                    <span class="sppb-icon-container" role="img" aria-label="Marketplace">
+                                                                                        <i class="fas fa-store" aria-hidden="true"></i>
+                                                                                    </span>
+                                                                                </div>
+                                                                                <div class="sppb-media-content">
+                                                                                    <h3 class="sppb-addon-title sppb-feature-box-title">Marketplace</h3>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sppb-col-md-4 sppb-col-sm-6  " id="column-wrap-id-f8b36a73-aba7-4fa6-bc9c-a5049537e878">
+                                                        <div id="column-id-f8b36a73-aba7-4fa6-bc9c-a5049537e878" class="sppb-column  ">
+                                                            <div class="sppb-column-addons">
+                                                                <div id="sppb-addon-wrapper-8d47b66b-29ea-4ed3-86e1-80cd89696f0e" class="sppb-addon-wrapper  addon-root-feature">
+                                                                    <div id="sppb-addon-8d47b66b-29ea-4ed3-86e1-80cd89696f0e" class="clearfix  sppb-positioned-addon" data-col-zindex="2" data-rowid="a1db8083-3a9f-461f-8d14-265dadc49f88" data-colid="f8b36a73-aba7-4fa6-bc9c-a5049537e878">
+                                                                        <div class="sppb-addon sppb-addon-feature  ">
+                                                                            <div class="sppb-addon-content">
+                                                                                <div class="sppb-icon">
+                                                                                    <span class="sppb-icon-container" role="img" aria-label="Forums">
+                                                                                        <i class="fas fa-users" aria-hidden="true"></i>
+                                                                                    </span>
+                                                                                </div>
+                                                                                <div class="sppb-media-content">
+                                                                                    <h3 class="sppb-addon-title sppb-feature-box-title">Forums</h3>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section id="section-id-a18c0cd1-74a9-4b9b-b4c6-dce2a9a2c2f7" class="sppb-section sppb-section-content-center">
+                                            <div class="sppb-row-container">
+                                                <div class="sppb-row sppb-align-center">
+                                                    <div class="sppb-col-md-12  " id="column-wrap-id-bc38c9b8-eca5-4613-9b0f-791f2a26e7dd">
+                                                        <div id="column-id-bc38c9b8-eca5-4613-9b0f-791f2a26e7dd" class="sppb-column ">
+                                                            <div class="sppb-column-addons">
+                                                                <div id="sppb-addon-wrapper-389bc1eb-608f-4859-8464-a4bdd7c3123f" class="sppb-addon-wrapper  addon-root-heading">
+                                                                    <div id="sppb-addon-389bc1eb-608f-4859-8464-a4bdd7c3123f" class="clearfix  ">
+                                                                        <div class="sppb-addon sppb-addon-header">
+                                                                            <h2 class="sppb-addon-title">Who is Siyakha</h2>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sppb-col-md-8  " id="column-wrap-id-e3792874-4c28-43d2-add2-05120ed14aef">
+                                                        <div id="column-id-e3792874-4c28-43d2-add2-05120ed14aef" class="sppb-column ">
+                                                            <div class="sppb-column-addons">
+                                                                <div id="sppb-addon-wrapper-1b554292-102c-4d62-8db6-718a67d59936" class="sppb-addon-wrapper  addon-root-feature">
+                                                                    <div id="sppb-addon-1b554292-102c-4d62-8db6-718a67d59936" class="clearfix  sppb-wow fadeInRight  " data-sppb-wow-duration="300ms" data-sppb-wow-delay="300ms">
+                                                                        <div class="sppb-addon sppb-addon-feature sppb-text-left ">
+                                                                            <div class="sppb-addon-content">
+                                                                                <div class="sppb-media">
+                                                                                    <div class="pull-left"></div>
+                                                                                    <div class="sppb-media-body">
+                                                                                        <div class="sppb-media-content">
+                                                                                            <div class="sppb-addon-text">
+                                                                                                <p>Siyakha is the development partner behind the Community Engagement Platform, driving growth and development and ensuring sustainability within each of these communities.​​</p>
+                                                                                                <p></p>
+                                                                                                <p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 1rem;">In our experience over the last 25 years, we have engaged with communities and implemented projects in rural and informal markets, which have taught us that if we focus on skills transfer and building capability, then we can legitimately move communities out of a developmental state and into a state of growth​.</p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div id="sppb-addon-wrapper-dd5f3e4d-48da-4261-84ff-0ea4604d6fa8" class="sppb-addon-wrapper  addon-root-heading">
+                                                                    <div id="sppb-addon-dd5f3e4d-48da-4261-84ff-0ea4604d6fa8" class="clearfix  ">
+                                                                        <div class="sppb-addon sppb-addon-header">
+                                                                            <h2 class="sppb-addon-title">Overall Impact on Communities</h2>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div id="section-id-89e401af-c5c8-4386-a5ea-e0ad53b0e198" class="sppb-section">
+                                                                    <div class="sppb-container-inner">
+                                                                        <div class="sppb-row sppb-nested-row">
+                                                                            <div class="sppb-col-md-6 sppb-col-sm-6  " id="column-wrap-id-db8b0a6d-0c84-4f3b-9e23-7a751194d68d">
+                                                                                <div id="column-id-db8b0a6d-0c84-4f3b-9e23-7a751194d68d" class="sppb-column   sppb-wow fadeInUp" data-sppb-wow-duration="400ms" data-sppb-wow-delay="400ms">
+                                                                                    <div class="sppb-column-addons">
+                                                                                        <div id="sppb-addon-wrapper-f1aefc82-2f67-462b-ab16-c963efcee12a" class="sppb-addon-wrapper  addon-root-feature">
+                                                                                            <div id="sppb-addon-f1aefc82-2f67-462b-ab16-c963efcee12a" class="clearfix  ">
+                                                                                                <div class="sppb-addon sppb-addon-feature sppb-text-left ">
+                                                                                                    <div class="sppb-addon-content">
+                                                                                                        <div class="sppb-media">
+                                                                                                            <div class="pull-left">
+                                                                                                                <div class="sppb-icon">
+                                                                                                                    <span class="sppb-icon-container" role="img" aria-label="Economic Growth">
+                                                                                                                        <i class="fas fa-star-of-life" aria-hidden="true"></i>
+                                                                                                                    </span>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="sppb-media-body">
+                                                                                                                <div class="sppb-media-content">
+                                                                                                                    <h4 class="sppb-addon-title sppb-feature-box-title sppb-media-heading">Economic Growth</h4>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="sppb-col-md-6 sppb-col-sm-6  " id="column-wrap-id-51075d82-fe96-4970-926a-43b942003add">
+                                                                                <div id="column-id-51075d82-fe96-4970-926a-43b942003add" class="sppb-column  sppb-wow fadeInUp" data-sppb-wow-duration="600ms" data-sppb-wow-delay="600ms">
+                                                                                    <div class="sppb-column-addons">
+                                                                                        <div id="sppb-addon-wrapper-c28e033c-2fba-4c73-9c05-76647b3f2889" class="sppb-addon-wrapper  addon-root-feature">
+                                                                                            <div id="sppb-addon-c28e033c-2fba-4c73-9c05-76647b3f2889" class="clearfix  ">
+                                                                                                <div class="sppb-addon sppb-addon-feature sppb-text-left ">
+                                                                                                    <div class="sppb-addon-content">
+                                                                                                        <div class="sppb-media">
+                                                                                                            <div class="pull-left">
+                                                                                                                <div class="sppb-icon">
+                                                                                                                    <span class="sppb-icon-container" role="img" aria-label="Health Improvements ">
+                                                                                                                        <i class="fas fa-star-of-life" aria-hidden="true"></i>
+                                                                                                                    </span>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="sppb-media-body">
+                                                                                                                <div class="sppb-media-content">
+                                                                                                                    <h4 class="sppb-addon-title sppb-feature-box-title sppb-media-heading">Health Improvements </h4>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="sppb-col-md-6 sppb-col-sm-6  " id="column-wrap-id-3b793f57-4b80-4198-8508-fcb04c76774d">
+                                                                                <div id="column-id-3b793f57-4b80-4198-8508-fcb04c76774d" class="sppb-column  sppb-wow fadeInUp" data-sppb-wow-duration="500ms" data-sppb-wow-delay="500ms">
+                                                                                    <div class="sppb-column-addons">
+                                                                                        <div id="sppb-addon-wrapper-ad365af1-c61b-44d7-b0d5-696e712c7bc2" class="sppb-addon-wrapper  addon-root-feature">
+                                                                                            <div id="sppb-addon-ad365af1-c61b-44d7-b0d5-696e712c7bc2" class="clearfix  ">
+                                                                                                <div class="sppb-addon sppb-addon-feature sppb-text-left ">
+                                                                                                    <div class="sppb-addon-content">
+                                                                                                        <div class="sppb-media">
+                                                                                                            <div class="pull-left">
+                                                                                                                <div class="sppb-icon">
+                                                                                                                    <span class="sppb-icon-container" role="img" aria-label="Education & Skills Development">
+                                                                                                                        <i class="fas fa-star-of-life" aria-hidden="true"></i>
+                                                                                                                    </span>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="sppb-media-body">
+                                                                                                                <div class="sppb-media-content">
+                                                                                                                    <h4 class="sppb-addon-title sppb-feature-box-title sppb-media-heading">Education & Skills Development</h4>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="sppb-col-md-6 sppb-col-sm-6  " id="column-wrap-id-bf097782-d785-44fd-8972-c9d51b94dd39">
+                                                                                <div id="column-id-bf097782-d785-44fd-8972-c9d51b94dd39" class="sppb-column  sppb-wow fadeInUp" data-sppb-wow-duration="700ms" data-sppb-wow-delay="700ms">
+                                                                                    <div class="sppb-column-addons">
+                                                                                        <div id="sppb-addon-wrapper-af5f05f8-cc26-425a-b2b6-3096ca285472" class="sppb-addon-wrapper  addon-root-feature">
+                                                                                            <div id="sppb-addon-af5f05f8-cc26-425a-b2b6-3096ca285472" class="clearfix  ">
+                                                                                                <div class="sppb-addon sppb-addon-feature sppb-text-left ">
+                                                                                                    <div class="sppb-addon-content">
+                                                                                                        <div class="sppb-media">
+                                                                                                            <div class="pull-left">
+                                                                                                                <div class="sppb-icon">
+                                                                                                                    <span class="sppb-icon-container" role="img" aria-label="Social Cohesion">
+                                                                                                                        <i class="fas fa-star-of-life" aria-hidden="true"></i>
+                                                                                                                    </span>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="sppb-media-body">
+                                                                                                                <div class="sppb-media-content">
+                                                                                                                    <h4 class="sppb-addon-title sppb-feature-box-title sppb-media-heading">Social Cohesion</h4>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="sppb-col-md-6 sppb-col-sm-6  " id="column-wrap-id-069311ca-a1af-4125-8afd-45f14001afc3">
+                                                                                <div id="column-id-069311ca-a1af-4125-8afd-45f14001afc3" class="sppb-column  sppb-wow fadeInUp" data-sppb-wow-duration="700ms" data-sppb-wow-delay="700ms">
+                                                                                    <div class="sppb-column-addons">
+                                                                                        <div id="sppb-addon-wrapper-4d315034-86f4-4399-9bf4-a3f43b8087b1" class="sppb-addon-wrapper  addon-root-feature">
+                                                                                            <div id="sppb-addon-4d315034-86f4-4399-9bf4-a3f43b8087b1" class="clearfix  ">
+                                                                                                <div class="sppb-addon sppb-addon-feature sppb-text-left ">
+                                                                                                    <div class="sppb-addon-content">
+                                                                                                        <div class="sppb-media">
+                                                                                                            <div class="pull-left">
+                                                                                                                <div class="sppb-icon">
+                                                                                                                    <span class="sppb-icon-container" role="img" aria-label="Innovation & Technology Adoption">
+                                                                                                                        <i class="fas fa-star-of-life" aria-hidden="true"></i>
+                                                                                                                    </span>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="sppb-media-body">
+                                                                                                                <div class="sppb-media-content">
+                                                                                                                    <h4 class="sppb-addon-title sppb-feature-box-title sppb-media-heading">Innovation & Technology Adoption</h4>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="sppb-col-md-6 sppb-col-sm-6  " id="column-wrap-id-27e28213-d9a3-487c-80a9-35644938225f">
+                                                                                <div id="column-id-27e28213-d9a3-487c-80a9-35644938225f" class="sppb-column  sppb-wow fadeInUp" data-sppb-wow-duration="700ms" data-sppb-wow-delay="700ms">
+                                                                                    <div class="sppb-column-addons">
+                                                                                        <div id="sppb-addon-wrapper-28fb8ba8-2534-4ba8-88ce-387f1f82bf90" class="sppb-addon-wrapper  addon-root-feature">
+                                                                                            <div id="sppb-addon-28fb8ba8-2534-4ba8-88ce-387f1f82bf90" class="clearfix  ">
+                                                                                                <div class="sppb-addon sppb-addon-feature sppb-text-left ">
+                                                                                                    <div class="sppb-addon-content">
+                                                                                                        <div class="sppb-media">
+                                                                                                            <div class="pull-left">
+                                                                                                                <div class="sppb-icon">
+                                                                                                                    <span class="sppb-icon-container" role="img" aria-label="Access to Opportunities ">
+                                                                                                                        <i class="fas fa-star-of-life" aria-hidden="true"></i>
+                                                                                                                    </span>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="sppb-media-body">
+                                                                                                                <div class="sppb-media-content">
+                                                                                                                    <h4 class="sppb-addon-title sppb-feature-box-title sppb-media-heading">Access to Opportunities </h4>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div id="sppb-addon-wrapper-c9a3af6e-d1a2-436a-a429-d6db2d700c2c" class="sppb-addon-wrapper  addon-root-button">
+                                                                    <div id="sppb-addon-c9a3af6e-d1a2-436a-a429-d6db2d700c2c" class="clearfix  ">
+                                                                        <div class="sppb-button-wrapper">
+                                                                            <a href="https://siyakha.co.za/" target="_blank" id="btn-c9a3af6e-d1a2-436a-a429-d6db2d700c2c" class="sppb-btn  sppb-btn-custom sppb-btn-rounded">More about Siyakha</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sppb-col-md-4  " id="column-wrap-id-0d824d1a-7fcc-4257-8300-f3e6e97760cc">
+                                                        <div id="column-id-0d824d1a-7fcc-4257-8300-f3e6e97760cc" class="sppb-column  ">
+                                                            <div class="sppb-column-addons">
+                                                                <div id="sppb-addon-wrapper-3f659a0d-53e9-402f-beec-58796313f8cf" class="sppb-addon-wrapper  addon-root-empty-space">
+                                                                    <div id="sppb-addon-3f659a0d-53e9-402f-beec-58796313f8cf" class="clearfix  ">
+                                                                        <div class="sppb-empty-space  clearfix"></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div id="sppb-addon-wrapper-db3c5e19-de77-4f84-b5ed-eeaca7306c7d" class="sppb-addon-wrapper  addon-root-empty-space">
+                                                                    <div id="sppb-addon-db3c5e19-de77-4f84-b5ed-eeaca7306c7d" class="clearfix  ">
+                                                                        <div class="sppb-empty-space  clearfix"></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div id="sppb-addon-wrapper-f5fe439c-2e8a-48c3-a216-0f37b165fbbb" class="sppb-addon-wrapper  addon-root-image">
+                                                                    <div id="sppb-addon-f5fe439c-2e8a-48c3-a216-0f37b165fbbb" class="clearfix  sppb-positioned-addon" data-col-zindex="2" data-rowid="a18c0cd1-74a9-4b9b-b4c6-dce2a9a2c2f7" data-colid="0d824d1a-7fcc-4257-8300-f3e6e97760cc">
+                                                                        <div class="sppb-addon sppb-addon-single-image  ">
+                                                                            <div class="sppb-addon-content">
+                                                                                <div class="sppb-addon-single-image-container">
+                                                                                    <img class="sppb-img-responsive" src="/images/2023/12/01/1.jpg" alt="Image" title="" width="880" height="1293"/>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </main>
+                    </div>
+                </section>
+                <footer id="sp-footer">
+                    <div class="container">
+                        <div class="container-inner">
+                            <div class="row">
+                                <div id="sp-footer1" class="col-lg-6 ">
+                                    <div class="sp-column ">
+                                        <span class="sp-copyright">© 2024 Powered by Siyakha</span>
+                                    </div>
+                                </div>
+                                <div id="sp-footer2" class="col-lg-6 ">
+                                    <div class="sp-column ">
+                                        <div class="sp-module ">
+                                            <div class="sp-module-content">
+                                                <ul class="menu">
+                                                    <li class="item-244">
+                                                        <a href="/index.php/privacy-policy">Privacy Policy</a>
+                                                    </li>
+                                                    <li class="item-243">
+                                                        <a href="/index.php/terms-and-conditions">Terms and Conditions</a>
+                                                    </li>
+                                                    <li class="item-245">
+                                                        <a href="/index.php/faqs">FAQs</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <!-- Off Canvas Menu -->
+        <div class="offcanvas-overlay"></div>
+        <div class="offcanvas-menu">
+            <a href="#" class="close-offcanvas">
+                <span class="fa fa-remove"></span>
+            </a>
+            <div class="offcanvas-inner">
+                <div class="sp-module ">
+                    <div class="sp-module-content">
+                        <ul class="menu">
+                            <li class="item-101 default current active">
+                                <a href="/index.php">Home</a>
+                            </li>
+                            <li class="item-174 menu-deeper">
+                                <a href="/index.php/get-in-touch">Get In Touch</a>
+                                <ul class="menu-child">
+                                    <li class="item-160 menu-deeper menu-parent">
+                                        <a href="/index.php/business/market-place">
+                                            Market Place<span class="menu-toggler"></span>
+                                        </a>
+                                        <ul class="menu-child">
+                                            <li class="item-228">
+                                                <a href="/index.php/business/market-place/add-classified">Add Classified</a>
+                                            </li>
+                                            <li class="item-229">
+                                                <a href="/index.php/business/market-place/map-search">Map Search</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item-175">
+                                <a href="/index.php/sign-in">Sign In</a>
+                            </li>
+                            <li class="item-168">
+                                <a href="/index.php/register/register">Register</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
